@@ -1,0 +1,18 @@
+======================================================
+Verification of Lemma 5.14
+======================================================
+S-polynomials: explicit standard formula.
+
+Checking Lemma 5.14(1):
+  Verified for l = 1.
+  Verified for l = 2.
+  Verified for l = 3.
+
+Checking Lemma 5.14(2):
+  Verified for l = 1.
+  Verified for l = 2.
+  Verified for l = 3.
+  Verified for l = 4.
+  Verified for l = 5.
+  Verified for l = 6.
+

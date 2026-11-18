@@ -1,4 +1,4 @@
-#diagonal_radicality.sage and grobner.sage
+**diagonal_radicality.sage and grobner.sage**
 
 See the documentation file for description of the programs and how they can be used.
 

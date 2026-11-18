@@ -1,0 +1,592 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (1, 1, 1, 1)
+Input m = 4
+n = 4
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = None
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (1, 1, 1, 1)
+m = 4
+n = 4
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(2, 1, 1)]
+State directory: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (2, 1, 1): 6 collision primes
+
+======================================================
+Computing shape ideal: (2, 1, 1)
+Collision order: degrevlex
+======================================================
+Number of collision primes: 6
+
+Shape (2, 1, 1): balanced intersection level 1.
+Number of ideals: 6
+Shape (2, 1, 1): START pair 1.
+Shape (2, 1, 1): END pair 1.
+Stored generators: 16
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1): START pair 2.
+Shape (2, 1, 1): END pair 2.
+Stored generators: 16
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1): START pair 3.
+Shape (2, 1, 1): END pair 3.
+Stored generators: 16
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+
+Shape (2, 1, 1): balanced intersection level 2.
+Number of ideals: 3
+Shape (2, 1, 1): START pair 1.
+Shape (2, 1, 1): END pair 1.
+Stored generators: 104
+Maximum generator degree: 4
+Pair elapsed: 0.02 seconds
+
+Shape (2, 1, 1): balanced intersection level 3.
+Number of ideals: 2
+Shape (2, 1, 1): START pair 1.
+Shape (2, 1, 1): END pair 1.
+Stored generators: 256
+Maximum generator degree: 6
+Pair elapsed: 0.26 seconds
+
+Shape (2, 1, 1): complete.
+Total intersection time: 0.43 seconds
+
+START Groebner basis: shape ideal (2, 1, 1)
+Algorithm: None
+END Groebner basis: shape ideal (2, 1, 1)
+Number of elements: 256
+Elapsed time: 0.10 seconds
+Saving shape state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/collision_shape_2_1_1_order_global_degrevlex.sobj
+Shape state saved.
+Total shape time: 0.69 seconds
+
+Final intersection of shape ideals.
+
+Final collision ideal: complete.
+Total intersection time: 0.00 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: None
+END Groebner basis: final collision ideal
+Number of elements: 256
+Elapsed time: 0.10 seconds
+Collision generators: 256
+D_full = 6
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 256
+Maximum degree: 6
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 256
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 256
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 4
+Elapsed time: 0.00 seconds
+Degree 3
+New generators: 4
+Generators removed: 4
+Generators remaining: 252
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 4
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 116
+Elapsed time: 0.05 seconds
+Degree 4
+New generators: 45
+Generators removed: 45
+Generators remaining: 207
+
+START Groebner basis: degree-filtered ideal before degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 5
+Number of elements: 116
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 5
+Number of elements: 172
+Elapsed time: 0.05 seconds
+Degree 5
+New generators: 123
+Generators removed: 123
+Generators remaining: 84
+
+START Groebner basis: degree-filtered ideal before degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 6
+Number of elements: 172
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 6
+Number of elements: 256
+Elapsed time: 0.10 seconds
+Degree 6
+New generators: 84
+Generators removed: 84
+Generators remaining: 0
+D_filtered = 6
+Dimension of S^lambda: 1
+Collision-ring projection 1 of 256.
+Collision-ring projection 2 of 256.
+Collision-ring projection 3 of 256.
+Collision-ring projection 4 of 256.
+Collision-ring projection 5 of 256.
+Collision-ring projection 6 of 256.
+Collision-ring projection 7 of 256.
+Collision-ring projection 8 of 256.
+Collision-ring projection 9 of 256.
+Collision-ring projection 10 of 256.
+Collision-ring projection 11 of 256.
+Collision-ring projection 12 of 256.
+Collision-ring projection 13 of 256.
+Collision-ring projection 14 of 256.
+Collision-ring projection 15 of 256.
+Collision-ring projection 16 of 256.
+Collision-ring projection 17 of 256.
+Collision-ring projection 18 of 256.
+Collision-ring projection 19 of 256.
+Collision-ring projection 20 of 256.
+Collision-ring projection 21 of 256.
+Collision-ring projection 22 of 256.
+Collision-ring projection 23 of 256.
+Collision-ring projection 24 of 256.
+Collision-ring projection 25 of 256.
+Collision-ring projection 26 of 256.
+Collision-ring projection 27 of 256.
+Collision-ring projection 28 of 256.
+Collision-ring projection 29 of 256.
+Collision-ring projection 30 of 256.
+Collision-ring projection 31 of 256.
+Collision-ring projection 32 of 256.
+Collision-ring projection 33 of 256.
+Collision-ring projection 34 of 256.
+Collision-ring projection 35 of 256.
+Collision-ring projection 36 of 256.
+Collision-ring projection 37 of 256.
+Collision-ring projection 38 of 256.
+Collision-ring projection 39 of 256.
+Collision-ring projection 40 of 256.
+Collision-ring projection 41 of 256.
+Collision-ring projection 42 of 256.
+Collision-ring projection 43 of 256.
+Collision-ring projection 44 of 256.
+Collision-ring projection 45 of 256.
+Collision-ring projection 46 of 256.
+Collision-ring projection 47 of 256.
+Collision-ring projection 48 of 256.
+Collision-ring projection 49 of 256.
+Collision-ring projection 50 of 256.
+Collision-ring projection 51 of 256.
+Collision-ring projection 52 of 256.
+Collision-ring projection 53 of 256.
+Collision-ring projection 54 of 256.
+Collision-ring projection 55 of 256.
+Collision-ring projection 56 of 256.
+Collision-ring projection 57 of 256.
+Collision-ring projection 58 of 256.
+Collision-ring projection 59 of 256.
+Collision-ring projection 60 of 256.
+Collision-ring projection 61 of 256.
+Collision-ring projection 62 of 256.
+Collision-ring projection 63 of 256.
+Collision-ring projection 64 of 256.
+Collision-ring projection 65 of 256.
+Collision-ring projection 66 of 256.
+Collision-ring projection 67 of 256.
+Collision-ring projection 68 of 256.
+Collision-ring projection 69 of 256.
+Collision-ring projection 70 of 256.
+Collision-ring projection 71 of 256.
+Collision-ring projection 72 of 256.
+Collision-ring projection 73 of 256.
+Collision-ring projection 74 of 256.
+Collision-ring projection 75 of 256.
+Collision-ring projection 76 of 256.
+Collision-ring projection 77 of 256.
+Collision-ring projection 78 of 256.
+Collision-ring projection 79 of 256.
+Collision-ring projection 80 of 256.
+Collision-ring projection 81 of 256.
+Collision-ring projection 82 of 256.
+Collision-ring projection 83 of 256.
+Collision-ring projection 84 of 256.
+Collision-ring projection 85 of 256.
+Collision-ring projection 86 of 256.
+Collision-ring projection 87 of 256.
+Collision-ring projection 88 of 256.
+Collision-ring projection 89 of 256.
+Collision-ring projection 90 of 256.
+Collision-ring projection 91 of 256.
+Collision-ring projection 92 of 256.
+Collision-ring projection 93 of 256.
+Collision-ring projection 94 of 256.
+Collision-ring projection 95 of 256.
+Collision-ring projection 96 of 256.
+Collision-ring projection 97 of 256.
+Collision-ring projection 98 of 256.
+Collision-ring projection 99 of 256.
+Collision-ring projection 100 of 256.
+Collision-ring projection 101 of 256.
+Collision-ring projection 102 of 256.
+Collision-ring projection 103 of 256.
+Collision-ring projection 104 of 256.
+Collision-ring projection 105 of 256.
+Collision-ring projection 106 of 256.
+Collision-ring projection 107 of 256.
+Collision-ring projection 108 of 256.
+Collision-ring projection 109 of 256.
+Collision-ring projection 110 of 256.
+Collision-ring projection 111 of 256.
+Collision-ring projection 112 of 256.
+Collision-ring projection 113 of 256.
+Collision-ring projection 114 of 256.
+Collision-ring projection 115 of 256.
+Collision-ring projection 116 of 256.
+Collision-ring projection 117 of 256.
+Collision-ring projection 118 of 256.
+Collision-ring projection 119 of 256.
+Collision-ring projection 120 of 256.
+Collision-ring projection 121 of 256.
+Collision-ring projection 122 of 256.
+Collision-ring projection 123 of 256.
+Collision-ring projection 124 of 256.
+Collision-ring projection 125 of 256.
+Collision-ring projection 126 of 256.
+Collision-ring projection 127 of 256.
+Collision-ring projection 128 of 256.
+Collision-ring projection 129 of 256.
+Collision-ring projection 130 of 256.
+Collision-ring projection 131 of 256.
+Collision-ring projection 132 of 256.
+Collision-ring projection 133 of 256.
+Collision-ring projection 134 of 256.
+Collision-ring projection 135 of 256.
+Collision-ring projection 136 of 256.
+Collision-ring projection 137 of 256.
+Collision-ring projection 138 of 256.
+Collision-ring projection 139 of 256.
+Collision-ring projection 140 of 256.
+Collision-ring projection 141 of 256.
+Collision-ring projection 142 of 256.
+Collision-ring projection 143 of 256.
+Collision-ring projection 144 of 256.
+Collision-ring projection 145 of 256.
+Collision-ring projection 146 of 256.
+Collision-ring projection 147 of 256.
+Collision-ring projection 148 of 256.
+Collision-ring projection 149 of 256.
+Collision-ring projection 150 of 256.
+Collision-ring projection 151 of 256.
+Collision-ring projection 152 of 256.
+Collision-ring projection 153 of 256.
+Collision-ring projection 154 of 256.
+Collision-ring projection 155 of 256.
+Collision-ring projection 156 of 256.
+Collision-ring projection 157 of 256.
+Collision-ring projection 158 of 256.
+Collision-ring projection 159 of 256.
+Collision-ring projection 160 of 256.
+Collision-ring projection 161 of 256.
+Collision-ring projection 162 of 256.
+Collision-ring projection 163 of 256.
+Collision-ring projection 164 of 256.
+Collision-ring projection 165 of 256.
+Collision-ring projection 166 of 256.
+Collision-ring projection 167 of 256.
+Collision-ring projection 168 of 256.
+Collision-ring projection 169 of 256.
+Collision-ring projection 170 of 256.
+Collision-ring projection 171 of 256.
+Collision-ring projection 172 of 256.
+Collision-ring projection 173 of 256.
+Collision-ring projection 174 of 256.
+Collision-ring projection 175 of 256.
+Collision-ring projection 176 of 256.
+Collision-ring projection 177 of 256.
+Collision-ring projection 178 of 256.
+Collision-ring projection 179 of 256.
+Collision-ring projection 180 of 256.
+Collision-ring projection 181 of 256.
+Collision-ring projection 182 of 256.
+Collision-ring projection 183 of 256.
+Collision-ring projection 184 of 256.
+Collision-ring projection 185 of 256.
+Collision-ring projection 186 of 256.
+Collision-ring projection 187 of 256.
+Collision-ring projection 188 of 256.
+Collision-ring projection 189 of 256.
+Collision-ring projection 190 of 256.
+Collision-ring projection 191 of 256.
+Collision-ring projection 192 of 256.
+Collision-ring projection 193 of 256.
+Collision-ring projection 194 of 256.
+Collision-ring projection 195 of 256.
+Collision-ring projection 196 of 256.
+Collision-ring projection 197 of 256.
+Collision-ring projection 198 of 256.
+Collision-ring projection 199 of 256.
+Collision-ring projection 200 of 256.
+Collision-ring projection 201 of 256.
+Collision-ring projection 202 of 256.
+Collision-ring projection 203 of 256.
+Collision-ring projection 204 of 256.
+Collision-ring projection 205 of 256.
+Collision-ring projection 206 of 256.
+Collision-ring projection 207 of 256.
+Collision-ring projection 208 of 256.
+Collision-ring projection 209 of 256.
+Collision-ring projection 210 of 256.
+Collision-ring projection 211 of 256.
+Collision-ring projection 212 of 256.
+Collision-ring projection 213 of 256.
+Collision-ring projection 214 of 256.
+Collision-ring projection 215 of 256.
+Collision-ring projection 216 of 256.
+Collision-ring projection 217 of 256.
+Collision-ring projection 218 of 256.
+Collision-ring projection 219 of 256.
+Collision-ring projection 220 of 256.
+Collision-ring projection 221 of 256.
+Collision-ring projection 222 of 256.
+Collision-ring projection 223 of 256.
+Collision-ring projection 224 of 256.
+Collision-ring projection 225 of 256.
+Collision-ring projection 226 of 256.
+Collision-ring projection 227 of 256.
+Collision-ring projection 228 of 256.
+Collision-ring projection 229 of 256.
+Collision-ring projection 230 of 256.
+Collision-ring projection 231 of 256.
+Collision-ring projection 232 of 256.
+Collision-ring projection 233 of 256.
+Collision-ring projection 234 of 256.
+Collision-ring projection 235 of 256.
+Collision-ring projection 236 of 256.
+Collision-ring projection 237 of 256.
+Collision-ring projection 238 of 256.
+Collision-ring projection 239 of 256.
+Collision-ring projection 240 of 256.
+Collision-ring projection 241 of 256.
+Collision-ring projection 242 of 256.
+Collision-ring projection 243 of 256.
+Collision-ring projection 244 of 256.
+Collision-ring projection 245 of 256.
+Collision-ring projection 246 of 256.
+Collision-ring projection 247 of 256.
+Collision-ring projection 248 of 256.
+Collision-ring projection 249 of 256.
+Collision-ring projection 250 of 256.
+Collision-ring projection 251 of 256.
+Collision-ring projection 252 of 256.
+Collision-ring projection 253 of 256.
+Collision-ring projection 254 of 256.
+Collision-ring projection 255 of 256.
+Collision-ring projection 256 of 256.
+Projection-fixed generators: 26
+Nonzero defects: 230
+Saving collision state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 6
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: None
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 4
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 20
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 80
+Nonzero projections: 4
+Already in I_(k-1): 0
+New orbit generators: 8
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 4
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_3.
+Defects removed: 27
+Saving degree state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+Degree k = 4
+======================================================
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 4
+Elapsed time: 0.00 seconds
+Monomial orbits: 305
+Processed 100 of 305 representatives.
+Processed 200 of 305 representatives.
+Processed 300 of 305 representatives.
+Nonzero projections: 61
+Already in I_(k-1): 1
+New orbit generators: 120
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 116
+Elapsed time: 0.06 seconds
+Testing all remaining defects in I_4.
+Defects removed: 123
+Saving degree state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_4.sobj
+
+======================================================
+Degree k = 5
+======================================================
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 116
+Elapsed time: 0.00 seconds
+Monomial orbits: 1016
+Processed 100 of 1016 representatives.
+Processed 200 of 1016 representatives.
+Processed 300 of 1016 representatives.
+Processed 400 of 1016 representatives.
+Processed 500 of 1016 representatives.
+Processed 600 of 1016 representatives.
+Processed 700 of 1016 representatives.
+Processed 800 of 1016 representatives.
+Processed 900 of 1016 representatives.
+Processed 1000 of 1016 representatives.
+Nonzero projections: 340
+Already in I_(k-1): 40
+New orbit generators: 600
+
+START Groebner basis: I_5
+Algorithm: None
+END Groebner basis: I_5
+Number of elements: 172
+Elapsed time: 0.07 seconds
+Testing all remaining defects in I_5.
+Defects removed: 80
+Saving degree state: saved_states_lambda_1_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_5.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_5.
+Total elapsed time: 1 minutes, 1.96 seconds
+
+Computation completed.

@@ -1,0 +1,1819 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (2, 2, 1, 1)
+Input m = 3
+n = 6
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = None
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (2, 2, 1, 1)
+m = 3
+n = 6
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(3, 1, 1, 1), (2, 2, 2)]
+State directory: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (2, 2, 2): 15 collision primes
+shape (3, 1, 1, 1): 20 collision primes
+Launching 2 simultaneous shape workers.
+Worker finished for shape (2, 2, 2) with return code 0.
+Worker launcher log: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_2_2_2_collision_global_degrevlex.log
+Worker finished for shape (3, 1, 1, 1) with return code 0.
+Worker launcher log: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_3_1_1_1_collision_global_degrevlex.log
+Loaded shape (2, 2, 2) with 860 generators.
+Loaded shape (3, 1, 1, 1) with 1719 generators.
+
+Final intersection of shape ideals.
+
+Final collision ideal: balanced intersection level 1.
+Number of ideals: 2
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 2145
+Maximum generator degree: 10
+Pair elapsed: 13 minutes, 2.93 seconds
+
+Final collision ideal: complete.
+Total intersection time: 13 minutes, 2.99 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: None
+END Groebner basis: final collision ideal
+Number of elements: 2145
+Elapsed time: 1 minutes, 37.00 seconds
+Collision generators: 2145
+D_full = 10
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 2145
+Maximum degree: 10
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 2145
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 2145
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 3
+New generators: 0
+Generators removed: 0
+Generators remaining: 2145
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 138
+Elapsed time: 0.57 seconds
+Degree 4
+New generators: 27
+Generators removed: 54
+Generators remaining: 2091
+
+START Groebner basis: degree-filtered ideal before degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 5
+Number of elements: 138
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 5
+Number of elements: 1532
+Elapsed time: 1 minutes, 38.29 seconds
+Degree 5
+New generators: 360
+Generators removed: 689
+Generators remaining: 1402
+
+START Groebner basis: degree-filtered ideal before degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 6
+Number of elements: 1532
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 6
+Number of elements: 1802
+Elapsed time: 1 minutes, 7.53 seconds
+Degree 6
+New generators: 633
+Generators removed: 876
+Generators remaining: 526
+
+START Groebner basis: degree-filtered ideal before degree 7
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 7
+Number of elements: 1802
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 7
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 7
+Number of elements: 2145
+Elapsed time: 1 minutes, 41.88 seconds
+Degree 7
+New generators: 460
+Generators removed: 526
+Generators remaining: 0
+D_filtered = 7
+Dimension of S^lambda: 9
+Collision-ring projection 1 of 1480.
+Collision-ring projection 2 of 1480.
+Collision-ring projection 3 of 1480.
+Collision-ring projection 4 of 1480.
+Collision-ring projection 5 of 1480.
+Collision-ring projection 6 of 1480.
+Collision-ring projection 7 of 1480.
+Collision-ring projection 8 of 1480.
+Collision-ring projection 9 of 1480.
+Collision-ring projection 10 of 1480.
+Collision-ring projection 11 of 1480.
+Collision-ring projection 12 of 1480.
+Collision-ring projection 13 of 1480.
+Collision-ring projection 14 of 1480.
+Collision-ring projection 15 of 1480.
+Collision-ring projection 16 of 1480.
+Collision-ring projection 17 of 1480.
+Collision-ring projection 18 of 1480.
+Collision-ring projection 19 of 1480.
+Collision-ring projection 20 of 1480.
+Collision-ring projection 21 of 1480.
+Collision-ring projection 22 of 1480.
+Collision-ring projection 23 of 1480.
+Collision-ring projection 24 of 1480.
+Collision-ring projection 25 of 1480.
+Collision-ring projection 26 of 1480.
+Collision-ring projection 27 of 1480.
+Collision-ring projection 28 of 1480.
+Collision-ring projection 29 of 1480.
+Collision-ring projection 30 of 1480.
+Collision-ring projection 31 of 1480.
+Collision-ring projection 32 of 1480.
+Collision-ring projection 33 of 1480.
+Collision-ring projection 34 of 1480.
+Collision-ring projection 35 of 1480.
+Collision-ring projection 36 of 1480.
+Collision-ring projection 37 of 1480.
+Collision-ring projection 38 of 1480.
+Collision-ring projection 39 of 1480.
+Collision-ring projection 40 of 1480.
+Collision-ring projection 41 of 1480.
+Collision-ring projection 42 of 1480.
+Collision-ring projection 43 of 1480.
+Collision-ring projection 44 of 1480.
+Collision-ring projection 45 of 1480.
+Collision-ring projection 46 of 1480.
+Collision-ring projection 47 of 1480.
+Collision-ring projection 48 of 1480.
+Collision-ring projection 49 of 1480.
+Collision-ring projection 50 of 1480.
+Collision-ring projection 51 of 1480.
+Collision-ring projection 52 of 1480.
+Collision-ring projection 53 of 1480.
+Collision-ring projection 54 of 1480.
+Collision-ring projection 55 of 1480.
+Collision-ring projection 56 of 1480.
+Collision-ring projection 57 of 1480.
+Collision-ring projection 58 of 1480.
+Collision-ring projection 59 of 1480.
+Collision-ring projection 60 of 1480.
+Collision-ring projection 61 of 1480.
+Collision-ring projection 62 of 1480.
+Collision-ring projection 63 of 1480.
+Collision-ring projection 64 of 1480.
+Collision-ring projection 65 of 1480.
+Collision-ring projection 66 of 1480.
+Collision-ring projection 67 of 1480.
+Collision-ring projection 68 of 1480.
+Collision-ring projection 69 of 1480.
+Collision-ring projection 70 of 1480.
+Collision-ring projection 71 of 1480.
+Collision-ring projection 72 of 1480.
+Collision-ring projection 73 of 1480.
+Collision-ring projection 74 of 1480.
+Collision-ring projection 75 of 1480.
+Collision-ring projection 76 of 1480.
+Collision-ring projection 77 of 1480.
+Collision-ring projection 78 of 1480.
+Collision-ring projection 79 of 1480.
+Collision-ring projection 80 of 1480.
+Collision-ring projection 81 of 1480.
+Collision-ring projection 82 of 1480.
+Collision-ring projection 83 of 1480.
+Collision-ring projection 84 of 1480.
+Collision-ring projection 85 of 1480.
+Collision-ring projection 86 of 1480.
+Collision-ring projection 87 of 1480.
+Collision-ring projection 88 of 1480.
+Collision-ring projection 89 of 1480.
+Collision-ring projection 90 of 1480.
+Collision-ring projection 91 of 1480.
+Collision-ring projection 92 of 1480.
+Collision-ring projection 93 of 1480.
+Collision-ring projection 94 of 1480.
+Collision-ring projection 95 of 1480.
+Collision-ring projection 96 of 1480.
+Collision-ring projection 97 of 1480.
+Collision-ring projection 98 of 1480.
+Collision-ring projection 99 of 1480.
+Collision-ring projection 100 of 1480.
+Collision-ring projection 101 of 1480.
+Collision-ring projection 102 of 1480.
+Collision-ring projection 103 of 1480.
+Collision-ring projection 104 of 1480.
+Collision-ring projection 105 of 1480.
+Collision-ring projection 106 of 1480.
+Collision-ring projection 107 of 1480.
+Collision-ring projection 108 of 1480.
+Collision-ring projection 109 of 1480.
+Collision-ring projection 110 of 1480.
+Collision-ring projection 111 of 1480.
+Collision-ring projection 112 of 1480.
+Collision-ring projection 113 of 1480.
+Collision-ring projection 114 of 1480.
+Collision-ring projection 115 of 1480.
+Collision-ring projection 116 of 1480.
+Collision-ring projection 117 of 1480.
+Collision-ring projection 118 of 1480.
+Collision-ring projection 119 of 1480.
+Collision-ring projection 120 of 1480.
+Collision-ring projection 121 of 1480.
+Collision-ring projection 122 of 1480.
+Collision-ring projection 123 of 1480.
+Collision-ring projection 124 of 1480.
+Collision-ring projection 125 of 1480.
+Collision-ring projection 126 of 1480.
+Collision-ring projection 127 of 1480.
+Collision-ring projection 128 of 1480.
+Collision-ring projection 129 of 1480.
+Collision-ring projection 130 of 1480.
+Collision-ring projection 131 of 1480.
+Collision-ring projection 132 of 1480.
+Collision-ring projection 133 of 1480.
+Collision-ring projection 134 of 1480.
+Collision-ring projection 135 of 1480.
+Collision-ring projection 136 of 1480.
+Collision-ring projection 137 of 1480.
+Collision-ring projection 138 of 1480.
+Collision-ring projection 139 of 1480.
+Collision-ring projection 140 of 1480.
+Collision-ring projection 141 of 1480.
+Collision-ring projection 142 of 1480.
+Collision-ring projection 143 of 1480.
+Collision-ring projection 144 of 1480.
+Collision-ring projection 145 of 1480.
+Collision-ring projection 146 of 1480.
+Collision-ring projection 147 of 1480.
+Collision-ring projection 148 of 1480.
+Collision-ring projection 149 of 1480.
+Collision-ring projection 150 of 1480.
+Collision-ring projection 151 of 1480.
+Collision-ring projection 152 of 1480.
+Collision-ring projection 153 of 1480.
+Collision-ring projection 154 of 1480.
+Collision-ring projection 155 of 1480.
+Collision-ring projection 156 of 1480.
+Collision-ring projection 157 of 1480.
+Collision-ring projection 158 of 1480.
+Collision-ring projection 159 of 1480.
+Collision-ring projection 160 of 1480.
+Collision-ring projection 161 of 1480.
+Collision-ring projection 162 of 1480.
+Collision-ring projection 163 of 1480.
+Collision-ring projection 164 of 1480.
+Collision-ring projection 165 of 1480.
+Collision-ring projection 166 of 1480.
+Collision-ring projection 167 of 1480.
+Collision-ring projection 168 of 1480.
+Collision-ring projection 169 of 1480.
+Collision-ring projection 170 of 1480.
+Collision-ring projection 171 of 1480.
+Collision-ring projection 172 of 1480.
+Collision-ring projection 173 of 1480.
+Collision-ring projection 174 of 1480.
+Collision-ring projection 175 of 1480.
+Collision-ring projection 176 of 1480.
+Collision-ring projection 177 of 1480.
+Collision-ring projection 178 of 1480.
+Collision-ring projection 179 of 1480.
+Collision-ring projection 180 of 1480.
+Collision-ring projection 181 of 1480.
+Collision-ring projection 182 of 1480.
+Collision-ring projection 183 of 1480.
+Collision-ring projection 184 of 1480.
+Collision-ring projection 185 of 1480.
+Collision-ring projection 186 of 1480.
+Collision-ring projection 187 of 1480.
+Collision-ring projection 188 of 1480.
+Collision-ring projection 189 of 1480.
+Collision-ring projection 190 of 1480.
+Collision-ring projection 191 of 1480.
+Collision-ring projection 192 of 1480.
+Collision-ring projection 193 of 1480.
+Collision-ring projection 194 of 1480.
+Collision-ring projection 195 of 1480.
+Collision-ring projection 196 of 1480.
+Collision-ring projection 197 of 1480.
+Collision-ring projection 198 of 1480.
+Collision-ring projection 199 of 1480.
+Collision-ring projection 200 of 1480.
+Collision-ring projection 201 of 1480.
+Collision-ring projection 202 of 1480.
+Collision-ring projection 203 of 1480.
+Collision-ring projection 204 of 1480.
+Collision-ring projection 205 of 1480.
+Collision-ring projection 206 of 1480.
+Collision-ring projection 207 of 1480.
+Collision-ring projection 208 of 1480.
+Collision-ring projection 209 of 1480.
+Collision-ring projection 210 of 1480.
+Collision-ring projection 211 of 1480.
+Collision-ring projection 212 of 1480.
+Collision-ring projection 213 of 1480.
+Collision-ring projection 214 of 1480.
+Collision-ring projection 215 of 1480.
+Collision-ring projection 216 of 1480.
+Collision-ring projection 217 of 1480.
+Collision-ring projection 218 of 1480.
+Collision-ring projection 219 of 1480.
+Collision-ring projection 220 of 1480.
+Collision-ring projection 221 of 1480.
+Collision-ring projection 222 of 1480.
+Collision-ring projection 223 of 1480.
+Collision-ring projection 224 of 1480.
+Collision-ring projection 225 of 1480.
+Collision-ring projection 226 of 1480.
+Collision-ring projection 227 of 1480.
+Collision-ring projection 228 of 1480.
+Collision-ring projection 229 of 1480.
+Collision-ring projection 230 of 1480.
+Collision-ring projection 231 of 1480.
+Collision-ring projection 232 of 1480.
+Collision-ring projection 233 of 1480.
+Collision-ring projection 234 of 1480.
+Collision-ring projection 235 of 1480.
+Collision-ring projection 236 of 1480.
+Collision-ring projection 237 of 1480.
+Collision-ring projection 238 of 1480.
+Collision-ring projection 239 of 1480.
+Collision-ring projection 240 of 1480.
+Collision-ring projection 241 of 1480.
+Collision-ring projection 242 of 1480.
+Collision-ring projection 243 of 1480.
+Collision-ring projection 244 of 1480.
+Collision-ring projection 245 of 1480.
+Collision-ring projection 246 of 1480.
+Collision-ring projection 247 of 1480.
+Collision-ring projection 248 of 1480.
+Collision-ring projection 249 of 1480.
+Collision-ring projection 250 of 1480.
+Collision-ring projection 251 of 1480.
+Collision-ring projection 252 of 1480.
+Collision-ring projection 253 of 1480.
+Collision-ring projection 254 of 1480.
+Collision-ring projection 255 of 1480.
+Collision-ring projection 256 of 1480.
+Collision-ring projection 257 of 1480.
+Collision-ring projection 258 of 1480.
+Collision-ring projection 259 of 1480.
+Collision-ring projection 260 of 1480.
+Collision-ring projection 261 of 1480.
+Collision-ring projection 262 of 1480.
+Collision-ring projection 263 of 1480.
+Collision-ring projection 264 of 1480.
+Collision-ring projection 265 of 1480.
+Collision-ring projection 266 of 1480.
+Collision-ring projection 267 of 1480.
+Collision-ring projection 268 of 1480.
+Collision-ring projection 269 of 1480.
+Collision-ring projection 270 of 1480.
+Collision-ring projection 271 of 1480.
+Collision-ring projection 272 of 1480.
+Collision-ring projection 273 of 1480.
+Collision-ring projection 274 of 1480.
+Collision-ring projection 275 of 1480.
+Collision-ring projection 276 of 1480.
+Collision-ring projection 277 of 1480.
+Collision-ring projection 278 of 1480.
+Collision-ring projection 279 of 1480.
+Collision-ring projection 280 of 1480.
+Collision-ring projection 281 of 1480.
+Collision-ring projection 282 of 1480.
+Collision-ring projection 283 of 1480.
+Collision-ring projection 284 of 1480.
+Collision-ring projection 285 of 1480.
+Collision-ring projection 286 of 1480.
+Collision-ring projection 287 of 1480.
+Collision-ring projection 288 of 1480.
+Collision-ring projection 289 of 1480.
+Collision-ring projection 290 of 1480.
+Collision-ring projection 291 of 1480.
+Collision-ring projection 292 of 1480.
+Collision-ring projection 293 of 1480.
+Collision-ring projection 294 of 1480.
+Collision-ring projection 295 of 1480.
+Collision-ring projection 296 of 1480.
+Collision-ring projection 297 of 1480.
+Collision-ring projection 298 of 1480.
+Collision-ring projection 299 of 1480.
+Collision-ring projection 300 of 1480.
+Collision-ring projection 301 of 1480.
+Collision-ring projection 302 of 1480.
+Collision-ring projection 303 of 1480.
+Collision-ring projection 304 of 1480.
+Collision-ring projection 305 of 1480.
+Collision-ring projection 306 of 1480.
+Collision-ring projection 307 of 1480.
+Collision-ring projection 308 of 1480.
+Collision-ring projection 309 of 1480.
+Collision-ring projection 310 of 1480.
+Collision-ring projection 311 of 1480.
+Collision-ring projection 312 of 1480.
+Collision-ring projection 313 of 1480.
+Collision-ring projection 314 of 1480.
+Collision-ring projection 315 of 1480.
+Collision-ring projection 316 of 1480.
+Collision-ring projection 317 of 1480.
+Collision-ring projection 318 of 1480.
+Collision-ring projection 319 of 1480.
+Collision-ring projection 320 of 1480.
+Collision-ring projection 321 of 1480.
+Collision-ring projection 322 of 1480.
+Collision-ring projection 323 of 1480.
+Collision-ring projection 324 of 1480.
+Collision-ring projection 325 of 1480.
+Collision-ring projection 326 of 1480.
+Collision-ring projection 327 of 1480.
+Collision-ring projection 328 of 1480.
+Collision-ring projection 329 of 1480.
+Collision-ring projection 330 of 1480.
+Collision-ring projection 331 of 1480.
+Collision-ring projection 332 of 1480.
+Collision-ring projection 333 of 1480.
+Collision-ring projection 334 of 1480.
+Collision-ring projection 335 of 1480.
+Collision-ring projection 336 of 1480.
+Collision-ring projection 337 of 1480.
+Collision-ring projection 338 of 1480.
+Collision-ring projection 339 of 1480.
+Collision-ring projection 340 of 1480.
+Collision-ring projection 341 of 1480.
+Collision-ring projection 342 of 1480.
+Collision-ring projection 343 of 1480.
+Collision-ring projection 344 of 1480.
+Collision-ring projection 345 of 1480.
+Collision-ring projection 346 of 1480.
+Collision-ring projection 347 of 1480.
+Collision-ring projection 348 of 1480.
+Collision-ring projection 349 of 1480.
+Collision-ring projection 350 of 1480.
+Collision-ring projection 351 of 1480.
+Collision-ring projection 352 of 1480.
+Collision-ring projection 353 of 1480.
+Collision-ring projection 354 of 1480.
+Collision-ring projection 355 of 1480.
+Collision-ring projection 356 of 1480.
+Collision-ring projection 357 of 1480.
+Collision-ring projection 358 of 1480.
+Collision-ring projection 359 of 1480.
+Collision-ring projection 360 of 1480.
+Collision-ring projection 361 of 1480.
+Collision-ring projection 362 of 1480.
+Collision-ring projection 363 of 1480.
+Collision-ring projection 364 of 1480.
+Collision-ring projection 365 of 1480.
+Collision-ring projection 366 of 1480.
+Collision-ring projection 367 of 1480.
+Collision-ring projection 368 of 1480.
+Collision-ring projection 369 of 1480.
+Collision-ring projection 370 of 1480.
+Collision-ring projection 371 of 1480.
+Collision-ring projection 372 of 1480.
+Collision-ring projection 373 of 1480.
+Collision-ring projection 374 of 1480.
+Collision-ring projection 375 of 1480.
+Collision-ring projection 376 of 1480.
+Collision-ring projection 377 of 1480.
+Collision-ring projection 378 of 1480.
+Collision-ring projection 379 of 1480.
+Collision-ring projection 380 of 1480.
+Collision-ring projection 381 of 1480.
+Collision-ring projection 382 of 1480.
+Collision-ring projection 383 of 1480.
+Collision-ring projection 384 of 1480.
+Collision-ring projection 385 of 1480.
+Collision-ring projection 386 of 1480.
+Collision-ring projection 387 of 1480.
+Collision-ring projection 388 of 1480.
+Collision-ring projection 389 of 1480.
+Collision-ring projection 390 of 1480.
+Collision-ring projection 391 of 1480.
+Collision-ring projection 392 of 1480.
+Collision-ring projection 393 of 1480.
+Collision-ring projection 394 of 1480.
+Collision-ring projection 395 of 1480.
+Collision-ring projection 396 of 1480.
+Collision-ring projection 397 of 1480.
+Collision-ring projection 398 of 1480.
+Collision-ring projection 399 of 1480.
+Collision-ring projection 400 of 1480.
+Collision-ring projection 401 of 1480.
+Collision-ring projection 402 of 1480.
+Collision-ring projection 403 of 1480.
+Collision-ring projection 404 of 1480.
+Collision-ring projection 405 of 1480.
+Collision-ring projection 406 of 1480.
+Collision-ring projection 407 of 1480.
+Collision-ring projection 408 of 1480.
+Collision-ring projection 409 of 1480.
+Collision-ring projection 410 of 1480.
+Collision-ring projection 411 of 1480.
+Collision-ring projection 412 of 1480.
+Collision-ring projection 413 of 1480.
+Collision-ring projection 414 of 1480.
+Collision-ring projection 415 of 1480.
+Collision-ring projection 416 of 1480.
+Collision-ring projection 417 of 1480.
+Collision-ring projection 418 of 1480.
+Collision-ring projection 419 of 1480.
+Collision-ring projection 420 of 1480.
+Collision-ring projection 421 of 1480.
+Collision-ring projection 422 of 1480.
+Collision-ring projection 423 of 1480.
+Collision-ring projection 424 of 1480.
+Collision-ring projection 425 of 1480.
+Collision-ring projection 426 of 1480.
+Collision-ring projection 427 of 1480.
+Collision-ring projection 428 of 1480.
+Collision-ring projection 429 of 1480.
+Collision-ring projection 430 of 1480.
+Collision-ring projection 431 of 1480.
+Collision-ring projection 432 of 1480.
+Collision-ring projection 433 of 1480.
+Collision-ring projection 434 of 1480.
+Collision-ring projection 435 of 1480.
+Collision-ring projection 436 of 1480.
+Collision-ring projection 437 of 1480.
+Collision-ring projection 438 of 1480.
+Collision-ring projection 439 of 1480.
+Collision-ring projection 440 of 1480.
+Collision-ring projection 441 of 1480.
+Collision-ring projection 442 of 1480.
+Collision-ring projection 443 of 1480.
+Collision-ring projection 444 of 1480.
+Collision-ring projection 445 of 1480.
+Collision-ring projection 446 of 1480.
+Collision-ring projection 447 of 1480.
+Collision-ring projection 448 of 1480.
+Collision-ring projection 449 of 1480.
+Collision-ring projection 450 of 1480.
+Collision-ring projection 451 of 1480.
+Collision-ring projection 452 of 1480.
+Collision-ring projection 453 of 1480.
+Collision-ring projection 454 of 1480.
+Collision-ring projection 455 of 1480.
+Collision-ring projection 456 of 1480.
+Collision-ring projection 457 of 1480.
+Collision-ring projection 458 of 1480.
+Collision-ring projection 459 of 1480.
+Collision-ring projection 460 of 1480.
+Collision-ring projection 461 of 1480.
+Collision-ring projection 462 of 1480.
+Collision-ring projection 463 of 1480.
+Collision-ring projection 464 of 1480.
+Collision-ring projection 465 of 1480.
+Collision-ring projection 466 of 1480.
+Collision-ring projection 467 of 1480.
+Collision-ring projection 468 of 1480.
+Collision-ring projection 469 of 1480.
+Collision-ring projection 470 of 1480.
+Collision-ring projection 471 of 1480.
+Collision-ring projection 472 of 1480.
+Collision-ring projection 473 of 1480.
+Collision-ring projection 474 of 1480.
+Collision-ring projection 475 of 1480.
+Collision-ring projection 476 of 1480.
+Collision-ring projection 477 of 1480.
+Collision-ring projection 478 of 1480.
+Collision-ring projection 479 of 1480.
+Collision-ring projection 480 of 1480.
+Collision-ring projection 481 of 1480.
+Collision-ring projection 482 of 1480.
+Collision-ring projection 483 of 1480.
+Collision-ring projection 484 of 1480.
+Collision-ring projection 485 of 1480.
+Collision-ring projection 486 of 1480.
+Collision-ring projection 487 of 1480.
+Collision-ring projection 488 of 1480.
+Collision-ring projection 489 of 1480.
+Collision-ring projection 490 of 1480.
+Collision-ring projection 491 of 1480.
+Collision-ring projection 492 of 1480.
+Collision-ring projection 493 of 1480.
+Collision-ring projection 494 of 1480.
+Collision-ring projection 495 of 1480.
+Collision-ring projection 496 of 1480.
+Collision-ring projection 497 of 1480.
+Collision-ring projection 498 of 1480.
+Collision-ring projection 499 of 1480.
+Collision-ring projection 500 of 1480.
+Collision-ring projection 501 of 1480.
+Collision-ring projection 502 of 1480.
+Collision-ring projection 503 of 1480.
+Collision-ring projection 504 of 1480.
+Collision-ring projection 505 of 1480.
+Collision-ring projection 506 of 1480.
+Collision-ring projection 507 of 1480.
+Collision-ring projection 508 of 1480.
+Collision-ring projection 509 of 1480.
+Collision-ring projection 510 of 1480.
+Collision-ring projection 511 of 1480.
+Collision-ring projection 512 of 1480.
+Collision-ring projection 513 of 1480.
+Collision-ring projection 514 of 1480.
+Collision-ring projection 515 of 1480.
+Collision-ring projection 516 of 1480.
+Collision-ring projection 517 of 1480.
+Collision-ring projection 518 of 1480.
+Collision-ring projection 519 of 1480.
+Collision-ring projection 520 of 1480.
+Collision-ring projection 521 of 1480.
+Collision-ring projection 522 of 1480.
+Collision-ring projection 523 of 1480.
+Collision-ring projection 524 of 1480.
+Collision-ring projection 525 of 1480.
+Collision-ring projection 526 of 1480.
+Collision-ring projection 527 of 1480.
+Collision-ring projection 528 of 1480.
+Collision-ring projection 529 of 1480.
+Collision-ring projection 530 of 1480.
+Collision-ring projection 531 of 1480.
+Collision-ring projection 532 of 1480.
+Collision-ring projection 533 of 1480.
+Collision-ring projection 534 of 1480.
+Collision-ring projection 535 of 1480.
+Collision-ring projection 536 of 1480.
+Collision-ring projection 537 of 1480.
+Collision-ring projection 538 of 1480.
+Collision-ring projection 539 of 1480.
+Collision-ring projection 540 of 1480.
+Collision-ring projection 541 of 1480.
+Collision-ring projection 542 of 1480.
+Collision-ring projection 543 of 1480.
+Collision-ring projection 544 of 1480.
+Collision-ring projection 545 of 1480.
+Collision-ring projection 546 of 1480.
+Collision-ring projection 547 of 1480.
+Collision-ring projection 548 of 1480.
+Collision-ring projection 549 of 1480.
+Collision-ring projection 550 of 1480.
+Collision-ring projection 551 of 1480.
+Collision-ring projection 552 of 1480.
+Collision-ring projection 553 of 1480.
+Collision-ring projection 554 of 1480.
+Collision-ring projection 555 of 1480.
+Collision-ring projection 556 of 1480.
+Collision-ring projection 557 of 1480.
+Collision-ring projection 558 of 1480.
+Collision-ring projection 559 of 1480.
+Collision-ring projection 560 of 1480.
+Collision-ring projection 561 of 1480.
+Collision-ring projection 562 of 1480.
+Collision-ring projection 563 of 1480.
+Collision-ring projection 564 of 1480.
+Collision-ring projection 565 of 1480.
+Collision-ring projection 566 of 1480.
+Collision-ring projection 567 of 1480.
+Collision-ring projection 568 of 1480.
+Collision-ring projection 569 of 1480.
+Collision-ring projection 570 of 1480.
+Collision-ring projection 571 of 1480.
+Collision-ring projection 572 of 1480.
+Collision-ring projection 573 of 1480.
+Collision-ring projection 574 of 1480.
+Collision-ring projection 575 of 1480.
+Collision-ring projection 576 of 1480.
+Collision-ring projection 577 of 1480.
+Collision-ring projection 578 of 1480.
+Collision-ring projection 579 of 1480.
+Collision-ring projection 580 of 1480.
+Collision-ring projection 581 of 1480.
+Collision-ring projection 582 of 1480.
+Collision-ring projection 583 of 1480.
+Collision-ring projection 584 of 1480.
+Collision-ring projection 585 of 1480.
+Collision-ring projection 586 of 1480.
+Collision-ring projection 587 of 1480.
+Collision-ring projection 588 of 1480.
+Collision-ring projection 589 of 1480.
+Collision-ring projection 590 of 1480.
+Collision-ring projection 591 of 1480.
+Collision-ring projection 592 of 1480.
+Collision-ring projection 593 of 1480.
+Collision-ring projection 594 of 1480.
+Collision-ring projection 595 of 1480.
+Collision-ring projection 596 of 1480.
+Collision-ring projection 597 of 1480.
+Collision-ring projection 598 of 1480.
+Collision-ring projection 599 of 1480.
+Collision-ring projection 600 of 1480.
+Collision-ring projection 601 of 1480.
+Collision-ring projection 602 of 1480.
+Collision-ring projection 603 of 1480.
+Collision-ring projection 604 of 1480.
+Collision-ring projection 605 of 1480.
+Collision-ring projection 606 of 1480.
+Collision-ring projection 607 of 1480.
+Collision-ring projection 608 of 1480.
+Collision-ring projection 609 of 1480.
+Collision-ring projection 610 of 1480.
+Collision-ring projection 611 of 1480.
+Collision-ring projection 612 of 1480.
+Collision-ring projection 613 of 1480.
+Collision-ring projection 614 of 1480.
+Collision-ring projection 615 of 1480.
+Collision-ring projection 616 of 1480.
+Collision-ring projection 617 of 1480.
+Collision-ring projection 618 of 1480.
+Collision-ring projection 619 of 1480.
+Collision-ring projection 620 of 1480.
+Collision-ring projection 621 of 1480.
+Collision-ring projection 622 of 1480.
+Collision-ring projection 623 of 1480.
+Collision-ring projection 624 of 1480.
+Collision-ring projection 625 of 1480.
+Collision-ring projection 626 of 1480.
+Collision-ring projection 627 of 1480.
+Collision-ring projection 628 of 1480.
+Collision-ring projection 629 of 1480.
+Collision-ring projection 630 of 1480.
+Collision-ring projection 631 of 1480.
+Collision-ring projection 632 of 1480.
+Collision-ring projection 633 of 1480.
+Collision-ring projection 634 of 1480.
+Collision-ring projection 635 of 1480.
+Collision-ring projection 636 of 1480.
+Collision-ring projection 637 of 1480.
+Collision-ring projection 638 of 1480.
+Collision-ring projection 639 of 1480.
+Collision-ring projection 640 of 1480.
+Collision-ring projection 641 of 1480.
+Collision-ring projection 642 of 1480.
+Collision-ring projection 643 of 1480.
+Collision-ring projection 644 of 1480.
+Collision-ring projection 645 of 1480.
+Collision-ring projection 646 of 1480.
+Collision-ring projection 647 of 1480.
+Collision-ring projection 648 of 1480.
+Collision-ring projection 649 of 1480.
+Collision-ring projection 650 of 1480.
+Collision-ring projection 651 of 1480.
+Collision-ring projection 652 of 1480.
+Collision-ring projection 653 of 1480.
+Collision-ring projection 654 of 1480.
+Collision-ring projection 655 of 1480.
+Collision-ring projection 656 of 1480.
+Collision-ring projection 657 of 1480.
+Collision-ring projection 658 of 1480.
+Collision-ring projection 659 of 1480.
+Collision-ring projection 660 of 1480.
+Collision-ring projection 661 of 1480.
+Collision-ring projection 662 of 1480.
+Collision-ring projection 663 of 1480.
+Collision-ring projection 664 of 1480.
+Collision-ring projection 665 of 1480.
+Collision-ring projection 666 of 1480.
+Collision-ring projection 667 of 1480.
+Collision-ring projection 668 of 1480.
+Collision-ring projection 669 of 1480.
+Collision-ring projection 670 of 1480.
+Collision-ring projection 671 of 1480.
+Collision-ring projection 672 of 1480.
+Collision-ring projection 673 of 1480.
+Collision-ring projection 674 of 1480.
+Collision-ring projection 675 of 1480.
+Collision-ring projection 676 of 1480.
+Collision-ring projection 677 of 1480.
+Collision-ring projection 678 of 1480.
+Collision-ring projection 679 of 1480.
+Collision-ring projection 680 of 1480.
+Collision-ring projection 681 of 1480.
+Collision-ring projection 682 of 1480.
+Collision-ring projection 683 of 1480.
+Collision-ring projection 684 of 1480.
+Collision-ring projection 685 of 1480.
+Collision-ring projection 686 of 1480.
+Collision-ring projection 687 of 1480.
+Collision-ring projection 688 of 1480.
+Collision-ring projection 689 of 1480.
+Collision-ring projection 690 of 1480.
+Collision-ring projection 691 of 1480.
+Collision-ring projection 692 of 1480.
+Collision-ring projection 693 of 1480.
+Collision-ring projection 694 of 1480.
+Collision-ring projection 695 of 1480.
+Collision-ring projection 696 of 1480.
+Collision-ring projection 697 of 1480.
+Collision-ring projection 698 of 1480.
+Collision-ring projection 699 of 1480.
+Collision-ring projection 700 of 1480.
+Collision-ring projection 701 of 1480.
+Collision-ring projection 702 of 1480.
+Collision-ring projection 703 of 1480.
+Collision-ring projection 704 of 1480.
+Collision-ring projection 705 of 1480.
+Collision-ring projection 706 of 1480.
+Collision-ring projection 707 of 1480.
+Collision-ring projection 708 of 1480.
+Collision-ring projection 709 of 1480.
+Collision-ring projection 710 of 1480.
+Collision-ring projection 711 of 1480.
+Collision-ring projection 712 of 1480.
+Collision-ring projection 713 of 1480.
+Collision-ring projection 714 of 1480.
+Collision-ring projection 715 of 1480.
+Collision-ring projection 716 of 1480.
+Collision-ring projection 717 of 1480.
+Collision-ring projection 718 of 1480.
+Collision-ring projection 719 of 1480.
+Collision-ring projection 720 of 1480.
+Collision-ring projection 721 of 1480.
+Collision-ring projection 722 of 1480.
+Collision-ring projection 723 of 1480.
+Collision-ring projection 724 of 1480.
+Collision-ring projection 725 of 1480.
+Collision-ring projection 726 of 1480.
+Collision-ring projection 727 of 1480.
+Collision-ring projection 728 of 1480.
+Collision-ring projection 729 of 1480.
+Collision-ring projection 730 of 1480.
+Collision-ring projection 731 of 1480.
+Collision-ring projection 732 of 1480.
+Collision-ring projection 733 of 1480.
+Collision-ring projection 734 of 1480.
+Collision-ring projection 735 of 1480.
+Collision-ring projection 736 of 1480.
+Collision-ring projection 737 of 1480.
+Collision-ring projection 738 of 1480.
+Collision-ring projection 739 of 1480.
+Collision-ring projection 740 of 1480.
+Collision-ring projection 741 of 1480.
+Collision-ring projection 742 of 1480.
+Collision-ring projection 743 of 1480.
+Collision-ring projection 744 of 1480.
+Collision-ring projection 745 of 1480.
+Collision-ring projection 746 of 1480.
+Collision-ring projection 747 of 1480.
+Collision-ring projection 748 of 1480.
+Collision-ring projection 749 of 1480.
+Collision-ring projection 750 of 1480.
+Collision-ring projection 751 of 1480.
+Collision-ring projection 752 of 1480.
+Collision-ring projection 753 of 1480.
+Collision-ring projection 754 of 1480.
+Collision-ring projection 755 of 1480.
+Collision-ring projection 756 of 1480.
+Collision-ring projection 757 of 1480.
+Collision-ring projection 758 of 1480.
+Collision-ring projection 759 of 1480.
+Collision-ring projection 760 of 1480.
+Collision-ring projection 761 of 1480.
+Collision-ring projection 762 of 1480.
+Collision-ring projection 763 of 1480.
+Collision-ring projection 764 of 1480.
+Collision-ring projection 765 of 1480.
+Collision-ring projection 766 of 1480.
+Collision-ring projection 767 of 1480.
+Collision-ring projection 768 of 1480.
+Collision-ring projection 769 of 1480.
+Collision-ring projection 770 of 1480.
+Collision-ring projection 771 of 1480.
+Collision-ring projection 772 of 1480.
+Collision-ring projection 773 of 1480.
+Collision-ring projection 774 of 1480.
+Collision-ring projection 775 of 1480.
+Collision-ring projection 776 of 1480.
+Collision-ring projection 777 of 1480.
+Collision-ring projection 778 of 1480.
+Collision-ring projection 779 of 1480.
+Collision-ring projection 780 of 1480.
+Collision-ring projection 781 of 1480.
+Collision-ring projection 782 of 1480.
+Collision-ring projection 783 of 1480.
+Collision-ring projection 784 of 1480.
+Collision-ring projection 785 of 1480.
+Collision-ring projection 786 of 1480.
+Collision-ring projection 787 of 1480.
+Collision-ring projection 788 of 1480.
+Collision-ring projection 789 of 1480.
+Collision-ring projection 790 of 1480.
+Collision-ring projection 791 of 1480.
+Collision-ring projection 792 of 1480.
+Collision-ring projection 793 of 1480.
+Collision-ring projection 794 of 1480.
+Collision-ring projection 795 of 1480.
+Collision-ring projection 796 of 1480.
+Collision-ring projection 797 of 1480.
+Collision-ring projection 798 of 1480.
+Collision-ring projection 799 of 1480.
+Collision-ring projection 800 of 1480.
+Collision-ring projection 801 of 1480.
+Collision-ring projection 802 of 1480.
+Collision-ring projection 803 of 1480.
+Collision-ring projection 804 of 1480.
+Collision-ring projection 805 of 1480.
+Collision-ring projection 806 of 1480.
+Collision-ring projection 807 of 1480.
+Collision-ring projection 808 of 1480.
+Collision-ring projection 809 of 1480.
+Collision-ring projection 810 of 1480.
+Collision-ring projection 811 of 1480.
+Collision-ring projection 812 of 1480.
+Collision-ring projection 813 of 1480.
+Collision-ring projection 814 of 1480.
+Collision-ring projection 815 of 1480.
+Collision-ring projection 816 of 1480.
+Collision-ring projection 817 of 1480.
+Collision-ring projection 818 of 1480.
+Collision-ring projection 819 of 1480.
+Collision-ring projection 820 of 1480.
+Collision-ring projection 821 of 1480.
+Collision-ring projection 822 of 1480.
+Collision-ring projection 823 of 1480.
+Collision-ring projection 824 of 1480.
+Collision-ring projection 825 of 1480.
+Collision-ring projection 826 of 1480.
+Collision-ring projection 827 of 1480.
+Collision-ring projection 828 of 1480.
+Collision-ring projection 829 of 1480.
+Collision-ring projection 830 of 1480.
+Collision-ring projection 831 of 1480.
+Collision-ring projection 832 of 1480.
+Collision-ring projection 833 of 1480.
+Collision-ring projection 834 of 1480.
+Collision-ring projection 835 of 1480.
+Collision-ring projection 836 of 1480.
+Collision-ring projection 837 of 1480.
+Collision-ring projection 838 of 1480.
+Collision-ring projection 839 of 1480.
+Collision-ring projection 840 of 1480.
+Collision-ring projection 841 of 1480.
+Collision-ring projection 842 of 1480.
+Collision-ring projection 843 of 1480.
+Collision-ring projection 844 of 1480.
+Collision-ring projection 845 of 1480.
+Collision-ring projection 846 of 1480.
+Collision-ring projection 847 of 1480.
+Collision-ring projection 848 of 1480.
+Collision-ring projection 849 of 1480.
+Collision-ring projection 850 of 1480.
+Collision-ring projection 851 of 1480.
+Collision-ring projection 852 of 1480.
+Collision-ring projection 853 of 1480.
+Collision-ring projection 854 of 1480.
+Collision-ring projection 855 of 1480.
+Collision-ring projection 856 of 1480.
+Collision-ring projection 857 of 1480.
+Collision-ring projection 858 of 1480.
+Collision-ring projection 859 of 1480.
+Collision-ring projection 860 of 1480.
+Collision-ring projection 861 of 1480.
+Collision-ring projection 862 of 1480.
+Collision-ring projection 863 of 1480.
+Collision-ring projection 864 of 1480.
+Collision-ring projection 865 of 1480.
+Collision-ring projection 866 of 1480.
+Collision-ring projection 867 of 1480.
+Collision-ring projection 868 of 1480.
+Collision-ring projection 869 of 1480.
+Collision-ring projection 870 of 1480.
+Collision-ring projection 871 of 1480.
+Collision-ring projection 872 of 1480.
+Collision-ring projection 873 of 1480.
+Collision-ring projection 874 of 1480.
+Collision-ring projection 875 of 1480.
+Collision-ring projection 876 of 1480.
+Collision-ring projection 877 of 1480.
+Collision-ring projection 878 of 1480.
+Collision-ring projection 879 of 1480.
+Collision-ring projection 880 of 1480.
+Collision-ring projection 881 of 1480.
+Collision-ring projection 882 of 1480.
+Collision-ring projection 883 of 1480.
+Collision-ring projection 884 of 1480.
+Collision-ring projection 885 of 1480.
+Collision-ring projection 886 of 1480.
+Collision-ring projection 887 of 1480.
+Collision-ring projection 888 of 1480.
+Collision-ring projection 889 of 1480.
+Collision-ring projection 890 of 1480.
+Collision-ring projection 891 of 1480.
+Collision-ring projection 892 of 1480.
+Collision-ring projection 893 of 1480.
+Collision-ring projection 894 of 1480.
+Collision-ring projection 895 of 1480.
+Collision-ring projection 896 of 1480.
+Collision-ring projection 897 of 1480.
+Collision-ring projection 898 of 1480.
+Collision-ring projection 899 of 1480.
+Collision-ring projection 900 of 1480.
+Collision-ring projection 901 of 1480.
+Collision-ring projection 902 of 1480.
+Collision-ring projection 903 of 1480.
+Collision-ring projection 904 of 1480.
+Collision-ring projection 905 of 1480.
+Collision-ring projection 906 of 1480.
+Collision-ring projection 907 of 1480.
+Collision-ring projection 908 of 1480.
+Collision-ring projection 909 of 1480.
+Collision-ring projection 910 of 1480.
+Collision-ring projection 911 of 1480.
+Collision-ring projection 912 of 1480.
+Collision-ring projection 913 of 1480.
+Collision-ring projection 914 of 1480.
+Collision-ring projection 915 of 1480.
+Collision-ring projection 916 of 1480.
+Collision-ring projection 917 of 1480.
+Collision-ring projection 918 of 1480.
+Collision-ring projection 919 of 1480.
+Collision-ring projection 920 of 1480.
+Collision-ring projection 921 of 1480.
+Collision-ring projection 922 of 1480.
+Collision-ring projection 923 of 1480.
+Collision-ring projection 924 of 1480.
+Collision-ring projection 925 of 1480.
+Collision-ring projection 926 of 1480.
+Collision-ring projection 927 of 1480.
+Collision-ring projection 928 of 1480.
+Collision-ring projection 929 of 1480.
+Collision-ring projection 930 of 1480.
+Collision-ring projection 931 of 1480.
+Collision-ring projection 932 of 1480.
+Collision-ring projection 933 of 1480.
+Collision-ring projection 934 of 1480.
+Collision-ring projection 935 of 1480.
+Collision-ring projection 936 of 1480.
+Collision-ring projection 937 of 1480.
+Collision-ring projection 938 of 1480.
+Collision-ring projection 939 of 1480.
+Collision-ring projection 940 of 1480.
+Collision-ring projection 941 of 1480.
+Collision-ring projection 942 of 1480.
+Collision-ring projection 943 of 1480.
+Collision-ring projection 944 of 1480.
+Collision-ring projection 945 of 1480.
+Collision-ring projection 946 of 1480.
+Collision-ring projection 947 of 1480.
+Collision-ring projection 948 of 1480.
+Collision-ring projection 949 of 1480.
+Collision-ring projection 950 of 1480.
+Collision-ring projection 951 of 1480.
+Collision-ring projection 952 of 1480.
+Collision-ring projection 953 of 1480.
+Collision-ring projection 954 of 1480.
+Collision-ring projection 955 of 1480.
+Collision-ring projection 956 of 1480.
+Collision-ring projection 957 of 1480.
+Collision-ring projection 958 of 1480.
+Collision-ring projection 959 of 1480.
+Collision-ring projection 960 of 1480.
+Collision-ring projection 961 of 1480.
+Collision-ring projection 962 of 1480.
+Collision-ring projection 963 of 1480.
+Collision-ring projection 964 of 1480.
+Collision-ring projection 965 of 1480.
+Collision-ring projection 966 of 1480.
+Collision-ring projection 967 of 1480.
+Collision-ring projection 968 of 1480.
+Collision-ring projection 969 of 1480.
+Collision-ring projection 970 of 1480.
+Collision-ring projection 971 of 1480.
+Collision-ring projection 972 of 1480.
+Collision-ring projection 973 of 1480.
+Collision-ring projection 974 of 1480.
+Collision-ring projection 975 of 1480.
+Collision-ring projection 976 of 1480.
+Collision-ring projection 977 of 1480.
+Collision-ring projection 978 of 1480.
+Collision-ring projection 979 of 1480.
+Collision-ring projection 980 of 1480.
+Collision-ring projection 981 of 1480.
+Collision-ring projection 982 of 1480.
+Collision-ring projection 983 of 1480.
+Collision-ring projection 984 of 1480.
+Collision-ring projection 985 of 1480.
+Collision-ring projection 986 of 1480.
+Collision-ring projection 987 of 1480.
+Collision-ring projection 988 of 1480.
+Collision-ring projection 989 of 1480.
+Collision-ring projection 990 of 1480.
+Collision-ring projection 991 of 1480.
+Collision-ring projection 992 of 1480.
+Collision-ring projection 993 of 1480.
+Collision-ring projection 994 of 1480.
+Collision-ring projection 995 of 1480.
+Collision-ring projection 996 of 1480.
+Collision-ring projection 997 of 1480.
+Collision-ring projection 998 of 1480.
+Collision-ring projection 999 of 1480.
+Collision-ring projection 1000 of 1480.
+Collision-ring projection 1001 of 1480.
+Collision-ring projection 1002 of 1480.
+Collision-ring projection 1003 of 1480.
+Collision-ring projection 1004 of 1480.
+Collision-ring projection 1005 of 1480.
+Collision-ring projection 1006 of 1480.
+Collision-ring projection 1007 of 1480.
+Collision-ring projection 1008 of 1480.
+Collision-ring projection 1009 of 1480.
+Collision-ring projection 1010 of 1480.
+Collision-ring projection 1011 of 1480.
+Collision-ring projection 1012 of 1480.
+Collision-ring projection 1013 of 1480.
+Collision-ring projection 1014 of 1480.
+Collision-ring projection 1015 of 1480.
+Collision-ring projection 1016 of 1480.
+Collision-ring projection 1017 of 1480.
+Collision-ring projection 1018 of 1480.
+Collision-ring projection 1019 of 1480.
+Collision-ring projection 1020 of 1480.
+Collision-ring projection 1021 of 1480.
+Collision-ring projection 1022 of 1480.
+Collision-ring projection 1023 of 1480.
+Collision-ring projection 1024 of 1480.
+Collision-ring projection 1025 of 1480.
+Collision-ring projection 1026 of 1480.
+Collision-ring projection 1027 of 1480.
+Collision-ring projection 1028 of 1480.
+Collision-ring projection 1029 of 1480.
+Collision-ring projection 1030 of 1480.
+Collision-ring projection 1031 of 1480.
+Collision-ring projection 1032 of 1480.
+Collision-ring projection 1033 of 1480.
+Collision-ring projection 1034 of 1480.
+Collision-ring projection 1035 of 1480.
+Collision-ring projection 1036 of 1480.
+Collision-ring projection 1037 of 1480.
+Collision-ring projection 1038 of 1480.
+Collision-ring projection 1039 of 1480.
+Collision-ring projection 1040 of 1480.
+Collision-ring projection 1041 of 1480.
+Collision-ring projection 1042 of 1480.
+Collision-ring projection 1043 of 1480.
+Collision-ring projection 1044 of 1480.
+Collision-ring projection 1045 of 1480.
+Collision-ring projection 1046 of 1480.
+Collision-ring projection 1047 of 1480.
+Collision-ring projection 1048 of 1480.
+Collision-ring projection 1049 of 1480.
+Collision-ring projection 1050 of 1480.
+Collision-ring projection 1051 of 1480.
+Collision-ring projection 1052 of 1480.
+Collision-ring projection 1053 of 1480.
+Collision-ring projection 1054 of 1480.
+Collision-ring projection 1055 of 1480.
+Collision-ring projection 1056 of 1480.
+Collision-ring projection 1057 of 1480.
+Collision-ring projection 1058 of 1480.
+Collision-ring projection 1059 of 1480.
+Collision-ring projection 1060 of 1480.
+Collision-ring projection 1061 of 1480.
+Collision-ring projection 1062 of 1480.
+Collision-ring projection 1063 of 1480.
+Collision-ring projection 1064 of 1480.
+Collision-ring projection 1065 of 1480.
+Collision-ring projection 1066 of 1480.
+Collision-ring projection 1067 of 1480.
+Collision-ring projection 1068 of 1480.
+Collision-ring projection 1069 of 1480.
+Collision-ring projection 1070 of 1480.
+Collision-ring projection 1071 of 1480.
+Collision-ring projection 1072 of 1480.
+Collision-ring projection 1073 of 1480.
+Collision-ring projection 1074 of 1480.
+Collision-ring projection 1075 of 1480.
+Collision-ring projection 1076 of 1480.
+Collision-ring projection 1077 of 1480.
+Collision-ring projection 1078 of 1480.
+Collision-ring projection 1079 of 1480.
+Collision-ring projection 1080 of 1480.
+Collision-ring projection 1081 of 1480.
+Collision-ring projection 1082 of 1480.
+Collision-ring projection 1083 of 1480.
+Collision-ring projection 1084 of 1480.
+Collision-ring projection 1085 of 1480.
+Collision-ring projection 1086 of 1480.
+Collision-ring projection 1087 of 1480.
+Collision-ring projection 1088 of 1480.
+Collision-ring projection 1089 of 1480.
+Collision-ring projection 1090 of 1480.
+Collision-ring projection 1091 of 1480.
+Collision-ring projection 1092 of 1480.
+Collision-ring projection 1093 of 1480.
+Collision-ring projection 1094 of 1480.
+Collision-ring projection 1095 of 1480.
+Collision-ring projection 1096 of 1480.
+Collision-ring projection 1097 of 1480.
+Collision-ring projection 1098 of 1480.
+Collision-ring projection 1099 of 1480.
+Collision-ring projection 1100 of 1480.
+Collision-ring projection 1101 of 1480.
+Collision-ring projection 1102 of 1480.
+Collision-ring projection 1103 of 1480.
+Collision-ring projection 1104 of 1480.
+Collision-ring projection 1105 of 1480.
+Collision-ring projection 1106 of 1480.
+Collision-ring projection 1107 of 1480.
+Collision-ring projection 1108 of 1480.
+Collision-ring projection 1109 of 1480.
+Collision-ring projection 1110 of 1480.
+Collision-ring projection 1111 of 1480.
+Collision-ring projection 1112 of 1480.
+Collision-ring projection 1113 of 1480.
+Collision-ring projection 1114 of 1480.
+Collision-ring projection 1115 of 1480.
+Collision-ring projection 1116 of 1480.
+Collision-ring projection 1117 of 1480.
+Collision-ring projection 1118 of 1480.
+Collision-ring projection 1119 of 1480.
+Collision-ring projection 1120 of 1480.
+Collision-ring projection 1121 of 1480.
+Collision-ring projection 1122 of 1480.
+Collision-ring projection 1123 of 1480.
+Collision-ring projection 1124 of 1480.
+Collision-ring projection 1125 of 1480.
+Collision-ring projection 1126 of 1480.
+Collision-ring projection 1127 of 1480.
+Collision-ring projection 1128 of 1480.
+Collision-ring projection 1129 of 1480.
+Collision-ring projection 1130 of 1480.
+Collision-ring projection 1131 of 1480.
+Collision-ring projection 1132 of 1480.
+Collision-ring projection 1133 of 1480.
+Collision-ring projection 1134 of 1480.
+Collision-ring projection 1135 of 1480.
+Collision-ring projection 1136 of 1480.
+Collision-ring projection 1137 of 1480.
+Collision-ring projection 1138 of 1480.
+Collision-ring projection 1139 of 1480.
+Collision-ring projection 1140 of 1480.
+Collision-ring projection 1141 of 1480.
+Collision-ring projection 1142 of 1480.
+Collision-ring projection 1143 of 1480.
+Collision-ring projection 1144 of 1480.
+Collision-ring projection 1145 of 1480.
+Collision-ring projection 1146 of 1480.
+Collision-ring projection 1147 of 1480.
+Collision-ring projection 1148 of 1480.
+Collision-ring projection 1149 of 1480.
+Collision-ring projection 1150 of 1480.
+Collision-ring projection 1151 of 1480.
+Collision-ring projection 1152 of 1480.
+Collision-ring projection 1153 of 1480.
+Collision-ring projection 1154 of 1480.
+Collision-ring projection 1155 of 1480.
+Collision-ring projection 1156 of 1480.
+Collision-ring projection 1157 of 1480.
+Collision-ring projection 1158 of 1480.
+Collision-ring projection 1159 of 1480.
+Collision-ring projection 1160 of 1480.
+Collision-ring projection 1161 of 1480.
+Collision-ring projection 1162 of 1480.
+Collision-ring projection 1163 of 1480.
+Collision-ring projection 1164 of 1480.
+Collision-ring projection 1165 of 1480.
+Collision-ring projection 1166 of 1480.
+Collision-ring projection 1167 of 1480.
+Collision-ring projection 1168 of 1480.
+Collision-ring projection 1169 of 1480.
+Collision-ring projection 1170 of 1480.
+Collision-ring projection 1171 of 1480.
+Collision-ring projection 1172 of 1480.
+Collision-ring projection 1173 of 1480.
+Collision-ring projection 1174 of 1480.
+Collision-ring projection 1175 of 1480.
+Collision-ring projection 1176 of 1480.
+Collision-ring projection 1177 of 1480.
+Collision-ring projection 1178 of 1480.
+Collision-ring projection 1179 of 1480.
+Collision-ring projection 1180 of 1480.
+Collision-ring projection 1181 of 1480.
+Collision-ring projection 1182 of 1480.
+Collision-ring projection 1183 of 1480.
+Collision-ring projection 1184 of 1480.
+Collision-ring projection 1185 of 1480.
+Collision-ring projection 1186 of 1480.
+Collision-ring projection 1187 of 1480.
+Collision-ring projection 1188 of 1480.
+Collision-ring projection 1189 of 1480.
+Collision-ring projection 1190 of 1480.
+Collision-ring projection 1191 of 1480.
+Collision-ring projection 1192 of 1480.
+Collision-ring projection 1193 of 1480.
+Collision-ring projection 1194 of 1480.
+Collision-ring projection 1195 of 1480.
+Collision-ring projection 1196 of 1480.
+Collision-ring projection 1197 of 1480.
+Collision-ring projection 1198 of 1480.
+Collision-ring projection 1199 of 1480.
+Collision-ring projection 1200 of 1480.
+Collision-ring projection 1201 of 1480.
+Collision-ring projection 1202 of 1480.
+Collision-ring projection 1203 of 1480.
+Collision-ring projection 1204 of 1480.
+Collision-ring projection 1205 of 1480.
+Collision-ring projection 1206 of 1480.
+Collision-ring projection 1207 of 1480.
+Collision-ring projection 1208 of 1480.
+Collision-ring projection 1209 of 1480.
+Collision-ring projection 1210 of 1480.
+Collision-ring projection 1211 of 1480.
+Collision-ring projection 1212 of 1480.
+Collision-ring projection 1213 of 1480.
+Collision-ring projection 1214 of 1480.
+Collision-ring projection 1215 of 1480.
+Collision-ring projection 1216 of 1480.
+Collision-ring projection 1217 of 1480.
+Collision-ring projection 1218 of 1480.
+Collision-ring projection 1219 of 1480.
+Collision-ring projection 1220 of 1480.
+Collision-ring projection 1221 of 1480.
+Collision-ring projection 1222 of 1480.
+Collision-ring projection 1223 of 1480.
+Collision-ring projection 1224 of 1480.
+Collision-ring projection 1225 of 1480.
+Collision-ring projection 1226 of 1480.
+Collision-ring projection 1227 of 1480.
+Collision-ring projection 1228 of 1480.
+Collision-ring projection 1229 of 1480.
+Collision-ring projection 1230 of 1480.
+Collision-ring projection 1231 of 1480.
+Collision-ring projection 1232 of 1480.
+Collision-ring projection 1233 of 1480.
+Collision-ring projection 1234 of 1480.
+Collision-ring projection 1235 of 1480.
+Collision-ring projection 1236 of 1480.
+Collision-ring projection 1237 of 1480.
+Collision-ring projection 1238 of 1480.
+Collision-ring projection 1239 of 1480.
+Collision-ring projection 1240 of 1480.
+Collision-ring projection 1241 of 1480.
+Collision-ring projection 1242 of 1480.
+Collision-ring projection 1243 of 1480.
+Collision-ring projection 1244 of 1480.
+Collision-ring projection 1245 of 1480.
+Collision-ring projection 1246 of 1480.
+Collision-ring projection 1247 of 1480.
+Collision-ring projection 1248 of 1480.
+Collision-ring projection 1249 of 1480.
+Collision-ring projection 1250 of 1480.
+Collision-ring projection 1251 of 1480.
+Collision-ring projection 1252 of 1480.
+Collision-ring projection 1253 of 1480.
+Collision-ring projection 1254 of 1480.
+Collision-ring projection 1255 of 1480.
+Collision-ring projection 1256 of 1480.
+Collision-ring projection 1257 of 1480.
+Collision-ring projection 1258 of 1480.
+Collision-ring projection 1259 of 1480.
+Collision-ring projection 1260 of 1480.
+Collision-ring projection 1261 of 1480.
+Collision-ring projection 1262 of 1480.
+Collision-ring projection 1263 of 1480.
+Collision-ring projection 1264 of 1480.
+Collision-ring projection 1265 of 1480.
+Collision-ring projection 1266 of 1480.
+Collision-ring projection 1267 of 1480.
+Collision-ring projection 1268 of 1480.
+Collision-ring projection 1269 of 1480.
+Collision-ring projection 1270 of 1480.
+Collision-ring projection 1271 of 1480.
+Collision-ring projection 1272 of 1480.
+Collision-ring projection 1273 of 1480.
+Collision-ring projection 1274 of 1480.
+Collision-ring projection 1275 of 1480.
+Collision-ring projection 1276 of 1480.
+Collision-ring projection 1277 of 1480.
+Collision-ring projection 1278 of 1480.
+Collision-ring projection 1279 of 1480.
+Collision-ring projection 1280 of 1480.
+Collision-ring projection 1281 of 1480.
+Collision-ring projection 1282 of 1480.
+Collision-ring projection 1283 of 1480.
+Collision-ring projection 1284 of 1480.
+Collision-ring projection 1285 of 1480.
+Collision-ring projection 1286 of 1480.
+Collision-ring projection 1287 of 1480.
+Collision-ring projection 1288 of 1480.
+Collision-ring projection 1289 of 1480.
+Collision-ring projection 1290 of 1480.
+Collision-ring projection 1291 of 1480.
+Collision-ring projection 1292 of 1480.
+Collision-ring projection 1293 of 1480.
+Collision-ring projection 1294 of 1480.
+Collision-ring projection 1295 of 1480.
+Collision-ring projection 1296 of 1480.
+Collision-ring projection 1297 of 1480.
+Collision-ring projection 1298 of 1480.
+Collision-ring projection 1299 of 1480.
+Collision-ring projection 1300 of 1480.
+Collision-ring projection 1301 of 1480.
+Collision-ring projection 1302 of 1480.
+Collision-ring projection 1303 of 1480.
+Collision-ring projection 1304 of 1480.
+Collision-ring projection 1305 of 1480.
+Collision-ring projection 1306 of 1480.
+Collision-ring projection 1307 of 1480.
+Collision-ring projection 1308 of 1480.
+Collision-ring projection 1309 of 1480.
+Collision-ring projection 1310 of 1480.
+Collision-ring projection 1311 of 1480.
+Collision-ring projection 1312 of 1480.
+Collision-ring projection 1313 of 1480.
+Collision-ring projection 1314 of 1480.
+Collision-ring projection 1315 of 1480.
+Collision-ring projection 1316 of 1480.
+Collision-ring projection 1317 of 1480.
+Collision-ring projection 1318 of 1480.
+Collision-ring projection 1319 of 1480.
+Collision-ring projection 1320 of 1480.
+Collision-ring projection 1321 of 1480.
+Collision-ring projection 1322 of 1480.
+Collision-ring projection 1323 of 1480.
+Collision-ring projection 1324 of 1480.
+Collision-ring projection 1325 of 1480.
+Collision-ring projection 1326 of 1480.
+Collision-ring projection 1327 of 1480.
+Collision-ring projection 1328 of 1480.
+Collision-ring projection 1329 of 1480.
+Collision-ring projection 1330 of 1480.
+Collision-ring projection 1331 of 1480.
+Collision-ring projection 1332 of 1480.
+Collision-ring projection 1333 of 1480.
+Collision-ring projection 1334 of 1480.
+Collision-ring projection 1335 of 1480.
+Collision-ring projection 1336 of 1480.
+Collision-ring projection 1337 of 1480.
+Collision-ring projection 1338 of 1480.
+Collision-ring projection 1339 of 1480.
+Collision-ring projection 1340 of 1480.
+Collision-ring projection 1341 of 1480.
+Collision-ring projection 1342 of 1480.
+Collision-ring projection 1343 of 1480.
+Collision-ring projection 1344 of 1480.
+Collision-ring projection 1345 of 1480.
+Collision-ring projection 1346 of 1480.
+Collision-ring projection 1347 of 1480.
+Collision-ring projection 1348 of 1480.
+Collision-ring projection 1349 of 1480.
+Collision-ring projection 1350 of 1480.
+Collision-ring projection 1351 of 1480.
+Collision-ring projection 1352 of 1480.
+Collision-ring projection 1353 of 1480.
+Collision-ring projection 1354 of 1480.
+Collision-ring projection 1355 of 1480.
+Collision-ring projection 1356 of 1480.
+Collision-ring projection 1357 of 1480.
+Collision-ring projection 1358 of 1480.
+Collision-ring projection 1359 of 1480.
+Collision-ring projection 1360 of 1480.
+Collision-ring projection 1361 of 1480.
+Collision-ring projection 1362 of 1480.
+Collision-ring projection 1363 of 1480.
+Collision-ring projection 1364 of 1480.
+Collision-ring projection 1365 of 1480.
+Collision-ring projection 1366 of 1480.
+Collision-ring projection 1367 of 1480.
+Collision-ring projection 1368 of 1480.
+Collision-ring projection 1369 of 1480.
+Collision-ring projection 1370 of 1480.
+Collision-ring projection 1371 of 1480.
+Collision-ring projection 1372 of 1480.
+Collision-ring projection 1373 of 1480.
+Collision-ring projection 1374 of 1480.
+Collision-ring projection 1375 of 1480.
+Collision-ring projection 1376 of 1480.
+Collision-ring projection 1377 of 1480.
+Collision-ring projection 1378 of 1480.
+Collision-ring projection 1379 of 1480.
+Collision-ring projection 1380 of 1480.
+Collision-ring projection 1381 of 1480.
+Collision-ring projection 1382 of 1480.
+Collision-ring projection 1383 of 1480.
+Collision-ring projection 1384 of 1480.
+Collision-ring projection 1385 of 1480.
+Collision-ring projection 1386 of 1480.
+Collision-ring projection 1387 of 1480.
+Collision-ring projection 1388 of 1480.
+Collision-ring projection 1389 of 1480.
+Collision-ring projection 1390 of 1480.
+Collision-ring projection 1391 of 1480.
+Collision-ring projection 1392 of 1480.
+Collision-ring projection 1393 of 1480.
+Collision-ring projection 1394 of 1480.
+Collision-ring projection 1395 of 1480.
+Collision-ring projection 1396 of 1480.
+Collision-ring projection 1397 of 1480.
+Collision-ring projection 1398 of 1480.
+Collision-ring projection 1399 of 1480.
+Collision-ring projection 1400 of 1480.
+Collision-ring projection 1401 of 1480.
+Collision-ring projection 1402 of 1480.
+Collision-ring projection 1403 of 1480.
+Collision-ring projection 1404 of 1480.
+Collision-ring projection 1405 of 1480.
+Collision-ring projection 1406 of 1480.
+Collision-ring projection 1407 of 1480.
+Collision-ring projection 1408 of 1480.
+Collision-ring projection 1409 of 1480.
+Collision-ring projection 1410 of 1480.
+Collision-ring projection 1411 of 1480.
+Collision-ring projection 1412 of 1480.
+Collision-ring projection 1413 of 1480.
+Collision-ring projection 1414 of 1480.
+Collision-ring projection 1415 of 1480.
+Collision-ring projection 1416 of 1480.
+Collision-ring projection 1417 of 1480.
+Collision-ring projection 1418 of 1480.
+Collision-ring projection 1419 of 1480.
+Collision-ring projection 1420 of 1480.
+Collision-ring projection 1421 of 1480.
+Collision-ring projection 1422 of 1480.
+Collision-ring projection 1423 of 1480.
+Collision-ring projection 1424 of 1480.
+Collision-ring projection 1425 of 1480.
+Collision-ring projection 1426 of 1480.
+Collision-ring projection 1427 of 1480.
+Collision-ring projection 1428 of 1480.
+Collision-ring projection 1429 of 1480.
+Collision-ring projection 1430 of 1480.
+Collision-ring projection 1431 of 1480.
+Collision-ring projection 1432 of 1480.
+Collision-ring projection 1433 of 1480.
+Collision-ring projection 1434 of 1480.
+Collision-ring projection 1435 of 1480.
+Collision-ring projection 1436 of 1480.
+Collision-ring projection 1437 of 1480.
+Collision-ring projection 1438 of 1480.
+Collision-ring projection 1439 of 1480.
+Collision-ring projection 1440 of 1480.
+Collision-ring projection 1441 of 1480.
+Collision-ring projection 1442 of 1480.
+Collision-ring projection 1443 of 1480.
+Collision-ring projection 1444 of 1480.
+Collision-ring projection 1445 of 1480.
+Collision-ring projection 1446 of 1480.
+Collision-ring projection 1447 of 1480.
+Collision-ring projection 1448 of 1480.
+Collision-ring projection 1449 of 1480.
+Collision-ring projection 1450 of 1480.
+Collision-ring projection 1451 of 1480.
+Collision-ring projection 1452 of 1480.
+Collision-ring projection 1453 of 1480.
+Collision-ring projection 1454 of 1480.
+Collision-ring projection 1455 of 1480.
+Collision-ring projection 1456 of 1480.
+Collision-ring projection 1457 of 1480.
+Collision-ring projection 1458 of 1480.
+Collision-ring projection 1459 of 1480.
+Collision-ring projection 1460 of 1480.
+Collision-ring projection 1461 of 1480.
+Collision-ring projection 1462 of 1480.
+Collision-ring projection 1463 of 1480.
+Collision-ring projection 1464 of 1480.
+Collision-ring projection 1465 of 1480.
+Collision-ring projection 1466 of 1480.
+Collision-ring projection 1467 of 1480.
+Collision-ring projection 1468 of 1480.
+Collision-ring projection 1469 of 1480.
+Collision-ring projection 1470 of 1480.
+Collision-ring projection 1471 of 1480.
+Collision-ring projection 1472 of 1480.
+Collision-ring projection 1473 of 1480.
+Collision-ring projection 1474 of 1480.
+Collision-ring projection 1475 of 1480.
+Collision-ring projection 1476 of 1480.
+Collision-ring projection 1477 of 1480.
+Collision-ring projection 1478 of 1480.
+Collision-ring projection 1479 of 1480.
+Collision-ring projection 1480 of 1480.
+Projection-fixed generators: 216
+Nonzero defects: 1264
+Saving collision state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 7
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: None
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.09 seconds
+Monomial orbits: 3
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 12
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 38
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_3.
+Defects removed: 0
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+Degree k = 4
+======================================================
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 117
+Processed 100 of 117 representatives.
+Nonzero projections: 3
+Already in I_(k-1): 0
+New orbit generators: 270
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 138
+Elapsed time: 1.89 seconds
+Testing all remaining defects in I_4.
+Defects removed: 198
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_4.sobj
+
+======================================================
+Degree k = 5
+======================================================
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 138
+Elapsed time: 0.00 seconds
+Monomial orbits: 330
+Processed 100 of 330 representatives.
+Processed 200 of 330 representatives.
+Processed 300 of 330 representatives.
+Nonzero projections: 45
+Already in I_(k-1): 3
+New orbit generators: 5400
+
+START Groebner basis: I_5
+Algorithm: None
+END Groebner basis: I_5
+Number of elements: 1532
+Elapsed time: 8 minutes, 29.24 seconds
+Testing all remaining defects in I_5.
+Defects removed: 648
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_5.sobj
+
+======================================================
+Degree k = 6
+======================================================
+
+START Groebner basis: I_5
+Algorithm: None
+END Groebner basis: I_5
+Number of elements: 1532
+Elapsed time: 0.00 seconds
+Monomial orbits: 906
+Processed 100 of 906 representatives.
+Processed 200 of 906 representatives.
+Processed 300 of 906 representatives.
+Processed 400 of 906 representatives.
+Processed 500 of 906 representatives.
+Processed 600 of 906 representatives.
+Processed 700 of 906 representatives.
+Processed 800 of 906 representatives.
+Processed 900 of 906 representatives.
+Nonzero projections: 214
+Already in I_(k-1): 54
+New orbit generators: 29250
+
+START Groebner basis: I_6
+Algorithm: None
+END Groebner basis: I_6
+Number of elements: 1802
+Elapsed time: 3 minutes, 6.84 seconds
+Testing all remaining defects in I_6.
+Defects removed: 418
+Saving degree state: saved_states_lambda_2_2_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_6.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_6.
+Total elapsed time: 4 hours, 27 minutes, 53.73 seconds
+
+Computation completed.

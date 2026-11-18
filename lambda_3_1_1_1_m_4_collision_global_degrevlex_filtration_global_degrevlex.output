@@ -1,0 +1,2872 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (3, 1, 1, 1)
+Input m = 4
+n = 6
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = libsingular:std
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (3, 1, 1, 1)
+m = 4
+n = 6
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(4, 1, 1), (3, 2, 1), (2, 2, 2)]
+State directory: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (2, 2, 2): 15 collision primes
+shape (4, 1, 1): 15 collision primes
+shape (3, 2, 1): 60 collision primes
+Launching 3 simultaneous shape workers.
+Worker finished for shape (4, 1, 1) with return code 0.
+Worker launcher log: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_4_1_1_collision_global_degrevlex.log
+Worker finished for shape (2, 2, 2) with return code 0.
+Worker launcher log: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_2_2_2_collision_global_degrevlex.log
+Worker finished for shape (3, 2, 1) with return code 0.
+Worker launcher log: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_3_2_1_collision_global_degrevlex.log
+Loaded shape (2, 2, 2) with 2431 generators.
+Loaded shape (4, 1, 1) with 1012 generators.
+Loaded shape (3, 2, 1) with 9409 generators.
+
+Final intersection of shape ideals.
+
+Final collision ideal: balanced intersection level 1.
+Number of ideals: 3
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 5592
+Maximum generator degree: 7
+Pair elapsed: 14 minutes, 24.80 seconds
+
+Final collision ideal: balanced intersection level 2.
+Number of ideals: 2
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 2900
+Maximum generator degree: 6
+Pair elapsed: 16 hours, 6 minutes, 18.70 seconds
+
+Final collision ideal: complete.
+Total intersection time: 16 hours, 20 minutes, 46.03 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: libsingular:std
+END Groebner basis: final collision ideal
+Number of elements: 2900
+Elapsed time: 22.25 seconds
+Collision generators: 2900
+D_full = 6
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 2900
+Maximum degree: 6
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 2900
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 2900
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 40
+Elapsed time: 0.00 seconds
+Degree 3
+New generators: 40
+Generators removed: 40
+Generators remaining: 2860
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 40
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 2606
+Elapsed time: 1 minutes, 4.20 seconds
+Degree 4
+New generators: 450
+Generators removed: 510
+Generators remaining: 2350
+
+START Groebner basis: degree-filtered ideal before degree 5
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 5
+Number of elements: 2606
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 5
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 5
+Number of elements: 2645
+Elapsed time: 29.98 seconds
+Degree 5
+New generators: 1230
+Generators removed: 1510
+Generators remaining: 840
+
+START Groebner basis: degree-filtered ideal before degree 6
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 6
+Number of elements: 2645
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 6
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 6
+Number of elements: 2900
+Elapsed time: 22.84 seconds
+Degree 6
+New generators: 840
+Generators removed: 840
+Generators remaining: 0
+D_filtered = 6
+Dimension of S^lambda: 10
+Collision-ring projection 1 of 2560.
+Collision-ring projection 2 of 2560.
+Collision-ring projection 3 of 2560.
+Collision-ring projection 4 of 2560.
+Collision-ring projection 5 of 2560.
+Collision-ring projection 6 of 2560.
+Collision-ring projection 7 of 2560.
+Collision-ring projection 8 of 2560.
+Collision-ring projection 9 of 2560.
+Collision-ring projection 10 of 2560.
+Collision-ring projection 11 of 2560.
+Collision-ring projection 12 of 2560.
+Collision-ring projection 13 of 2560.
+Collision-ring projection 14 of 2560.
+Collision-ring projection 15 of 2560.
+Collision-ring projection 16 of 2560.
+Collision-ring projection 17 of 2560.
+Collision-ring projection 18 of 2560.
+Collision-ring projection 19 of 2560.
+Collision-ring projection 20 of 2560.
+Collision-ring projection 21 of 2560.
+Collision-ring projection 22 of 2560.
+Collision-ring projection 23 of 2560.
+Collision-ring projection 24 of 2560.
+Collision-ring projection 25 of 2560.
+Collision-ring projection 26 of 2560.
+Collision-ring projection 27 of 2560.
+Collision-ring projection 28 of 2560.
+Collision-ring projection 29 of 2560.
+Collision-ring projection 30 of 2560.
+Collision-ring projection 31 of 2560.
+Collision-ring projection 32 of 2560.
+Collision-ring projection 33 of 2560.
+Collision-ring projection 34 of 2560.
+Collision-ring projection 35 of 2560.
+Collision-ring projection 36 of 2560.
+Collision-ring projection 37 of 2560.
+Collision-ring projection 38 of 2560.
+Collision-ring projection 39 of 2560.
+Collision-ring projection 40 of 2560.
+Collision-ring projection 41 of 2560.
+Collision-ring projection 42 of 2560.
+Collision-ring projection 43 of 2560.
+Collision-ring projection 44 of 2560.
+Collision-ring projection 45 of 2560.
+Collision-ring projection 46 of 2560.
+Collision-ring projection 47 of 2560.
+Collision-ring projection 48 of 2560.
+Collision-ring projection 49 of 2560.
+Collision-ring projection 50 of 2560.
+Collision-ring projection 51 of 2560.
+Collision-ring projection 52 of 2560.
+Collision-ring projection 53 of 2560.
+Collision-ring projection 54 of 2560.
+Collision-ring projection 55 of 2560.
+Collision-ring projection 56 of 2560.
+Collision-ring projection 57 of 2560.
+Collision-ring projection 58 of 2560.
+Collision-ring projection 59 of 2560.
+Collision-ring projection 60 of 2560.
+Collision-ring projection 61 of 2560.
+Collision-ring projection 62 of 2560.
+Collision-ring projection 63 of 2560.
+Collision-ring projection 64 of 2560.
+Collision-ring projection 65 of 2560.
+Collision-ring projection 66 of 2560.
+Collision-ring projection 67 of 2560.
+Collision-ring projection 68 of 2560.
+Collision-ring projection 69 of 2560.
+Collision-ring projection 70 of 2560.
+Collision-ring projection 71 of 2560.
+Collision-ring projection 72 of 2560.
+Collision-ring projection 73 of 2560.
+Collision-ring projection 74 of 2560.
+Collision-ring projection 75 of 2560.
+Collision-ring projection 76 of 2560.
+Collision-ring projection 77 of 2560.
+Collision-ring projection 78 of 2560.
+Collision-ring projection 79 of 2560.
+Collision-ring projection 80 of 2560.
+Collision-ring projection 81 of 2560.
+Collision-ring projection 82 of 2560.
+Collision-ring projection 83 of 2560.
+Collision-ring projection 84 of 2560.
+Collision-ring projection 85 of 2560.
+Collision-ring projection 86 of 2560.
+Collision-ring projection 87 of 2560.
+Collision-ring projection 88 of 2560.
+Collision-ring projection 89 of 2560.
+Collision-ring projection 90 of 2560.
+Collision-ring projection 91 of 2560.
+Collision-ring projection 92 of 2560.
+Collision-ring projection 93 of 2560.
+Collision-ring projection 94 of 2560.
+Collision-ring projection 95 of 2560.
+Collision-ring projection 96 of 2560.
+Collision-ring projection 97 of 2560.
+Collision-ring projection 98 of 2560.
+Collision-ring projection 99 of 2560.
+Collision-ring projection 100 of 2560.
+Collision-ring projection 101 of 2560.
+Collision-ring projection 102 of 2560.
+Collision-ring projection 103 of 2560.
+Collision-ring projection 104 of 2560.
+Collision-ring projection 105 of 2560.
+Collision-ring projection 106 of 2560.
+Collision-ring projection 107 of 2560.
+Collision-ring projection 108 of 2560.
+Collision-ring projection 109 of 2560.
+Collision-ring projection 110 of 2560.
+Collision-ring projection 111 of 2560.
+Collision-ring projection 112 of 2560.
+Collision-ring projection 113 of 2560.
+Collision-ring projection 114 of 2560.
+Collision-ring projection 115 of 2560.
+Collision-ring projection 116 of 2560.
+Collision-ring projection 117 of 2560.
+Collision-ring projection 118 of 2560.
+Collision-ring projection 119 of 2560.
+Collision-ring projection 120 of 2560.
+Collision-ring projection 121 of 2560.
+Collision-ring projection 122 of 2560.
+Collision-ring projection 123 of 2560.
+Collision-ring projection 124 of 2560.
+Collision-ring projection 125 of 2560.
+Collision-ring projection 126 of 2560.
+Collision-ring projection 127 of 2560.
+Collision-ring projection 128 of 2560.
+Collision-ring projection 129 of 2560.
+Collision-ring projection 130 of 2560.
+Collision-ring projection 131 of 2560.
+Collision-ring projection 132 of 2560.
+Collision-ring projection 133 of 2560.
+Collision-ring projection 134 of 2560.
+Collision-ring projection 135 of 2560.
+Collision-ring projection 136 of 2560.
+Collision-ring projection 137 of 2560.
+Collision-ring projection 138 of 2560.
+Collision-ring projection 139 of 2560.
+Collision-ring projection 140 of 2560.
+Collision-ring projection 141 of 2560.
+Collision-ring projection 142 of 2560.
+Collision-ring projection 143 of 2560.
+Collision-ring projection 144 of 2560.
+Collision-ring projection 145 of 2560.
+Collision-ring projection 146 of 2560.
+Collision-ring projection 147 of 2560.
+Collision-ring projection 148 of 2560.
+Collision-ring projection 149 of 2560.
+Collision-ring projection 150 of 2560.
+Collision-ring projection 151 of 2560.
+Collision-ring projection 152 of 2560.
+Collision-ring projection 153 of 2560.
+Collision-ring projection 154 of 2560.
+Collision-ring projection 155 of 2560.
+Collision-ring projection 156 of 2560.
+Collision-ring projection 157 of 2560.
+Collision-ring projection 158 of 2560.
+Collision-ring projection 159 of 2560.
+Collision-ring projection 160 of 2560.
+Collision-ring projection 161 of 2560.
+Collision-ring projection 162 of 2560.
+Collision-ring projection 163 of 2560.
+Collision-ring projection 164 of 2560.
+Collision-ring projection 165 of 2560.
+Collision-ring projection 166 of 2560.
+Collision-ring projection 167 of 2560.
+Collision-ring projection 168 of 2560.
+Collision-ring projection 169 of 2560.
+Collision-ring projection 170 of 2560.
+Collision-ring projection 171 of 2560.
+Collision-ring projection 172 of 2560.
+Collision-ring projection 173 of 2560.
+Collision-ring projection 174 of 2560.
+Collision-ring projection 175 of 2560.
+Collision-ring projection 176 of 2560.
+Collision-ring projection 177 of 2560.
+Collision-ring projection 178 of 2560.
+Collision-ring projection 179 of 2560.
+Collision-ring projection 180 of 2560.
+Collision-ring projection 181 of 2560.
+Collision-ring projection 182 of 2560.
+Collision-ring projection 183 of 2560.
+Collision-ring projection 184 of 2560.
+Collision-ring projection 185 of 2560.
+Collision-ring projection 186 of 2560.
+Collision-ring projection 187 of 2560.
+Collision-ring projection 188 of 2560.
+Collision-ring projection 189 of 2560.
+Collision-ring projection 190 of 2560.
+Collision-ring projection 191 of 2560.
+Collision-ring projection 192 of 2560.
+Collision-ring projection 193 of 2560.
+Collision-ring projection 194 of 2560.
+Collision-ring projection 195 of 2560.
+Collision-ring projection 196 of 2560.
+Collision-ring projection 197 of 2560.
+Collision-ring projection 198 of 2560.
+Collision-ring projection 199 of 2560.
+Collision-ring projection 200 of 2560.
+Collision-ring projection 201 of 2560.
+Collision-ring projection 202 of 2560.
+Collision-ring projection 203 of 2560.
+Collision-ring projection 204 of 2560.
+Collision-ring projection 205 of 2560.
+Collision-ring projection 206 of 2560.
+Collision-ring projection 207 of 2560.
+Collision-ring projection 208 of 2560.
+Collision-ring projection 209 of 2560.
+Collision-ring projection 210 of 2560.
+Collision-ring projection 211 of 2560.
+Collision-ring projection 212 of 2560.
+Collision-ring projection 213 of 2560.
+Collision-ring projection 214 of 2560.
+Collision-ring projection 215 of 2560.
+Collision-ring projection 216 of 2560.
+Collision-ring projection 217 of 2560.
+Collision-ring projection 218 of 2560.
+Collision-ring projection 219 of 2560.
+Collision-ring projection 220 of 2560.
+Collision-ring projection 221 of 2560.
+Collision-ring projection 222 of 2560.
+Collision-ring projection 223 of 2560.
+Collision-ring projection 224 of 2560.
+Collision-ring projection 225 of 2560.
+Collision-ring projection 226 of 2560.
+Collision-ring projection 227 of 2560.
+Collision-ring projection 228 of 2560.
+Collision-ring projection 229 of 2560.
+Collision-ring projection 230 of 2560.
+Collision-ring projection 231 of 2560.
+Collision-ring projection 232 of 2560.
+Collision-ring projection 233 of 2560.
+Collision-ring projection 234 of 2560.
+Collision-ring projection 235 of 2560.
+Collision-ring projection 236 of 2560.
+Collision-ring projection 237 of 2560.
+Collision-ring projection 238 of 2560.
+Collision-ring projection 239 of 2560.
+Collision-ring projection 240 of 2560.
+Collision-ring projection 241 of 2560.
+Collision-ring projection 242 of 2560.
+Collision-ring projection 243 of 2560.
+Collision-ring projection 244 of 2560.
+Collision-ring projection 245 of 2560.
+Collision-ring projection 246 of 2560.
+Collision-ring projection 247 of 2560.
+Collision-ring projection 248 of 2560.
+Collision-ring projection 249 of 2560.
+Collision-ring projection 250 of 2560.
+Collision-ring projection 251 of 2560.
+Collision-ring projection 252 of 2560.
+Collision-ring projection 253 of 2560.
+Collision-ring projection 254 of 2560.
+Collision-ring projection 255 of 2560.
+Collision-ring projection 256 of 2560.
+Collision-ring projection 257 of 2560.
+Collision-ring projection 258 of 2560.
+Collision-ring projection 259 of 2560.
+Collision-ring projection 260 of 2560.
+Collision-ring projection 261 of 2560.
+Collision-ring projection 262 of 2560.
+Collision-ring projection 263 of 2560.
+Collision-ring projection 264 of 2560.
+Collision-ring projection 265 of 2560.
+Collision-ring projection 266 of 2560.
+Collision-ring projection 267 of 2560.
+Collision-ring projection 268 of 2560.
+Collision-ring projection 269 of 2560.
+Collision-ring projection 270 of 2560.
+Collision-ring projection 271 of 2560.
+Collision-ring projection 272 of 2560.
+Collision-ring projection 273 of 2560.
+Collision-ring projection 274 of 2560.
+Collision-ring projection 275 of 2560.
+Collision-ring projection 276 of 2560.
+Collision-ring projection 277 of 2560.
+Collision-ring projection 278 of 2560.
+Collision-ring projection 279 of 2560.
+Collision-ring projection 280 of 2560.
+Collision-ring projection 281 of 2560.
+Collision-ring projection 282 of 2560.
+Collision-ring projection 283 of 2560.
+Collision-ring projection 284 of 2560.
+Collision-ring projection 285 of 2560.
+Collision-ring projection 286 of 2560.
+Collision-ring projection 287 of 2560.
+Collision-ring projection 288 of 2560.
+Collision-ring projection 289 of 2560.
+Collision-ring projection 290 of 2560.
+Collision-ring projection 291 of 2560.
+Collision-ring projection 292 of 2560.
+Collision-ring projection 293 of 2560.
+Collision-ring projection 294 of 2560.
+Collision-ring projection 295 of 2560.
+Collision-ring projection 296 of 2560.
+Collision-ring projection 297 of 2560.
+Collision-ring projection 298 of 2560.
+Collision-ring projection 299 of 2560.
+Collision-ring projection 300 of 2560.
+Collision-ring projection 301 of 2560.
+Collision-ring projection 302 of 2560.
+Collision-ring projection 303 of 2560.
+Collision-ring projection 304 of 2560.
+Collision-ring projection 305 of 2560.
+Collision-ring projection 306 of 2560.
+Collision-ring projection 307 of 2560.
+Collision-ring projection 308 of 2560.
+Collision-ring projection 309 of 2560.
+Collision-ring projection 310 of 2560.
+Collision-ring projection 311 of 2560.
+Collision-ring projection 312 of 2560.
+Collision-ring projection 313 of 2560.
+Collision-ring projection 314 of 2560.
+Collision-ring projection 315 of 2560.
+Collision-ring projection 316 of 2560.
+Collision-ring projection 317 of 2560.
+Collision-ring projection 318 of 2560.
+Collision-ring projection 319 of 2560.
+Collision-ring projection 320 of 2560.
+Collision-ring projection 321 of 2560.
+Collision-ring projection 322 of 2560.
+Collision-ring projection 323 of 2560.
+Collision-ring projection 324 of 2560.
+Collision-ring projection 325 of 2560.
+Collision-ring projection 326 of 2560.
+Collision-ring projection 327 of 2560.
+Collision-ring projection 328 of 2560.
+Collision-ring projection 329 of 2560.
+Collision-ring projection 330 of 2560.
+Collision-ring projection 331 of 2560.
+Collision-ring projection 332 of 2560.
+Collision-ring projection 333 of 2560.
+Collision-ring projection 334 of 2560.
+Collision-ring projection 335 of 2560.
+Collision-ring projection 336 of 2560.
+Collision-ring projection 337 of 2560.
+Collision-ring projection 338 of 2560.
+Collision-ring projection 339 of 2560.
+Collision-ring projection 340 of 2560.
+Collision-ring projection 341 of 2560.
+Collision-ring projection 342 of 2560.
+Collision-ring projection 343 of 2560.
+Collision-ring projection 344 of 2560.
+Collision-ring projection 345 of 2560.
+Collision-ring projection 346 of 2560.
+Collision-ring projection 347 of 2560.
+Collision-ring projection 348 of 2560.
+Collision-ring projection 349 of 2560.
+Collision-ring projection 350 of 2560.
+Collision-ring projection 351 of 2560.
+Collision-ring projection 352 of 2560.
+Collision-ring projection 353 of 2560.
+Collision-ring projection 354 of 2560.
+Collision-ring projection 355 of 2560.
+Collision-ring projection 356 of 2560.
+Collision-ring projection 357 of 2560.
+Collision-ring projection 358 of 2560.
+Collision-ring projection 359 of 2560.
+Collision-ring projection 360 of 2560.
+Collision-ring projection 361 of 2560.
+Collision-ring projection 362 of 2560.
+Collision-ring projection 363 of 2560.
+Collision-ring projection 364 of 2560.
+Collision-ring projection 365 of 2560.
+Collision-ring projection 366 of 2560.
+Collision-ring projection 367 of 2560.
+Collision-ring projection 368 of 2560.
+Collision-ring projection 369 of 2560.
+Collision-ring projection 370 of 2560.
+Collision-ring projection 371 of 2560.
+Collision-ring projection 372 of 2560.
+Collision-ring projection 373 of 2560.
+Collision-ring projection 374 of 2560.
+Collision-ring projection 375 of 2560.
+Collision-ring projection 376 of 2560.
+Collision-ring projection 377 of 2560.
+Collision-ring projection 378 of 2560.
+Collision-ring projection 379 of 2560.
+Collision-ring projection 380 of 2560.
+Collision-ring projection 381 of 2560.
+Collision-ring projection 382 of 2560.
+Collision-ring projection 383 of 2560.
+Collision-ring projection 384 of 2560.
+Collision-ring projection 385 of 2560.
+Collision-ring projection 386 of 2560.
+Collision-ring projection 387 of 2560.
+Collision-ring projection 388 of 2560.
+Collision-ring projection 389 of 2560.
+Collision-ring projection 390 of 2560.
+Collision-ring projection 391 of 2560.
+Collision-ring projection 392 of 2560.
+Collision-ring projection 393 of 2560.
+Collision-ring projection 394 of 2560.
+Collision-ring projection 395 of 2560.
+Collision-ring projection 396 of 2560.
+Collision-ring projection 397 of 2560.
+Collision-ring projection 398 of 2560.
+Collision-ring projection 399 of 2560.
+Collision-ring projection 400 of 2560.
+Collision-ring projection 401 of 2560.
+Collision-ring projection 402 of 2560.
+Collision-ring projection 403 of 2560.
+Collision-ring projection 404 of 2560.
+Collision-ring projection 405 of 2560.
+Collision-ring projection 406 of 2560.
+Collision-ring projection 407 of 2560.
+Collision-ring projection 408 of 2560.
+Collision-ring projection 409 of 2560.
+Collision-ring projection 410 of 2560.
+Collision-ring projection 411 of 2560.
+Collision-ring projection 412 of 2560.
+Collision-ring projection 413 of 2560.
+Collision-ring projection 414 of 2560.
+Collision-ring projection 415 of 2560.
+Collision-ring projection 416 of 2560.
+Collision-ring projection 417 of 2560.
+Collision-ring projection 418 of 2560.
+Collision-ring projection 419 of 2560.
+Collision-ring projection 420 of 2560.
+Collision-ring projection 421 of 2560.
+Collision-ring projection 422 of 2560.
+Collision-ring projection 423 of 2560.
+Collision-ring projection 424 of 2560.
+Collision-ring projection 425 of 2560.
+Collision-ring projection 426 of 2560.
+Collision-ring projection 427 of 2560.
+Collision-ring projection 428 of 2560.
+Collision-ring projection 429 of 2560.
+Collision-ring projection 430 of 2560.
+Collision-ring projection 431 of 2560.
+Collision-ring projection 432 of 2560.
+Collision-ring projection 433 of 2560.
+Collision-ring projection 434 of 2560.
+Collision-ring projection 435 of 2560.
+Collision-ring projection 436 of 2560.
+Collision-ring projection 437 of 2560.
+Collision-ring projection 438 of 2560.
+Collision-ring projection 439 of 2560.
+Collision-ring projection 440 of 2560.
+Collision-ring projection 441 of 2560.
+Collision-ring projection 442 of 2560.
+Collision-ring projection 443 of 2560.
+Collision-ring projection 444 of 2560.
+Collision-ring projection 445 of 2560.
+Collision-ring projection 446 of 2560.
+Collision-ring projection 447 of 2560.
+Collision-ring projection 448 of 2560.
+Collision-ring projection 449 of 2560.
+Collision-ring projection 450 of 2560.
+Collision-ring projection 451 of 2560.
+Collision-ring projection 452 of 2560.
+Collision-ring projection 453 of 2560.
+Collision-ring projection 454 of 2560.
+Collision-ring projection 455 of 2560.
+Collision-ring projection 456 of 2560.
+Collision-ring projection 457 of 2560.
+Collision-ring projection 458 of 2560.
+Collision-ring projection 459 of 2560.
+Collision-ring projection 460 of 2560.
+Collision-ring projection 461 of 2560.
+Collision-ring projection 462 of 2560.
+Collision-ring projection 463 of 2560.
+Collision-ring projection 464 of 2560.
+Collision-ring projection 465 of 2560.
+Collision-ring projection 466 of 2560.
+Collision-ring projection 467 of 2560.
+Collision-ring projection 468 of 2560.
+Collision-ring projection 469 of 2560.
+Collision-ring projection 470 of 2560.
+Collision-ring projection 471 of 2560.
+Collision-ring projection 472 of 2560.
+Collision-ring projection 473 of 2560.
+Collision-ring projection 474 of 2560.
+Collision-ring projection 475 of 2560.
+Collision-ring projection 476 of 2560.
+Collision-ring projection 477 of 2560.
+Collision-ring projection 478 of 2560.
+Collision-ring projection 479 of 2560.
+Collision-ring projection 480 of 2560.
+Collision-ring projection 481 of 2560.
+Collision-ring projection 482 of 2560.
+Collision-ring projection 483 of 2560.
+Collision-ring projection 484 of 2560.
+Collision-ring projection 485 of 2560.
+Collision-ring projection 486 of 2560.
+Collision-ring projection 487 of 2560.
+Collision-ring projection 488 of 2560.
+Collision-ring projection 489 of 2560.
+Collision-ring projection 490 of 2560.
+Collision-ring projection 491 of 2560.
+Collision-ring projection 492 of 2560.
+Collision-ring projection 493 of 2560.
+Collision-ring projection 494 of 2560.
+Collision-ring projection 495 of 2560.
+Collision-ring projection 496 of 2560.
+Collision-ring projection 497 of 2560.
+Collision-ring projection 498 of 2560.
+Collision-ring projection 499 of 2560.
+Collision-ring projection 500 of 2560.
+Collision-ring projection 501 of 2560.
+Collision-ring projection 502 of 2560.
+Collision-ring projection 503 of 2560.
+Collision-ring projection 504 of 2560.
+Collision-ring projection 505 of 2560.
+Collision-ring projection 506 of 2560.
+Collision-ring projection 507 of 2560.
+Collision-ring projection 508 of 2560.
+Collision-ring projection 509 of 2560.
+Collision-ring projection 510 of 2560.
+Collision-ring projection 511 of 2560.
+Collision-ring projection 512 of 2560.
+Collision-ring projection 513 of 2560.
+Collision-ring projection 514 of 2560.
+Collision-ring projection 515 of 2560.
+Collision-ring projection 516 of 2560.
+Collision-ring projection 517 of 2560.
+Collision-ring projection 518 of 2560.
+Collision-ring projection 519 of 2560.
+Collision-ring projection 520 of 2560.
+Collision-ring projection 521 of 2560.
+Collision-ring projection 522 of 2560.
+Collision-ring projection 523 of 2560.
+Collision-ring projection 524 of 2560.
+Collision-ring projection 525 of 2560.
+Collision-ring projection 526 of 2560.
+Collision-ring projection 527 of 2560.
+Collision-ring projection 528 of 2560.
+Collision-ring projection 529 of 2560.
+Collision-ring projection 530 of 2560.
+Collision-ring projection 531 of 2560.
+Collision-ring projection 532 of 2560.
+Collision-ring projection 533 of 2560.
+Collision-ring projection 534 of 2560.
+Collision-ring projection 535 of 2560.
+Collision-ring projection 536 of 2560.
+Collision-ring projection 537 of 2560.
+Collision-ring projection 538 of 2560.
+Collision-ring projection 539 of 2560.
+Collision-ring projection 540 of 2560.
+Collision-ring projection 541 of 2560.
+Collision-ring projection 542 of 2560.
+Collision-ring projection 543 of 2560.
+Collision-ring projection 544 of 2560.
+Collision-ring projection 545 of 2560.
+Collision-ring projection 546 of 2560.
+Collision-ring projection 547 of 2560.
+Collision-ring projection 548 of 2560.
+Collision-ring projection 549 of 2560.
+Collision-ring projection 550 of 2560.
+Collision-ring projection 551 of 2560.
+Collision-ring projection 552 of 2560.
+Collision-ring projection 553 of 2560.
+Collision-ring projection 554 of 2560.
+Collision-ring projection 555 of 2560.
+Collision-ring projection 556 of 2560.
+Collision-ring projection 557 of 2560.
+Collision-ring projection 558 of 2560.
+Collision-ring projection 559 of 2560.
+Collision-ring projection 560 of 2560.
+Collision-ring projection 561 of 2560.
+Collision-ring projection 562 of 2560.
+Collision-ring projection 563 of 2560.
+Collision-ring projection 564 of 2560.
+Collision-ring projection 565 of 2560.
+Collision-ring projection 566 of 2560.
+Collision-ring projection 567 of 2560.
+Collision-ring projection 568 of 2560.
+Collision-ring projection 569 of 2560.
+Collision-ring projection 570 of 2560.
+Collision-ring projection 571 of 2560.
+Collision-ring projection 572 of 2560.
+Collision-ring projection 573 of 2560.
+Collision-ring projection 574 of 2560.
+Collision-ring projection 575 of 2560.
+Collision-ring projection 576 of 2560.
+Collision-ring projection 577 of 2560.
+Collision-ring projection 578 of 2560.
+Collision-ring projection 579 of 2560.
+Collision-ring projection 580 of 2560.
+Collision-ring projection 581 of 2560.
+Collision-ring projection 582 of 2560.
+Collision-ring projection 583 of 2560.
+Collision-ring projection 584 of 2560.
+Collision-ring projection 585 of 2560.
+Collision-ring projection 586 of 2560.
+Collision-ring projection 587 of 2560.
+Collision-ring projection 588 of 2560.
+Collision-ring projection 589 of 2560.
+Collision-ring projection 590 of 2560.
+Collision-ring projection 591 of 2560.
+Collision-ring projection 592 of 2560.
+Collision-ring projection 593 of 2560.
+Collision-ring projection 594 of 2560.
+Collision-ring projection 595 of 2560.
+Collision-ring projection 596 of 2560.
+Collision-ring projection 597 of 2560.
+Collision-ring projection 598 of 2560.
+Collision-ring projection 599 of 2560.
+Collision-ring projection 600 of 2560.
+Collision-ring projection 601 of 2560.
+Collision-ring projection 602 of 2560.
+Collision-ring projection 603 of 2560.
+Collision-ring projection 604 of 2560.
+Collision-ring projection 605 of 2560.
+Collision-ring projection 606 of 2560.
+Collision-ring projection 607 of 2560.
+Collision-ring projection 608 of 2560.
+Collision-ring projection 609 of 2560.
+Collision-ring projection 610 of 2560.
+Collision-ring projection 611 of 2560.
+Collision-ring projection 612 of 2560.
+Collision-ring projection 613 of 2560.
+Collision-ring projection 614 of 2560.
+Collision-ring projection 615 of 2560.
+Collision-ring projection 616 of 2560.
+Collision-ring projection 617 of 2560.
+Collision-ring projection 618 of 2560.
+Collision-ring projection 619 of 2560.
+Collision-ring projection 620 of 2560.
+Collision-ring projection 621 of 2560.
+Collision-ring projection 622 of 2560.
+Collision-ring projection 623 of 2560.
+Collision-ring projection 624 of 2560.
+Collision-ring projection 625 of 2560.
+Collision-ring projection 626 of 2560.
+Collision-ring projection 627 of 2560.
+Collision-ring projection 628 of 2560.
+Collision-ring projection 629 of 2560.
+Collision-ring projection 630 of 2560.
+Collision-ring projection 631 of 2560.
+Collision-ring projection 632 of 2560.
+Collision-ring projection 633 of 2560.
+Collision-ring projection 634 of 2560.
+Collision-ring projection 635 of 2560.
+Collision-ring projection 636 of 2560.
+Collision-ring projection 637 of 2560.
+Collision-ring projection 638 of 2560.
+Collision-ring projection 639 of 2560.
+Collision-ring projection 640 of 2560.
+Collision-ring projection 641 of 2560.
+Collision-ring projection 642 of 2560.
+Collision-ring projection 643 of 2560.
+Collision-ring projection 644 of 2560.
+Collision-ring projection 645 of 2560.
+Collision-ring projection 646 of 2560.
+Collision-ring projection 647 of 2560.
+Collision-ring projection 648 of 2560.
+Collision-ring projection 649 of 2560.
+Collision-ring projection 650 of 2560.
+Collision-ring projection 651 of 2560.
+Collision-ring projection 652 of 2560.
+Collision-ring projection 653 of 2560.
+Collision-ring projection 654 of 2560.
+Collision-ring projection 655 of 2560.
+Collision-ring projection 656 of 2560.
+Collision-ring projection 657 of 2560.
+Collision-ring projection 658 of 2560.
+Collision-ring projection 659 of 2560.
+Collision-ring projection 660 of 2560.
+Collision-ring projection 661 of 2560.
+Collision-ring projection 662 of 2560.
+Collision-ring projection 663 of 2560.
+Collision-ring projection 664 of 2560.
+Collision-ring projection 665 of 2560.
+Collision-ring projection 666 of 2560.
+Collision-ring projection 667 of 2560.
+Collision-ring projection 668 of 2560.
+Collision-ring projection 669 of 2560.
+Collision-ring projection 670 of 2560.
+Collision-ring projection 671 of 2560.
+Collision-ring projection 672 of 2560.
+Collision-ring projection 673 of 2560.
+Collision-ring projection 674 of 2560.
+Collision-ring projection 675 of 2560.
+Collision-ring projection 676 of 2560.
+Collision-ring projection 677 of 2560.
+Collision-ring projection 678 of 2560.
+Collision-ring projection 679 of 2560.
+Collision-ring projection 680 of 2560.
+Collision-ring projection 681 of 2560.
+Collision-ring projection 682 of 2560.
+Collision-ring projection 683 of 2560.
+Collision-ring projection 684 of 2560.
+Collision-ring projection 685 of 2560.
+Collision-ring projection 686 of 2560.
+Collision-ring projection 687 of 2560.
+Collision-ring projection 688 of 2560.
+Collision-ring projection 689 of 2560.
+Collision-ring projection 690 of 2560.
+Collision-ring projection 691 of 2560.
+Collision-ring projection 692 of 2560.
+Collision-ring projection 693 of 2560.
+Collision-ring projection 694 of 2560.
+Collision-ring projection 695 of 2560.
+Collision-ring projection 696 of 2560.
+Collision-ring projection 697 of 2560.
+Collision-ring projection 698 of 2560.
+Collision-ring projection 699 of 2560.
+Collision-ring projection 700 of 2560.
+Collision-ring projection 701 of 2560.
+Collision-ring projection 702 of 2560.
+Collision-ring projection 703 of 2560.
+Collision-ring projection 704 of 2560.
+Collision-ring projection 705 of 2560.
+Collision-ring projection 706 of 2560.
+Collision-ring projection 707 of 2560.
+Collision-ring projection 708 of 2560.
+Collision-ring projection 709 of 2560.
+Collision-ring projection 710 of 2560.
+Collision-ring projection 711 of 2560.
+Collision-ring projection 712 of 2560.
+Collision-ring projection 713 of 2560.
+Collision-ring projection 714 of 2560.
+Collision-ring projection 715 of 2560.
+Collision-ring projection 716 of 2560.
+Collision-ring projection 717 of 2560.
+Collision-ring projection 718 of 2560.
+Collision-ring projection 719 of 2560.
+Collision-ring projection 720 of 2560.
+Collision-ring projection 721 of 2560.
+Collision-ring projection 722 of 2560.
+Collision-ring projection 723 of 2560.
+Collision-ring projection 724 of 2560.
+Collision-ring projection 725 of 2560.
+Collision-ring projection 726 of 2560.
+Collision-ring projection 727 of 2560.
+Collision-ring projection 728 of 2560.
+Collision-ring projection 729 of 2560.
+Collision-ring projection 730 of 2560.
+Collision-ring projection 731 of 2560.
+Collision-ring projection 732 of 2560.
+Collision-ring projection 733 of 2560.
+Collision-ring projection 734 of 2560.
+Collision-ring projection 735 of 2560.
+Collision-ring projection 736 of 2560.
+Collision-ring projection 737 of 2560.
+Collision-ring projection 738 of 2560.
+Collision-ring projection 739 of 2560.
+Collision-ring projection 740 of 2560.
+Collision-ring projection 741 of 2560.
+Collision-ring projection 742 of 2560.
+Collision-ring projection 743 of 2560.
+Collision-ring projection 744 of 2560.
+Collision-ring projection 745 of 2560.
+Collision-ring projection 746 of 2560.
+Collision-ring projection 747 of 2560.
+Collision-ring projection 748 of 2560.
+Collision-ring projection 749 of 2560.
+Collision-ring projection 750 of 2560.
+Collision-ring projection 751 of 2560.
+Collision-ring projection 752 of 2560.
+Collision-ring projection 753 of 2560.
+Collision-ring projection 754 of 2560.
+Collision-ring projection 755 of 2560.
+Collision-ring projection 756 of 2560.
+Collision-ring projection 757 of 2560.
+Collision-ring projection 758 of 2560.
+Collision-ring projection 759 of 2560.
+Collision-ring projection 760 of 2560.
+Collision-ring projection 761 of 2560.
+Collision-ring projection 762 of 2560.
+Collision-ring projection 763 of 2560.
+Collision-ring projection 764 of 2560.
+Collision-ring projection 765 of 2560.
+Collision-ring projection 766 of 2560.
+Collision-ring projection 767 of 2560.
+Collision-ring projection 768 of 2560.
+Collision-ring projection 769 of 2560.
+Collision-ring projection 770 of 2560.
+Collision-ring projection 771 of 2560.
+Collision-ring projection 772 of 2560.
+Collision-ring projection 773 of 2560.
+Collision-ring projection 774 of 2560.
+Collision-ring projection 775 of 2560.
+Collision-ring projection 776 of 2560.
+Collision-ring projection 777 of 2560.
+Collision-ring projection 778 of 2560.
+Collision-ring projection 779 of 2560.
+Collision-ring projection 780 of 2560.
+Collision-ring projection 781 of 2560.
+Collision-ring projection 782 of 2560.
+Collision-ring projection 783 of 2560.
+Collision-ring projection 784 of 2560.
+Collision-ring projection 785 of 2560.
+Collision-ring projection 786 of 2560.
+Collision-ring projection 787 of 2560.
+Collision-ring projection 788 of 2560.
+Collision-ring projection 789 of 2560.
+Collision-ring projection 790 of 2560.
+Collision-ring projection 791 of 2560.
+Collision-ring projection 792 of 2560.
+Collision-ring projection 793 of 2560.
+Collision-ring projection 794 of 2560.
+Collision-ring projection 795 of 2560.
+Collision-ring projection 796 of 2560.
+Collision-ring projection 797 of 2560.
+Collision-ring projection 798 of 2560.
+Collision-ring projection 799 of 2560.
+Collision-ring projection 800 of 2560.
+Collision-ring projection 801 of 2560.
+Collision-ring projection 802 of 2560.
+Collision-ring projection 803 of 2560.
+Collision-ring projection 804 of 2560.
+Collision-ring projection 805 of 2560.
+Collision-ring projection 806 of 2560.
+Collision-ring projection 807 of 2560.
+Collision-ring projection 808 of 2560.
+Collision-ring projection 809 of 2560.
+Collision-ring projection 810 of 2560.
+Collision-ring projection 811 of 2560.
+Collision-ring projection 812 of 2560.
+Collision-ring projection 813 of 2560.
+Collision-ring projection 814 of 2560.
+Collision-ring projection 815 of 2560.
+Collision-ring projection 816 of 2560.
+Collision-ring projection 817 of 2560.
+Collision-ring projection 818 of 2560.
+Collision-ring projection 819 of 2560.
+Collision-ring projection 820 of 2560.
+Collision-ring projection 821 of 2560.
+Collision-ring projection 822 of 2560.
+Collision-ring projection 823 of 2560.
+Collision-ring projection 824 of 2560.
+Collision-ring projection 825 of 2560.
+Collision-ring projection 826 of 2560.
+Collision-ring projection 827 of 2560.
+Collision-ring projection 828 of 2560.
+Collision-ring projection 829 of 2560.
+Collision-ring projection 830 of 2560.
+Collision-ring projection 831 of 2560.
+Collision-ring projection 832 of 2560.
+Collision-ring projection 833 of 2560.
+Collision-ring projection 834 of 2560.
+Collision-ring projection 835 of 2560.
+Collision-ring projection 836 of 2560.
+Collision-ring projection 837 of 2560.
+Collision-ring projection 838 of 2560.
+Collision-ring projection 839 of 2560.
+Collision-ring projection 840 of 2560.
+Collision-ring projection 841 of 2560.
+Collision-ring projection 842 of 2560.
+Collision-ring projection 843 of 2560.
+Collision-ring projection 844 of 2560.
+Collision-ring projection 845 of 2560.
+Collision-ring projection 846 of 2560.
+Collision-ring projection 847 of 2560.
+Collision-ring projection 848 of 2560.
+Collision-ring projection 849 of 2560.
+Collision-ring projection 850 of 2560.
+Collision-ring projection 851 of 2560.
+Collision-ring projection 852 of 2560.
+Collision-ring projection 853 of 2560.
+Collision-ring projection 854 of 2560.
+Collision-ring projection 855 of 2560.
+Collision-ring projection 856 of 2560.
+Collision-ring projection 857 of 2560.
+Collision-ring projection 858 of 2560.
+Collision-ring projection 859 of 2560.
+Collision-ring projection 860 of 2560.
+Collision-ring projection 861 of 2560.
+Collision-ring projection 862 of 2560.
+Collision-ring projection 863 of 2560.
+Collision-ring projection 864 of 2560.
+Collision-ring projection 865 of 2560.
+Collision-ring projection 866 of 2560.
+Collision-ring projection 867 of 2560.
+Collision-ring projection 868 of 2560.
+Collision-ring projection 869 of 2560.
+Collision-ring projection 870 of 2560.
+Collision-ring projection 871 of 2560.
+Collision-ring projection 872 of 2560.
+Collision-ring projection 873 of 2560.
+Collision-ring projection 874 of 2560.
+Collision-ring projection 875 of 2560.
+Collision-ring projection 876 of 2560.
+Collision-ring projection 877 of 2560.
+Collision-ring projection 878 of 2560.
+Collision-ring projection 879 of 2560.
+Collision-ring projection 880 of 2560.
+Collision-ring projection 881 of 2560.
+Collision-ring projection 882 of 2560.
+Collision-ring projection 883 of 2560.
+Collision-ring projection 884 of 2560.
+Collision-ring projection 885 of 2560.
+Collision-ring projection 886 of 2560.
+Collision-ring projection 887 of 2560.
+Collision-ring projection 888 of 2560.
+Collision-ring projection 889 of 2560.
+Collision-ring projection 890 of 2560.
+Collision-ring projection 891 of 2560.
+Collision-ring projection 892 of 2560.
+Collision-ring projection 893 of 2560.
+Collision-ring projection 894 of 2560.
+Collision-ring projection 895 of 2560.
+Collision-ring projection 896 of 2560.
+Collision-ring projection 897 of 2560.
+Collision-ring projection 898 of 2560.
+Collision-ring projection 899 of 2560.
+Collision-ring projection 900 of 2560.
+Collision-ring projection 901 of 2560.
+Collision-ring projection 902 of 2560.
+Collision-ring projection 903 of 2560.
+Collision-ring projection 904 of 2560.
+Collision-ring projection 905 of 2560.
+Collision-ring projection 906 of 2560.
+Collision-ring projection 907 of 2560.
+Collision-ring projection 908 of 2560.
+Collision-ring projection 909 of 2560.
+Collision-ring projection 910 of 2560.
+Collision-ring projection 911 of 2560.
+Collision-ring projection 912 of 2560.
+Collision-ring projection 913 of 2560.
+Collision-ring projection 914 of 2560.
+Collision-ring projection 915 of 2560.
+Collision-ring projection 916 of 2560.
+Collision-ring projection 917 of 2560.
+Collision-ring projection 918 of 2560.
+Collision-ring projection 919 of 2560.
+Collision-ring projection 920 of 2560.
+Collision-ring projection 921 of 2560.
+Collision-ring projection 922 of 2560.
+Collision-ring projection 923 of 2560.
+Collision-ring projection 924 of 2560.
+Collision-ring projection 925 of 2560.
+Collision-ring projection 926 of 2560.
+Collision-ring projection 927 of 2560.
+Collision-ring projection 928 of 2560.
+Collision-ring projection 929 of 2560.
+Collision-ring projection 930 of 2560.
+Collision-ring projection 931 of 2560.
+Collision-ring projection 932 of 2560.
+Collision-ring projection 933 of 2560.
+Collision-ring projection 934 of 2560.
+Collision-ring projection 935 of 2560.
+Collision-ring projection 936 of 2560.
+Collision-ring projection 937 of 2560.
+Collision-ring projection 938 of 2560.
+Collision-ring projection 939 of 2560.
+Collision-ring projection 940 of 2560.
+Collision-ring projection 941 of 2560.
+Collision-ring projection 942 of 2560.
+Collision-ring projection 943 of 2560.
+Collision-ring projection 944 of 2560.
+Collision-ring projection 945 of 2560.
+Collision-ring projection 946 of 2560.
+Collision-ring projection 947 of 2560.
+Collision-ring projection 948 of 2560.
+Collision-ring projection 949 of 2560.
+Collision-ring projection 950 of 2560.
+Collision-ring projection 951 of 2560.
+Collision-ring projection 952 of 2560.
+Collision-ring projection 953 of 2560.
+Collision-ring projection 954 of 2560.
+Collision-ring projection 955 of 2560.
+Collision-ring projection 956 of 2560.
+Collision-ring projection 957 of 2560.
+Collision-ring projection 958 of 2560.
+Collision-ring projection 959 of 2560.
+Collision-ring projection 960 of 2560.
+Collision-ring projection 961 of 2560.
+Collision-ring projection 962 of 2560.
+Collision-ring projection 963 of 2560.
+Collision-ring projection 964 of 2560.
+Collision-ring projection 965 of 2560.
+Collision-ring projection 966 of 2560.
+Collision-ring projection 967 of 2560.
+Collision-ring projection 968 of 2560.
+Collision-ring projection 969 of 2560.
+Collision-ring projection 970 of 2560.
+Collision-ring projection 971 of 2560.
+Collision-ring projection 972 of 2560.
+Collision-ring projection 973 of 2560.
+Collision-ring projection 974 of 2560.
+Collision-ring projection 975 of 2560.
+Collision-ring projection 976 of 2560.
+Collision-ring projection 977 of 2560.
+Collision-ring projection 978 of 2560.
+Collision-ring projection 979 of 2560.
+Collision-ring projection 980 of 2560.
+Collision-ring projection 981 of 2560.
+Collision-ring projection 982 of 2560.
+Collision-ring projection 983 of 2560.
+Collision-ring projection 984 of 2560.
+Collision-ring projection 985 of 2560.
+Collision-ring projection 986 of 2560.
+Collision-ring projection 987 of 2560.
+Collision-ring projection 988 of 2560.
+Collision-ring projection 989 of 2560.
+Collision-ring projection 990 of 2560.
+Collision-ring projection 991 of 2560.
+Collision-ring projection 992 of 2560.
+Collision-ring projection 993 of 2560.
+Collision-ring projection 994 of 2560.
+Collision-ring projection 995 of 2560.
+Collision-ring projection 996 of 2560.
+Collision-ring projection 997 of 2560.
+Collision-ring projection 998 of 2560.
+Collision-ring projection 999 of 2560.
+Collision-ring projection 1000 of 2560.
+Collision-ring projection 1001 of 2560.
+Collision-ring projection 1002 of 2560.
+Collision-ring projection 1003 of 2560.
+Collision-ring projection 1004 of 2560.
+Collision-ring projection 1005 of 2560.
+Collision-ring projection 1006 of 2560.
+Collision-ring projection 1007 of 2560.
+Collision-ring projection 1008 of 2560.
+Collision-ring projection 1009 of 2560.
+Collision-ring projection 1010 of 2560.
+Collision-ring projection 1011 of 2560.
+Collision-ring projection 1012 of 2560.
+Collision-ring projection 1013 of 2560.
+Collision-ring projection 1014 of 2560.
+Collision-ring projection 1015 of 2560.
+Collision-ring projection 1016 of 2560.
+Collision-ring projection 1017 of 2560.
+Collision-ring projection 1018 of 2560.
+Collision-ring projection 1019 of 2560.
+Collision-ring projection 1020 of 2560.
+Collision-ring projection 1021 of 2560.
+Collision-ring projection 1022 of 2560.
+Collision-ring projection 1023 of 2560.
+Collision-ring projection 1024 of 2560.
+Collision-ring projection 1025 of 2560.
+Collision-ring projection 1026 of 2560.
+Collision-ring projection 1027 of 2560.
+Collision-ring projection 1028 of 2560.
+Collision-ring projection 1029 of 2560.
+Collision-ring projection 1030 of 2560.
+Collision-ring projection 1031 of 2560.
+Collision-ring projection 1032 of 2560.
+Collision-ring projection 1033 of 2560.
+Collision-ring projection 1034 of 2560.
+Collision-ring projection 1035 of 2560.
+Collision-ring projection 1036 of 2560.
+Collision-ring projection 1037 of 2560.
+Collision-ring projection 1038 of 2560.
+Collision-ring projection 1039 of 2560.
+Collision-ring projection 1040 of 2560.
+Collision-ring projection 1041 of 2560.
+Collision-ring projection 1042 of 2560.
+Collision-ring projection 1043 of 2560.
+Collision-ring projection 1044 of 2560.
+Collision-ring projection 1045 of 2560.
+Collision-ring projection 1046 of 2560.
+Collision-ring projection 1047 of 2560.
+Collision-ring projection 1048 of 2560.
+Collision-ring projection 1049 of 2560.
+Collision-ring projection 1050 of 2560.
+Collision-ring projection 1051 of 2560.
+Collision-ring projection 1052 of 2560.
+Collision-ring projection 1053 of 2560.
+Collision-ring projection 1054 of 2560.
+Collision-ring projection 1055 of 2560.
+Collision-ring projection 1056 of 2560.
+Collision-ring projection 1057 of 2560.
+Collision-ring projection 1058 of 2560.
+Collision-ring projection 1059 of 2560.
+Collision-ring projection 1060 of 2560.
+Collision-ring projection 1061 of 2560.
+Collision-ring projection 1062 of 2560.
+Collision-ring projection 1063 of 2560.
+Collision-ring projection 1064 of 2560.
+Collision-ring projection 1065 of 2560.
+Collision-ring projection 1066 of 2560.
+Collision-ring projection 1067 of 2560.
+Collision-ring projection 1068 of 2560.
+Collision-ring projection 1069 of 2560.
+Collision-ring projection 1070 of 2560.
+Collision-ring projection 1071 of 2560.
+Collision-ring projection 1072 of 2560.
+Collision-ring projection 1073 of 2560.
+Collision-ring projection 1074 of 2560.
+Collision-ring projection 1075 of 2560.
+Collision-ring projection 1076 of 2560.
+Collision-ring projection 1077 of 2560.
+Collision-ring projection 1078 of 2560.
+Collision-ring projection 1079 of 2560.
+Collision-ring projection 1080 of 2560.
+Collision-ring projection 1081 of 2560.
+Collision-ring projection 1082 of 2560.
+Collision-ring projection 1083 of 2560.
+Collision-ring projection 1084 of 2560.
+Collision-ring projection 1085 of 2560.
+Collision-ring projection 1086 of 2560.
+Collision-ring projection 1087 of 2560.
+Collision-ring projection 1088 of 2560.
+Collision-ring projection 1089 of 2560.
+Collision-ring projection 1090 of 2560.
+Collision-ring projection 1091 of 2560.
+Collision-ring projection 1092 of 2560.
+Collision-ring projection 1093 of 2560.
+Collision-ring projection 1094 of 2560.
+Collision-ring projection 1095 of 2560.
+Collision-ring projection 1096 of 2560.
+Collision-ring projection 1097 of 2560.
+Collision-ring projection 1098 of 2560.
+Collision-ring projection 1099 of 2560.
+Collision-ring projection 1100 of 2560.
+Collision-ring projection 1101 of 2560.
+Collision-ring projection 1102 of 2560.
+Collision-ring projection 1103 of 2560.
+Collision-ring projection 1104 of 2560.
+Collision-ring projection 1105 of 2560.
+Collision-ring projection 1106 of 2560.
+Collision-ring projection 1107 of 2560.
+Collision-ring projection 1108 of 2560.
+Collision-ring projection 1109 of 2560.
+Collision-ring projection 1110 of 2560.
+Collision-ring projection 1111 of 2560.
+Collision-ring projection 1112 of 2560.
+Collision-ring projection 1113 of 2560.
+Collision-ring projection 1114 of 2560.
+Collision-ring projection 1115 of 2560.
+Collision-ring projection 1116 of 2560.
+Collision-ring projection 1117 of 2560.
+Collision-ring projection 1118 of 2560.
+Collision-ring projection 1119 of 2560.
+Collision-ring projection 1120 of 2560.
+Collision-ring projection 1121 of 2560.
+Collision-ring projection 1122 of 2560.
+Collision-ring projection 1123 of 2560.
+Collision-ring projection 1124 of 2560.
+Collision-ring projection 1125 of 2560.
+Collision-ring projection 1126 of 2560.
+Collision-ring projection 1127 of 2560.
+Collision-ring projection 1128 of 2560.
+Collision-ring projection 1129 of 2560.
+Collision-ring projection 1130 of 2560.
+Collision-ring projection 1131 of 2560.
+Collision-ring projection 1132 of 2560.
+Collision-ring projection 1133 of 2560.
+Collision-ring projection 1134 of 2560.
+Collision-ring projection 1135 of 2560.
+Collision-ring projection 1136 of 2560.
+Collision-ring projection 1137 of 2560.
+Collision-ring projection 1138 of 2560.
+Collision-ring projection 1139 of 2560.
+Collision-ring projection 1140 of 2560.
+Collision-ring projection 1141 of 2560.
+Collision-ring projection 1142 of 2560.
+Collision-ring projection 1143 of 2560.
+Collision-ring projection 1144 of 2560.
+Collision-ring projection 1145 of 2560.
+Collision-ring projection 1146 of 2560.
+Collision-ring projection 1147 of 2560.
+Collision-ring projection 1148 of 2560.
+Collision-ring projection 1149 of 2560.
+Collision-ring projection 1150 of 2560.
+Collision-ring projection 1151 of 2560.
+Collision-ring projection 1152 of 2560.
+Collision-ring projection 1153 of 2560.
+Collision-ring projection 1154 of 2560.
+Collision-ring projection 1155 of 2560.
+Collision-ring projection 1156 of 2560.
+Collision-ring projection 1157 of 2560.
+Collision-ring projection 1158 of 2560.
+Collision-ring projection 1159 of 2560.
+Collision-ring projection 1160 of 2560.
+Collision-ring projection 1161 of 2560.
+Collision-ring projection 1162 of 2560.
+Collision-ring projection 1163 of 2560.
+Collision-ring projection 1164 of 2560.
+Collision-ring projection 1165 of 2560.
+Collision-ring projection 1166 of 2560.
+Collision-ring projection 1167 of 2560.
+Collision-ring projection 1168 of 2560.
+Collision-ring projection 1169 of 2560.
+Collision-ring projection 1170 of 2560.
+Collision-ring projection 1171 of 2560.
+Collision-ring projection 1172 of 2560.
+Collision-ring projection 1173 of 2560.
+Collision-ring projection 1174 of 2560.
+Collision-ring projection 1175 of 2560.
+Collision-ring projection 1176 of 2560.
+Collision-ring projection 1177 of 2560.
+Collision-ring projection 1178 of 2560.
+Collision-ring projection 1179 of 2560.
+Collision-ring projection 1180 of 2560.
+Collision-ring projection 1181 of 2560.
+Collision-ring projection 1182 of 2560.
+Collision-ring projection 1183 of 2560.
+Collision-ring projection 1184 of 2560.
+Collision-ring projection 1185 of 2560.
+Collision-ring projection 1186 of 2560.
+Collision-ring projection 1187 of 2560.
+Collision-ring projection 1188 of 2560.
+Collision-ring projection 1189 of 2560.
+Collision-ring projection 1190 of 2560.
+Collision-ring projection 1191 of 2560.
+Collision-ring projection 1192 of 2560.
+Collision-ring projection 1193 of 2560.
+Collision-ring projection 1194 of 2560.
+Collision-ring projection 1195 of 2560.
+Collision-ring projection 1196 of 2560.
+Collision-ring projection 1197 of 2560.
+Collision-ring projection 1198 of 2560.
+Collision-ring projection 1199 of 2560.
+Collision-ring projection 1200 of 2560.
+Collision-ring projection 1201 of 2560.
+Collision-ring projection 1202 of 2560.
+Collision-ring projection 1203 of 2560.
+Collision-ring projection 1204 of 2560.
+Collision-ring projection 1205 of 2560.
+Collision-ring projection 1206 of 2560.
+Collision-ring projection 1207 of 2560.
+Collision-ring projection 1208 of 2560.
+Collision-ring projection 1209 of 2560.
+Collision-ring projection 1210 of 2560.
+Collision-ring projection 1211 of 2560.
+Collision-ring projection 1212 of 2560.
+Collision-ring projection 1213 of 2560.
+Collision-ring projection 1214 of 2560.
+Collision-ring projection 1215 of 2560.
+Collision-ring projection 1216 of 2560.
+Collision-ring projection 1217 of 2560.
+Collision-ring projection 1218 of 2560.
+Collision-ring projection 1219 of 2560.
+Collision-ring projection 1220 of 2560.
+Collision-ring projection 1221 of 2560.
+Collision-ring projection 1222 of 2560.
+Collision-ring projection 1223 of 2560.
+Collision-ring projection 1224 of 2560.
+Collision-ring projection 1225 of 2560.
+Collision-ring projection 1226 of 2560.
+Collision-ring projection 1227 of 2560.
+Collision-ring projection 1228 of 2560.
+Collision-ring projection 1229 of 2560.
+Collision-ring projection 1230 of 2560.
+Collision-ring projection 1231 of 2560.
+Collision-ring projection 1232 of 2560.
+Collision-ring projection 1233 of 2560.
+Collision-ring projection 1234 of 2560.
+Collision-ring projection 1235 of 2560.
+Collision-ring projection 1236 of 2560.
+Collision-ring projection 1237 of 2560.
+Collision-ring projection 1238 of 2560.
+Collision-ring projection 1239 of 2560.
+Collision-ring projection 1240 of 2560.
+Collision-ring projection 1241 of 2560.
+Collision-ring projection 1242 of 2560.
+Collision-ring projection 1243 of 2560.
+Collision-ring projection 1244 of 2560.
+Collision-ring projection 1245 of 2560.
+Collision-ring projection 1246 of 2560.
+Collision-ring projection 1247 of 2560.
+Collision-ring projection 1248 of 2560.
+Collision-ring projection 1249 of 2560.
+Collision-ring projection 1250 of 2560.
+Collision-ring projection 1251 of 2560.
+Collision-ring projection 1252 of 2560.
+Collision-ring projection 1253 of 2560.
+Collision-ring projection 1254 of 2560.
+Collision-ring projection 1255 of 2560.
+Collision-ring projection 1256 of 2560.
+Collision-ring projection 1257 of 2560.
+Collision-ring projection 1258 of 2560.
+Collision-ring projection 1259 of 2560.
+Collision-ring projection 1260 of 2560.
+Collision-ring projection 1261 of 2560.
+Collision-ring projection 1262 of 2560.
+Collision-ring projection 1263 of 2560.
+Collision-ring projection 1264 of 2560.
+Collision-ring projection 1265 of 2560.
+Collision-ring projection 1266 of 2560.
+Collision-ring projection 1267 of 2560.
+Collision-ring projection 1268 of 2560.
+Collision-ring projection 1269 of 2560.
+Collision-ring projection 1270 of 2560.
+Collision-ring projection 1271 of 2560.
+Collision-ring projection 1272 of 2560.
+Collision-ring projection 1273 of 2560.
+Collision-ring projection 1274 of 2560.
+Collision-ring projection 1275 of 2560.
+Collision-ring projection 1276 of 2560.
+Collision-ring projection 1277 of 2560.
+Collision-ring projection 1278 of 2560.
+Collision-ring projection 1279 of 2560.
+Collision-ring projection 1280 of 2560.
+Collision-ring projection 1281 of 2560.
+Collision-ring projection 1282 of 2560.
+Collision-ring projection 1283 of 2560.
+Collision-ring projection 1284 of 2560.
+Collision-ring projection 1285 of 2560.
+Collision-ring projection 1286 of 2560.
+Collision-ring projection 1287 of 2560.
+Collision-ring projection 1288 of 2560.
+Collision-ring projection 1289 of 2560.
+Collision-ring projection 1290 of 2560.
+Collision-ring projection 1291 of 2560.
+Collision-ring projection 1292 of 2560.
+Collision-ring projection 1293 of 2560.
+Collision-ring projection 1294 of 2560.
+Collision-ring projection 1295 of 2560.
+Collision-ring projection 1296 of 2560.
+Collision-ring projection 1297 of 2560.
+Collision-ring projection 1298 of 2560.
+Collision-ring projection 1299 of 2560.
+Collision-ring projection 1300 of 2560.
+Collision-ring projection 1301 of 2560.
+Collision-ring projection 1302 of 2560.
+Collision-ring projection 1303 of 2560.
+Collision-ring projection 1304 of 2560.
+Collision-ring projection 1305 of 2560.
+Collision-ring projection 1306 of 2560.
+Collision-ring projection 1307 of 2560.
+Collision-ring projection 1308 of 2560.
+Collision-ring projection 1309 of 2560.
+Collision-ring projection 1310 of 2560.
+Collision-ring projection 1311 of 2560.
+Collision-ring projection 1312 of 2560.
+Collision-ring projection 1313 of 2560.
+Collision-ring projection 1314 of 2560.
+Collision-ring projection 1315 of 2560.
+Collision-ring projection 1316 of 2560.
+Collision-ring projection 1317 of 2560.
+Collision-ring projection 1318 of 2560.
+Collision-ring projection 1319 of 2560.
+Collision-ring projection 1320 of 2560.
+Collision-ring projection 1321 of 2560.
+Collision-ring projection 1322 of 2560.
+Collision-ring projection 1323 of 2560.
+Collision-ring projection 1324 of 2560.
+Collision-ring projection 1325 of 2560.
+Collision-ring projection 1326 of 2560.
+Collision-ring projection 1327 of 2560.
+Collision-ring projection 1328 of 2560.
+Collision-ring projection 1329 of 2560.
+Collision-ring projection 1330 of 2560.
+Collision-ring projection 1331 of 2560.
+Collision-ring projection 1332 of 2560.
+Collision-ring projection 1333 of 2560.
+Collision-ring projection 1334 of 2560.
+Collision-ring projection 1335 of 2560.
+Collision-ring projection 1336 of 2560.
+Collision-ring projection 1337 of 2560.
+Collision-ring projection 1338 of 2560.
+Collision-ring projection 1339 of 2560.
+Collision-ring projection 1340 of 2560.
+Collision-ring projection 1341 of 2560.
+Collision-ring projection 1342 of 2560.
+Collision-ring projection 1343 of 2560.
+Collision-ring projection 1344 of 2560.
+Collision-ring projection 1345 of 2560.
+Collision-ring projection 1346 of 2560.
+Collision-ring projection 1347 of 2560.
+Collision-ring projection 1348 of 2560.
+Collision-ring projection 1349 of 2560.
+Collision-ring projection 1350 of 2560.
+Collision-ring projection 1351 of 2560.
+Collision-ring projection 1352 of 2560.
+Collision-ring projection 1353 of 2560.
+Collision-ring projection 1354 of 2560.
+Collision-ring projection 1355 of 2560.
+Collision-ring projection 1356 of 2560.
+Collision-ring projection 1357 of 2560.
+Collision-ring projection 1358 of 2560.
+Collision-ring projection 1359 of 2560.
+Collision-ring projection 1360 of 2560.
+Collision-ring projection 1361 of 2560.
+Collision-ring projection 1362 of 2560.
+Collision-ring projection 1363 of 2560.
+Collision-ring projection 1364 of 2560.
+Collision-ring projection 1365 of 2560.
+Collision-ring projection 1366 of 2560.
+Collision-ring projection 1367 of 2560.
+Collision-ring projection 1368 of 2560.
+Collision-ring projection 1369 of 2560.
+Collision-ring projection 1370 of 2560.
+Collision-ring projection 1371 of 2560.
+Collision-ring projection 1372 of 2560.
+Collision-ring projection 1373 of 2560.
+Collision-ring projection 1374 of 2560.
+Collision-ring projection 1375 of 2560.
+Collision-ring projection 1376 of 2560.
+Collision-ring projection 1377 of 2560.
+Collision-ring projection 1378 of 2560.
+Collision-ring projection 1379 of 2560.
+Collision-ring projection 1380 of 2560.
+Collision-ring projection 1381 of 2560.
+Collision-ring projection 1382 of 2560.
+Collision-ring projection 1383 of 2560.
+Collision-ring projection 1384 of 2560.
+Collision-ring projection 1385 of 2560.
+Collision-ring projection 1386 of 2560.
+Collision-ring projection 1387 of 2560.
+Collision-ring projection 1388 of 2560.
+Collision-ring projection 1389 of 2560.
+Collision-ring projection 1390 of 2560.
+Collision-ring projection 1391 of 2560.
+Collision-ring projection 1392 of 2560.
+Collision-ring projection 1393 of 2560.
+Collision-ring projection 1394 of 2560.
+Collision-ring projection 1395 of 2560.
+Collision-ring projection 1396 of 2560.
+Collision-ring projection 1397 of 2560.
+Collision-ring projection 1398 of 2560.
+Collision-ring projection 1399 of 2560.
+Collision-ring projection 1400 of 2560.
+Collision-ring projection 1401 of 2560.
+Collision-ring projection 1402 of 2560.
+Collision-ring projection 1403 of 2560.
+Collision-ring projection 1404 of 2560.
+Collision-ring projection 1405 of 2560.
+Collision-ring projection 1406 of 2560.
+Collision-ring projection 1407 of 2560.
+Collision-ring projection 1408 of 2560.
+Collision-ring projection 1409 of 2560.
+Collision-ring projection 1410 of 2560.
+Collision-ring projection 1411 of 2560.
+Collision-ring projection 1412 of 2560.
+Collision-ring projection 1413 of 2560.
+Collision-ring projection 1414 of 2560.
+Collision-ring projection 1415 of 2560.
+Collision-ring projection 1416 of 2560.
+Collision-ring projection 1417 of 2560.
+Collision-ring projection 1418 of 2560.
+Collision-ring projection 1419 of 2560.
+Collision-ring projection 1420 of 2560.
+Collision-ring projection 1421 of 2560.
+Collision-ring projection 1422 of 2560.
+Collision-ring projection 1423 of 2560.
+Collision-ring projection 1424 of 2560.
+Collision-ring projection 1425 of 2560.
+Collision-ring projection 1426 of 2560.
+Collision-ring projection 1427 of 2560.
+Collision-ring projection 1428 of 2560.
+Collision-ring projection 1429 of 2560.
+Collision-ring projection 1430 of 2560.
+Collision-ring projection 1431 of 2560.
+Collision-ring projection 1432 of 2560.
+Collision-ring projection 1433 of 2560.
+Collision-ring projection 1434 of 2560.
+Collision-ring projection 1435 of 2560.
+Collision-ring projection 1436 of 2560.
+Collision-ring projection 1437 of 2560.
+Collision-ring projection 1438 of 2560.
+Collision-ring projection 1439 of 2560.
+Collision-ring projection 1440 of 2560.
+Collision-ring projection 1441 of 2560.
+Collision-ring projection 1442 of 2560.
+Collision-ring projection 1443 of 2560.
+Collision-ring projection 1444 of 2560.
+Collision-ring projection 1445 of 2560.
+Collision-ring projection 1446 of 2560.
+Collision-ring projection 1447 of 2560.
+Collision-ring projection 1448 of 2560.
+Collision-ring projection 1449 of 2560.
+Collision-ring projection 1450 of 2560.
+Collision-ring projection 1451 of 2560.
+Collision-ring projection 1452 of 2560.
+Collision-ring projection 1453 of 2560.
+Collision-ring projection 1454 of 2560.
+Collision-ring projection 1455 of 2560.
+Collision-ring projection 1456 of 2560.
+Collision-ring projection 1457 of 2560.
+Collision-ring projection 1458 of 2560.
+Collision-ring projection 1459 of 2560.
+Collision-ring projection 1460 of 2560.
+Collision-ring projection 1461 of 2560.
+Collision-ring projection 1462 of 2560.
+Collision-ring projection 1463 of 2560.
+Collision-ring projection 1464 of 2560.
+Collision-ring projection 1465 of 2560.
+Collision-ring projection 1466 of 2560.
+Collision-ring projection 1467 of 2560.
+Collision-ring projection 1468 of 2560.
+Collision-ring projection 1469 of 2560.
+Collision-ring projection 1470 of 2560.
+Collision-ring projection 1471 of 2560.
+Collision-ring projection 1472 of 2560.
+Collision-ring projection 1473 of 2560.
+Collision-ring projection 1474 of 2560.
+Collision-ring projection 1475 of 2560.
+Collision-ring projection 1476 of 2560.
+Collision-ring projection 1477 of 2560.
+Collision-ring projection 1478 of 2560.
+Collision-ring projection 1479 of 2560.
+Collision-ring projection 1480 of 2560.
+Collision-ring projection 1481 of 2560.
+Collision-ring projection 1482 of 2560.
+Collision-ring projection 1483 of 2560.
+Collision-ring projection 1484 of 2560.
+Collision-ring projection 1485 of 2560.
+Collision-ring projection 1486 of 2560.
+Collision-ring projection 1487 of 2560.
+Collision-ring projection 1488 of 2560.
+Collision-ring projection 1489 of 2560.
+Collision-ring projection 1490 of 2560.
+Collision-ring projection 1491 of 2560.
+Collision-ring projection 1492 of 2560.
+Collision-ring projection 1493 of 2560.
+Collision-ring projection 1494 of 2560.
+Collision-ring projection 1495 of 2560.
+Collision-ring projection 1496 of 2560.
+Collision-ring projection 1497 of 2560.
+Collision-ring projection 1498 of 2560.
+Collision-ring projection 1499 of 2560.
+Collision-ring projection 1500 of 2560.
+Collision-ring projection 1501 of 2560.
+Collision-ring projection 1502 of 2560.
+Collision-ring projection 1503 of 2560.
+Collision-ring projection 1504 of 2560.
+Collision-ring projection 1505 of 2560.
+Collision-ring projection 1506 of 2560.
+Collision-ring projection 1507 of 2560.
+Collision-ring projection 1508 of 2560.
+Collision-ring projection 1509 of 2560.
+Collision-ring projection 1510 of 2560.
+Collision-ring projection 1511 of 2560.
+Collision-ring projection 1512 of 2560.
+Collision-ring projection 1513 of 2560.
+Collision-ring projection 1514 of 2560.
+Collision-ring projection 1515 of 2560.
+Collision-ring projection 1516 of 2560.
+Collision-ring projection 1517 of 2560.
+Collision-ring projection 1518 of 2560.
+Collision-ring projection 1519 of 2560.
+Collision-ring projection 1520 of 2560.
+Collision-ring projection 1521 of 2560.
+Collision-ring projection 1522 of 2560.
+Collision-ring projection 1523 of 2560.
+Collision-ring projection 1524 of 2560.
+Collision-ring projection 1525 of 2560.
+Collision-ring projection 1526 of 2560.
+Collision-ring projection 1527 of 2560.
+Collision-ring projection 1528 of 2560.
+Collision-ring projection 1529 of 2560.
+Collision-ring projection 1530 of 2560.
+Collision-ring projection 1531 of 2560.
+Collision-ring projection 1532 of 2560.
+Collision-ring projection 1533 of 2560.
+Collision-ring projection 1534 of 2560.
+Collision-ring projection 1535 of 2560.
+Collision-ring projection 1536 of 2560.
+Collision-ring projection 1537 of 2560.
+Collision-ring projection 1538 of 2560.
+Collision-ring projection 1539 of 2560.
+Collision-ring projection 1540 of 2560.
+Collision-ring projection 1541 of 2560.
+Collision-ring projection 1542 of 2560.
+Collision-ring projection 1543 of 2560.
+Collision-ring projection 1544 of 2560.
+Collision-ring projection 1545 of 2560.
+Collision-ring projection 1546 of 2560.
+Collision-ring projection 1547 of 2560.
+Collision-ring projection 1548 of 2560.
+Collision-ring projection 1549 of 2560.
+Collision-ring projection 1550 of 2560.
+Collision-ring projection 1551 of 2560.
+Collision-ring projection 1552 of 2560.
+Collision-ring projection 1553 of 2560.
+Collision-ring projection 1554 of 2560.
+Collision-ring projection 1555 of 2560.
+Collision-ring projection 1556 of 2560.
+Collision-ring projection 1557 of 2560.
+Collision-ring projection 1558 of 2560.
+Collision-ring projection 1559 of 2560.
+Collision-ring projection 1560 of 2560.
+Collision-ring projection 1561 of 2560.
+Collision-ring projection 1562 of 2560.
+Collision-ring projection 1563 of 2560.
+Collision-ring projection 1564 of 2560.
+Collision-ring projection 1565 of 2560.
+Collision-ring projection 1566 of 2560.
+Collision-ring projection 1567 of 2560.
+Collision-ring projection 1568 of 2560.
+Collision-ring projection 1569 of 2560.
+Collision-ring projection 1570 of 2560.
+Collision-ring projection 1571 of 2560.
+Collision-ring projection 1572 of 2560.
+Collision-ring projection 1573 of 2560.
+Collision-ring projection 1574 of 2560.
+Collision-ring projection 1575 of 2560.
+Collision-ring projection 1576 of 2560.
+Collision-ring projection 1577 of 2560.
+Collision-ring projection 1578 of 2560.
+Collision-ring projection 1579 of 2560.
+Collision-ring projection 1580 of 2560.
+Collision-ring projection 1581 of 2560.
+Collision-ring projection 1582 of 2560.
+Collision-ring projection 1583 of 2560.
+Collision-ring projection 1584 of 2560.
+Collision-ring projection 1585 of 2560.
+Collision-ring projection 1586 of 2560.
+Collision-ring projection 1587 of 2560.
+Collision-ring projection 1588 of 2560.
+Collision-ring projection 1589 of 2560.
+Collision-ring projection 1590 of 2560.
+Collision-ring projection 1591 of 2560.
+Collision-ring projection 1592 of 2560.
+Collision-ring projection 1593 of 2560.
+Collision-ring projection 1594 of 2560.
+Collision-ring projection 1595 of 2560.
+Collision-ring projection 1596 of 2560.
+Collision-ring projection 1597 of 2560.
+Collision-ring projection 1598 of 2560.
+Collision-ring projection 1599 of 2560.
+Collision-ring projection 1600 of 2560.
+Collision-ring projection 1601 of 2560.
+Collision-ring projection 1602 of 2560.
+Collision-ring projection 1603 of 2560.
+Collision-ring projection 1604 of 2560.
+Collision-ring projection 1605 of 2560.
+Collision-ring projection 1606 of 2560.
+Collision-ring projection 1607 of 2560.
+Collision-ring projection 1608 of 2560.
+Collision-ring projection 1609 of 2560.
+Collision-ring projection 1610 of 2560.
+Collision-ring projection 1611 of 2560.
+Collision-ring projection 1612 of 2560.
+Collision-ring projection 1613 of 2560.
+Collision-ring projection 1614 of 2560.
+Collision-ring projection 1615 of 2560.
+Collision-ring projection 1616 of 2560.
+Collision-ring projection 1617 of 2560.
+Collision-ring projection 1618 of 2560.
+Collision-ring projection 1619 of 2560.
+Collision-ring projection 1620 of 2560.
+Collision-ring projection 1621 of 2560.
+Collision-ring projection 1622 of 2560.
+Collision-ring projection 1623 of 2560.
+Collision-ring projection 1624 of 2560.
+Collision-ring projection 1625 of 2560.
+Collision-ring projection 1626 of 2560.
+Collision-ring projection 1627 of 2560.
+Collision-ring projection 1628 of 2560.
+Collision-ring projection 1629 of 2560.
+Collision-ring projection 1630 of 2560.
+Collision-ring projection 1631 of 2560.
+Collision-ring projection 1632 of 2560.
+Collision-ring projection 1633 of 2560.
+Collision-ring projection 1634 of 2560.
+Collision-ring projection 1635 of 2560.
+Collision-ring projection 1636 of 2560.
+Collision-ring projection 1637 of 2560.
+Collision-ring projection 1638 of 2560.
+Collision-ring projection 1639 of 2560.
+Collision-ring projection 1640 of 2560.
+Collision-ring projection 1641 of 2560.
+Collision-ring projection 1642 of 2560.
+Collision-ring projection 1643 of 2560.
+Collision-ring projection 1644 of 2560.
+Collision-ring projection 1645 of 2560.
+Collision-ring projection 1646 of 2560.
+Collision-ring projection 1647 of 2560.
+Collision-ring projection 1648 of 2560.
+Collision-ring projection 1649 of 2560.
+Collision-ring projection 1650 of 2560.
+Collision-ring projection 1651 of 2560.
+Collision-ring projection 1652 of 2560.
+Collision-ring projection 1653 of 2560.
+Collision-ring projection 1654 of 2560.
+Collision-ring projection 1655 of 2560.
+Collision-ring projection 1656 of 2560.
+Collision-ring projection 1657 of 2560.
+Collision-ring projection 1658 of 2560.
+Collision-ring projection 1659 of 2560.
+Collision-ring projection 1660 of 2560.
+Collision-ring projection 1661 of 2560.
+Collision-ring projection 1662 of 2560.
+Collision-ring projection 1663 of 2560.
+Collision-ring projection 1664 of 2560.
+Collision-ring projection 1665 of 2560.
+Collision-ring projection 1666 of 2560.
+Collision-ring projection 1667 of 2560.
+Collision-ring projection 1668 of 2560.
+Collision-ring projection 1669 of 2560.
+Collision-ring projection 1670 of 2560.
+Collision-ring projection 1671 of 2560.
+Collision-ring projection 1672 of 2560.
+Collision-ring projection 1673 of 2560.
+Collision-ring projection 1674 of 2560.
+Collision-ring projection 1675 of 2560.
+Collision-ring projection 1676 of 2560.
+Collision-ring projection 1677 of 2560.
+Collision-ring projection 1678 of 2560.
+Collision-ring projection 1679 of 2560.
+Collision-ring projection 1680 of 2560.
+Collision-ring projection 1681 of 2560.
+Collision-ring projection 1682 of 2560.
+Collision-ring projection 1683 of 2560.
+Collision-ring projection 1684 of 2560.
+Collision-ring projection 1685 of 2560.
+Collision-ring projection 1686 of 2560.
+Collision-ring projection 1687 of 2560.
+Collision-ring projection 1688 of 2560.
+Collision-ring projection 1689 of 2560.
+Collision-ring projection 1690 of 2560.
+Collision-ring projection 1691 of 2560.
+Collision-ring projection 1692 of 2560.
+Collision-ring projection 1693 of 2560.
+Collision-ring projection 1694 of 2560.
+Collision-ring projection 1695 of 2560.
+Collision-ring projection 1696 of 2560.
+Collision-ring projection 1697 of 2560.
+Collision-ring projection 1698 of 2560.
+Collision-ring projection 1699 of 2560.
+Collision-ring projection 1700 of 2560.
+Collision-ring projection 1701 of 2560.
+Collision-ring projection 1702 of 2560.
+Collision-ring projection 1703 of 2560.
+Collision-ring projection 1704 of 2560.
+Collision-ring projection 1705 of 2560.
+Collision-ring projection 1706 of 2560.
+Collision-ring projection 1707 of 2560.
+Collision-ring projection 1708 of 2560.
+Collision-ring projection 1709 of 2560.
+Collision-ring projection 1710 of 2560.
+Collision-ring projection 1711 of 2560.
+Collision-ring projection 1712 of 2560.
+Collision-ring projection 1713 of 2560.
+Collision-ring projection 1714 of 2560.
+Collision-ring projection 1715 of 2560.
+Collision-ring projection 1716 of 2560.
+Collision-ring projection 1717 of 2560.
+Collision-ring projection 1718 of 2560.
+Collision-ring projection 1719 of 2560.
+Collision-ring projection 1720 of 2560.
+Collision-ring projection 1721 of 2560.
+Collision-ring projection 1722 of 2560.
+Collision-ring projection 1723 of 2560.
+Collision-ring projection 1724 of 2560.
+Collision-ring projection 1725 of 2560.
+Collision-ring projection 1726 of 2560.
+Collision-ring projection 1727 of 2560.
+Collision-ring projection 1728 of 2560.
+Collision-ring projection 1729 of 2560.
+Collision-ring projection 1730 of 2560.
+Collision-ring projection 1731 of 2560.
+Collision-ring projection 1732 of 2560.
+Collision-ring projection 1733 of 2560.
+Collision-ring projection 1734 of 2560.
+Collision-ring projection 1735 of 2560.
+Collision-ring projection 1736 of 2560.
+Collision-ring projection 1737 of 2560.
+Collision-ring projection 1738 of 2560.
+Collision-ring projection 1739 of 2560.
+Collision-ring projection 1740 of 2560.
+Collision-ring projection 1741 of 2560.
+Collision-ring projection 1742 of 2560.
+Collision-ring projection 1743 of 2560.
+Collision-ring projection 1744 of 2560.
+Collision-ring projection 1745 of 2560.
+Collision-ring projection 1746 of 2560.
+Collision-ring projection 1747 of 2560.
+Collision-ring projection 1748 of 2560.
+Collision-ring projection 1749 of 2560.
+Collision-ring projection 1750 of 2560.
+Collision-ring projection 1751 of 2560.
+Collision-ring projection 1752 of 2560.
+Collision-ring projection 1753 of 2560.
+Collision-ring projection 1754 of 2560.
+Collision-ring projection 1755 of 2560.
+Collision-ring projection 1756 of 2560.
+Collision-ring projection 1757 of 2560.
+Collision-ring projection 1758 of 2560.
+Collision-ring projection 1759 of 2560.
+Collision-ring projection 1760 of 2560.
+Collision-ring projection 1761 of 2560.
+Collision-ring projection 1762 of 2560.
+Collision-ring projection 1763 of 2560.
+Collision-ring projection 1764 of 2560.
+Collision-ring projection 1765 of 2560.
+Collision-ring projection 1766 of 2560.
+Collision-ring projection 1767 of 2560.
+Collision-ring projection 1768 of 2560.
+Collision-ring projection 1769 of 2560.
+Collision-ring projection 1770 of 2560.
+Collision-ring projection 1771 of 2560.
+Collision-ring projection 1772 of 2560.
+Collision-ring projection 1773 of 2560.
+Collision-ring projection 1774 of 2560.
+Collision-ring projection 1775 of 2560.
+Collision-ring projection 1776 of 2560.
+Collision-ring projection 1777 of 2560.
+Collision-ring projection 1778 of 2560.
+Collision-ring projection 1779 of 2560.
+Collision-ring projection 1780 of 2560.
+Collision-ring projection 1781 of 2560.
+Collision-ring projection 1782 of 2560.
+Collision-ring projection 1783 of 2560.
+Collision-ring projection 1784 of 2560.
+Collision-ring projection 1785 of 2560.
+Collision-ring projection 1786 of 2560.
+Collision-ring projection 1787 of 2560.
+Collision-ring projection 1788 of 2560.
+Collision-ring projection 1789 of 2560.
+Collision-ring projection 1790 of 2560.
+Collision-ring projection 1791 of 2560.
+Collision-ring projection 1792 of 2560.
+Collision-ring projection 1793 of 2560.
+Collision-ring projection 1794 of 2560.
+Collision-ring projection 1795 of 2560.
+Collision-ring projection 1796 of 2560.
+Collision-ring projection 1797 of 2560.
+Collision-ring projection 1798 of 2560.
+Collision-ring projection 1799 of 2560.
+Collision-ring projection 1800 of 2560.
+Collision-ring projection 1801 of 2560.
+Collision-ring projection 1802 of 2560.
+Collision-ring projection 1803 of 2560.
+Collision-ring projection 1804 of 2560.
+Collision-ring projection 1805 of 2560.
+Collision-ring projection 1806 of 2560.
+Collision-ring projection 1807 of 2560.
+Collision-ring projection 1808 of 2560.
+Collision-ring projection 1809 of 2560.
+Collision-ring projection 1810 of 2560.
+Collision-ring projection 1811 of 2560.
+Collision-ring projection 1812 of 2560.
+Collision-ring projection 1813 of 2560.
+Collision-ring projection 1814 of 2560.
+Collision-ring projection 1815 of 2560.
+Collision-ring projection 1816 of 2560.
+Collision-ring projection 1817 of 2560.
+Collision-ring projection 1818 of 2560.
+Collision-ring projection 1819 of 2560.
+Collision-ring projection 1820 of 2560.
+Collision-ring projection 1821 of 2560.
+Collision-ring projection 1822 of 2560.
+Collision-ring projection 1823 of 2560.
+Collision-ring projection 1824 of 2560.
+Collision-ring projection 1825 of 2560.
+Collision-ring projection 1826 of 2560.
+Collision-ring projection 1827 of 2560.
+Collision-ring projection 1828 of 2560.
+Collision-ring projection 1829 of 2560.
+Collision-ring projection 1830 of 2560.
+Collision-ring projection 1831 of 2560.
+Collision-ring projection 1832 of 2560.
+Collision-ring projection 1833 of 2560.
+Collision-ring projection 1834 of 2560.
+Collision-ring projection 1835 of 2560.
+Collision-ring projection 1836 of 2560.
+Collision-ring projection 1837 of 2560.
+Collision-ring projection 1838 of 2560.
+Collision-ring projection 1839 of 2560.
+Collision-ring projection 1840 of 2560.
+Collision-ring projection 1841 of 2560.
+Collision-ring projection 1842 of 2560.
+Collision-ring projection 1843 of 2560.
+Collision-ring projection 1844 of 2560.
+Collision-ring projection 1845 of 2560.
+Collision-ring projection 1846 of 2560.
+Collision-ring projection 1847 of 2560.
+Collision-ring projection 1848 of 2560.
+Collision-ring projection 1849 of 2560.
+Collision-ring projection 1850 of 2560.
+Collision-ring projection 1851 of 2560.
+Collision-ring projection 1852 of 2560.
+Collision-ring projection 1853 of 2560.
+Collision-ring projection 1854 of 2560.
+Collision-ring projection 1855 of 2560.
+Collision-ring projection 1856 of 2560.
+Collision-ring projection 1857 of 2560.
+Collision-ring projection 1858 of 2560.
+Collision-ring projection 1859 of 2560.
+Collision-ring projection 1860 of 2560.
+Collision-ring projection 1861 of 2560.
+Collision-ring projection 1862 of 2560.
+Collision-ring projection 1863 of 2560.
+Collision-ring projection 1864 of 2560.
+Collision-ring projection 1865 of 2560.
+Collision-ring projection 1866 of 2560.
+Collision-ring projection 1867 of 2560.
+Collision-ring projection 1868 of 2560.
+Collision-ring projection 1869 of 2560.
+Collision-ring projection 1870 of 2560.
+Collision-ring projection 1871 of 2560.
+Collision-ring projection 1872 of 2560.
+Collision-ring projection 1873 of 2560.
+Collision-ring projection 1874 of 2560.
+Collision-ring projection 1875 of 2560.
+Collision-ring projection 1876 of 2560.
+Collision-ring projection 1877 of 2560.
+Collision-ring projection 1878 of 2560.
+Collision-ring projection 1879 of 2560.
+Collision-ring projection 1880 of 2560.
+Collision-ring projection 1881 of 2560.
+Collision-ring projection 1882 of 2560.
+Collision-ring projection 1883 of 2560.
+Collision-ring projection 1884 of 2560.
+Collision-ring projection 1885 of 2560.
+Collision-ring projection 1886 of 2560.
+Collision-ring projection 1887 of 2560.
+Collision-ring projection 1888 of 2560.
+Collision-ring projection 1889 of 2560.
+Collision-ring projection 1890 of 2560.
+Collision-ring projection 1891 of 2560.
+Collision-ring projection 1892 of 2560.
+Collision-ring projection 1893 of 2560.
+Collision-ring projection 1894 of 2560.
+Collision-ring projection 1895 of 2560.
+Collision-ring projection 1896 of 2560.
+Collision-ring projection 1897 of 2560.
+Collision-ring projection 1898 of 2560.
+Collision-ring projection 1899 of 2560.
+Collision-ring projection 1900 of 2560.
+Collision-ring projection 1901 of 2560.
+Collision-ring projection 1902 of 2560.
+Collision-ring projection 1903 of 2560.
+Collision-ring projection 1904 of 2560.
+Collision-ring projection 1905 of 2560.
+Collision-ring projection 1906 of 2560.
+Collision-ring projection 1907 of 2560.
+Collision-ring projection 1908 of 2560.
+Collision-ring projection 1909 of 2560.
+Collision-ring projection 1910 of 2560.
+Collision-ring projection 1911 of 2560.
+Collision-ring projection 1912 of 2560.
+Collision-ring projection 1913 of 2560.
+Collision-ring projection 1914 of 2560.
+Collision-ring projection 1915 of 2560.
+Collision-ring projection 1916 of 2560.
+Collision-ring projection 1917 of 2560.
+Collision-ring projection 1918 of 2560.
+Collision-ring projection 1919 of 2560.
+Collision-ring projection 1920 of 2560.
+Collision-ring projection 1921 of 2560.
+Collision-ring projection 1922 of 2560.
+Collision-ring projection 1923 of 2560.
+Collision-ring projection 1924 of 2560.
+Collision-ring projection 1925 of 2560.
+Collision-ring projection 1926 of 2560.
+Collision-ring projection 1927 of 2560.
+Collision-ring projection 1928 of 2560.
+Collision-ring projection 1929 of 2560.
+Collision-ring projection 1930 of 2560.
+Collision-ring projection 1931 of 2560.
+Collision-ring projection 1932 of 2560.
+Collision-ring projection 1933 of 2560.
+Collision-ring projection 1934 of 2560.
+Collision-ring projection 1935 of 2560.
+Collision-ring projection 1936 of 2560.
+Collision-ring projection 1937 of 2560.
+Collision-ring projection 1938 of 2560.
+Collision-ring projection 1939 of 2560.
+Collision-ring projection 1940 of 2560.
+Collision-ring projection 1941 of 2560.
+Collision-ring projection 1942 of 2560.
+Collision-ring projection 1943 of 2560.
+Collision-ring projection 1944 of 2560.
+Collision-ring projection 1945 of 2560.
+Collision-ring projection 1946 of 2560.
+Collision-ring projection 1947 of 2560.
+Collision-ring projection 1948 of 2560.
+Collision-ring projection 1949 of 2560.
+Collision-ring projection 1950 of 2560.
+Collision-ring projection 1951 of 2560.
+Collision-ring projection 1952 of 2560.
+Collision-ring projection 1953 of 2560.
+Collision-ring projection 1954 of 2560.
+Collision-ring projection 1955 of 2560.
+Collision-ring projection 1956 of 2560.
+Collision-ring projection 1957 of 2560.
+Collision-ring projection 1958 of 2560.
+Collision-ring projection 1959 of 2560.
+Collision-ring projection 1960 of 2560.
+Collision-ring projection 1961 of 2560.
+Collision-ring projection 1962 of 2560.
+Collision-ring projection 1963 of 2560.
+Collision-ring projection 1964 of 2560.
+Collision-ring projection 1965 of 2560.
+Collision-ring projection 1966 of 2560.
+Collision-ring projection 1967 of 2560.
+Collision-ring projection 1968 of 2560.
+Collision-ring projection 1969 of 2560.
+Collision-ring projection 1970 of 2560.
+Collision-ring projection 1971 of 2560.
+Collision-ring projection 1972 of 2560.
+Collision-ring projection 1973 of 2560.
+Collision-ring projection 1974 of 2560.
+Collision-ring projection 1975 of 2560.
+Collision-ring projection 1976 of 2560.
+Collision-ring projection 1977 of 2560.
+Collision-ring projection 1978 of 2560.
+Collision-ring projection 1979 of 2560.
+Collision-ring projection 1980 of 2560.
+Collision-ring projection 1981 of 2560.
+Collision-ring projection 1982 of 2560.
+Collision-ring projection 1983 of 2560.
+Collision-ring projection 1984 of 2560.
+Collision-ring projection 1985 of 2560.
+Collision-ring projection 1986 of 2560.
+Collision-ring projection 1987 of 2560.
+Collision-ring projection 1988 of 2560.
+Collision-ring projection 1989 of 2560.
+Collision-ring projection 1990 of 2560.
+Collision-ring projection 1991 of 2560.
+Collision-ring projection 1992 of 2560.
+Collision-ring projection 1993 of 2560.
+Collision-ring projection 1994 of 2560.
+Collision-ring projection 1995 of 2560.
+Collision-ring projection 1996 of 2560.
+Collision-ring projection 1997 of 2560.
+Collision-ring projection 1998 of 2560.
+Collision-ring projection 1999 of 2560.
+Collision-ring projection 2000 of 2560.
+Collision-ring projection 2001 of 2560.
+Collision-ring projection 2002 of 2560.
+Collision-ring projection 2003 of 2560.
+Collision-ring projection 2004 of 2560.
+Collision-ring projection 2005 of 2560.
+Collision-ring projection 2006 of 2560.
+Collision-ring projection 2007 of 2560.
+Collision-ring projection 2008 of 2560.
+Collision-ring projection 2009 of 2560.
+Collision-ring projection 2010 of 2560.
+Collision-ring projection 2011 of 2560.
+Collision-ring projection 2012 of 2560.
+Collision-ring projection 2013 of 2560.
+Collision-ring projection 2014 of 2560.
+Collision-ring projection 2015 of 2560.
+Collision-ring projection 2016 of 2560.
+Collision-ring projection 2017 of 2560.
+Collision-ring projection 2018 of 2560.
+Collision-ring projection 2019 of 2560.
+Collision-ring projection 2020 of 2560.
+Collision-ring projection 2021 of 2560.
+Collision-ring projection 2022 of 2560.
+Collision-ring projection 2023 of 2560.
+Collision-ring projection 2024 of 2560.
+Collision-ring projection 2025 of 2560.
+Collision-ring projection 2026 of 2560.
+Collision-ring projection 2027 of 2560.
+Collision-ring projection 2028 of 2560.
+Collision-ring projection 2029 of 2560.
+Collision-ring projection 2030 of 2560.
+Collision-ring projection 2031 of 2560.
+Collision-ring projection 2032 of 2560.
+Collision-ring projection 2033 of 2560.
+Collision-ring projection 2034 of 2560.
+Collision-ring projection 2035 of 2560.
+Collision-ring projection 2036 of 2560.
+Collision-ring projection 2037 of 2560.
+Collision-ring projection 2038 of 2560.
+Collision-ring projection 2039 of 2560.
+Collision-ring projection 2040 of 2560.
+Collision-ring projection 2041 of 2560.
+Collision-ring projection 2042 of 2560.
+Collision-ring projection 2043 of 2560.
+Collision-ring projection 2044 of 2560.
+Collision-ring projection 2045 of 2560.
+Collision-ring projection 2046 of 2560.
+Collision-ring projection 2047 of 2560.
+Collision-ring projection 2048 of 2560.
+Collision-ring projection 2049 of 2560.
+Collision-ring projection 2050 of 2560.
+Collision-ring projection 2051 of 2560.
+Collision-ring projection 2052 of 2560.
+Collision-ring projection 2053 of 2560.
+Collision-ring projection 2054 of 2560.
+Collision-ring projection 2055 of 2560.
+Collision-ring projection 2056 of 2560.
+Collision-ring projection 2057 of 2560.
+Collision-ring projection 2058 of 2560.
+Collision-ring projection 2059 of 2560.
+Collision-ring projection 2060 of 2560.
+Collision-ring projection 2061 of 2560.
+Collision-ring projection 2062 of 2560.
+Collision-ring projection 2063 of 2560.
+Collision-ring projection 2064 of 2560.
+Collision-ring projection 2065 of 2560.
+Collision-ring projection 2066 of 2560.
+Collision-ring projection 2067 of 2560.
+Collision-ring projection 2068 of 2560.
+Collision-ring projection 2069 of 2560.
+Collision-ring projection 2070 of 2560.
+Collision-ring projection 2071 of 2560.
+Collision-ring projection 2072 of 2560.
+Collision-ring projection 2073 of 2560.
+Collision-ring projection 2074 of 2560.
+Collision-ring projection 2075 of 2560.
+Collision-ring projection 2076 of 2560.
+Collision-ring projection 2077 of 2560.
+Collision-ring projection 2078 of 2560.
+Collision-ring projection 2079 of 2560.
+Collision-ring projection 2080 of 2560.
+Collision-ring projection 2081 of 2560.
+Collision-ring projection 2082 of 2560.
+Collision-ring projection 2083 of 2560.
+Collision-ring projection 2084 of 2560.
+Collision-ring projection 2085 of 2560.
+Collision-ring projection 2086 of 2560.
+Collision-ring projection 2087 of 2560.
+Collision-ring projection 2088 of 2560.
+Collision-ring projection 2089 of 2560.
+Collision-ring projection 2090 of 2560.
+Collision-ring projection 2091 of 2560.
+Collision-ring projection 2092 of 2560.
+Collision-ring projection 2093 of 2560.
+Collision-ring projection 2094 of 2560.
+Collision-ring projection 2095 of 2560.
+Collision-ring projection 2096 of 2560.
+Collision-ring projection 2097 of 2560.
+Collision-ring projection 2098 of 2560.
+Collision-ring projection 2099 of 2560.
+Collision-ring projection 2100 of 2560.
+Collision-ring projection 2101 of 2560.
+Collision-ring projection 2102 of 2560.
+Collision-ring projection 2103 of 2560.
+Collision-ring projection 2104 of 2560.
+Collision-ring projection 2105 of 2560.
+Collision-ring projection 2106 of 2560.
+Collision-ring projection 2107 of 2560.
+Collision-ring projection 2108 of 2560.
+Collision-ring projection 2109 of 2560.
+Collision-ring projection 2110 of 2560.
+Collision-ring projection 2111 of 2560.
+Collision-ring projection 2112 of 2560.
+Collision-ring projection 2113 of 2560.
+Collision-ring projection 2114 of 2560.
+Collision-ring projection 2115 of 2560.
+Collision-ring projection 2116 of 2560.
+Collision-ring projection 2117 of 2560.
+Collision-ring projection 2118 of 2560.
+Collision-ring projection 2119 of 2560.
+Collision-ring projection 2120 of 2560.
+Collision-ring projection 2121 of 2560.
+Collision-ring projection 2122 of 2560.
+Collision-ring projection 2123 of 2560.
+Collision-ring projection 2124 of 2560.
+Collision-ring projection 2125 of 2560.
+Collision-ring projection 2126 of 2560.
+Collision-ring projection 2127 of 2560.
+Collision-ring projection 2128 of 2560.
+Collision-ring projection 2129 of 2560.
+Collision-ring projection 2130 of 2560.
+Collision-ring projection 2131 of 2560.
+Collision-ring projection 2132 of 2560.
+Collision-ring projection 2133 of 2560.
+Collision-ring projection 2134 of 2560.
+Collision-ring projection 2135 of 2560.
+Collision-ring projection 2136 of 2560.
+Collision-ring projection 2137 of 2560.
+Collision-ring projection 2138 of 2560.
+Collision-ring projection 2139 of 2560.
+Collision-ring projection 2140 of 2560.
+Collision-ring projection 2141 of 2560.
+Collision-ring projection 2142 of 2560.
+Collision-ring projection 2143 of 2560.
+Collision-ring projection 2144 of 2560.
+Collision-ring projection 2145 of 2560.
+Collision-ring projection 2146 of 2560.
+Collision-ring projection 2147 of 2560.
+Collision-ring projection 2148 of 2560.
+Collision-ring projection 2149 of 2560.
+Collision-ring projection 2150 of 2560.
+Collision-ring projection 2151 of 2560.
+Collision-ring projection 2152 of 2560.
+Collision-ring projection 2153 of 2560.
+Collision-ring projection 2154 of 2560.
+Collision-ring projection 2155 of 2560.
+Collision-ring projection 2156 of 2560.
+Collision-ring projection 2157 of 2560.
+Collision-ring projection 2158 of 2560.
+Collision-ring projection 2159 of 2560.
+Collision-ring projection 2160 of 2560.
+Collision-ring projection 2161 of 2560.
+Collision-ring projection 2162 of 2560.
+Collision-ring projection 2163 of 2560.
+Collision-ring projection 2164 of 2560.
+Collision-ring projection 2165 of 2560.
+Collision-ring projection 2166 of 2560.
+Collision-ring projection 2167 of 2560.
+Collision-ring projection 2168 of 2560.
+Collision-ring projection 2169 of 2560.
+Collision-ring projection 2170 of 2560.
+Collision-ring projection 2171 of 2560.
+Collision-ring projection 2172 of 2560.
+Collision-ring projection 2173 of 2560.
+Collision-ring projection 2174 of 2560.
+Collision-ring projection 2175 of 2560.
+Collision-ring projection 2176 of 2560.
+Collision-ring projection 2177 of 2560.
+Collision-ring projection 2178 of 2560.
+Collision-ring projection 2179 of 2560.
+Collision-ring projection 2180 of 2560.
+Collision-ring projection 2181 of 2560.
+Collision-ring projection 2182 of 2560.
+Collision-ring projection 2183 of 2560.
+Collision-ring projection 2184 of 2560.
+Collision-ring projection 2185 of 2560.
+Collision-ring projection 2186 of 2560.
+Collision-ring projection 2187 of 2560.
+Collision-ring projection 2188 of 2560.
+Collision-ring projection 2189 of 2560.
+Collision-ring projection 2190 of 2560.
+Collision-ring projection 2191 of 2560.
+Collision-ring projection 2192 of 2560.
+Collision-ring projection 2193 of 2560.
+Collision-ring projection 2194 of 2560.
+Collision-ring projection 2195 of 2560.
+Collision-ring projection 2196 of 2560.
+Collision-ring projection 2197 of 2560.
+Collision-ring projection 2198 of 2560.
+Collision-ring projection 2199 of 2560.
+Collision-ring projection 2200 of 2560.
+Collision-ring projection 2201 of 2560.
+Collision-ring projection 2202 of 2560.
+Collision-ring projection 2203 of 2560.
+Collision-ring projection 2204 of 2560.
+Collision-ring projection 2205 of 2560.
+Collision-ring projection 2206 of 2560.
+Collision-ring projection 2207 of 2560.
+Collision-ring projection 2208 of 2560.
+Collision-ring projection 2209 of 2560.
+Collision-ring projection 2210 of 2560.
+Collision-ring projection 2211 of 2560.
+Collision-ring projection 2212 of 2560.
+Collision-ring projection 2213 of 2560.
+Collision-ring projection 2214 of 2560.
+Collision-ring projection 2215 of 2560.
+Collision-ring projection 2216 of 2560.
+Collision-ring projection 2217 of 2560.
+Collision-ring projection 2218 of 2560.
+Collision-ring projection 2219 of 2560.
+Collision-ring projection 2220 of 2560.
+Collision-ring projection 2221 of 2560.
+Collision-ring projection 2222 of 2560.
+Collision-ring projection 2223 of 2560.
+Collision-ring projection 2224 of 2560.
+Collision-ring projection 2225 of 2560.
+Collision-ring projection 2226 of 2560.
+Collision-ring projection 2227 of 2560.
+Collision-ring projection 2228 of 2560.
+Collision-ring projection 2229 of 2560.
+Collision-ring projection 2230 of 2560.
+Collision-ring projection 2231 of 2560.
+Collision-ring projection 2232 of 2560.
+Collision-ring projection 2233 of 2560.
+Collision-ring projection 2234 of 2560.
+Collision-ring projection 2235 of 2560.
+Collision-ring projection 2236 of 2560.
+Collision-ring projection 2237 of 2560.
+Collision-ring projection 2238 of 2560.
+Collision-ring projection 2239 of 2560.
+Collision-ring projection 2240 of 2560.
+Collision-ring projection 2241 of 2560.
+Collision-ring projection 2242 of 2560.
+Collision-ring projection 2243 of 2560.
+Collision-ring projection 2244 of 2560.
+Collision-ring projection 2245 of 2560.
+Collision-ring projection 2246 of 2560.
+Collision-ring projection 2247 of 2560.
+Collision-ring projection 2248 of 2560.
+Collision-ring projection 2249 of 2560.
+Collision-ring projection 2250 of 2560.
+Collision-ring projection 2251 of 2560.
+Collision-ring projection 2252 of 2560.
+Collision-ring projection 2253 of 2560.
+Collision-ring projection 2254 of 2560.
+Collision-ring projection 2255 of 2560.
+Collision-ring projection 2256 of 2560.
+Collision-ring projection 2257 of 2560.
+Collision-ring projection 2258 of 2560.
+Collision-ring projection 2259 of 2560.
+Collision-ring projection 2260 of 2560.
+Collision-ring projection 2261 of 2560.
+Collision-ring projection 2262 of 2560.
+Collision-ring projection 2263 of 2560.
+Collision-ring projection 2264 of 2560.
+Collision-ring projection 2265 of 2560.
+Collision-ring projection 2266 of 2560.
+Collision-ring projection 2267 of 2560.
+Collision-ring projection 2268 of 2560.
+Collision-ring projection 2269 of 2560.
+Collision-ring projection 2270 of 2560.
+Collision-ring projection 2271 of 2560.
+Collision-ring projection 2272 of 2560.
+Collision-ring projection 2273 of 2560.
+Collision-ring projection 2274 of 2560.
+Collision-ring projection 2275 of 2560.
+Collision-ring projection 2276 of 2560.
+Collision-ring projection 2277 of 2560.
+Collision-ring projection 2278 of 2560.
+Collision-ring projection 2279 of 2560.
+Collision-ring projection 2280 of 2560.
+Collision-ring projection 2281 of 2560.
+Collision-ring projection 2282 of 2560.
+Collision-ring projection 2283 of 2560.
+Collision-ring projection 2284 of 2560.
+Collision-ring projection 2285 of 2560.
+Collision-ring projection 2286 of 2560.
+Collision-ring projection 2287 of 2560.
+Collision-ring projection 2288 of 2560.
+Collision-ring projection 2289 of 2560.
+Collision-ring projection 2290 of 2560.
+Collision-ring projection 2291 of 2560.
+Collision-ring projection 2292 of 2560.
+Collision-ring projection 2293 of 2560.
+Collision-ring projection 2294 of 2560.
+Collision-ring projection 2295 of 2560.
+Collision-ring projection 2296 of 2560.
+Collision-ring projection 2297 of 2560.
+Collision-ring projection 2298 of 2560.
+Collision-ring projection 2299 of 2560.
+Collision-ring projection 2300 of 2560.
+Collision-ring projection 2301 of 2560.
+Collision-ring projection 2302 of 2560.
+Collision-ring projection 2303 of 2560.
+Collision-ring projection 2304 of 2560.
+Collision-ring projection 2305 of 2560.
+Collision-ring projection 2306 of 2560.
+Collision-ring projection 2307 of 2560.
+Collision-ring projection 2308 of 2560.
+Collision-ring projection 2309 of 2560.
+Collision-ring projection 2310 of 2560.
+Collision-ring projection 2311 of 2560.
+Collision-ring projection 2312 of 2560.
+Collision-ring projection 2313 of 2560.
+Collision-ring projection 2314 of 2560.
+Collision-ring projection 2315 of 2560.
+Collision-ring projection 2316 of 2560.
+Collision-ring projection 2317 of 2560.
+Collision-ring projection 2318 of 2560.
+Collision-ring projection 2319 of 2560.
+Collision-ring projection 2320 of 2560.
+Collision-ring projection 2321 of 2560.
+Collision-ring projection 2322 of 2560.
+Collision-ring projection 2323 of 2560.
+Collision-ring projection 2324 of 2560.
+Collision-ring projection 2325 of 2560.
+Collision-ring projection 2326 of 2560.
+Collision-ring projection 2327 of 2560.
+Collision-ring projection 2328 of 2560.
+Collision-ring projection 2329 of 2560.
+Collision-ring projection 2330 of 2560.
+Collision-ring projection 2331 of 2560.
+Collision-ring projection 2332 of 2560.
+Collision-ring projection 2333 of 2560.
+Collision-ring projection 2334 of 2560.
+Collision-ring projection 2335 of 2560.
+Collision-ring projection 2336 of 2560.
+Collision-ring projection 2337 of 2560.
+Collision-ring projection 2338 of 2560.
+Collision-ring projection 2339 of 2560.
+Collision-ring projection 2340 of 2560.
+Collision-ring projection 2341 of 2560.
+Collision-ring projection 2342 of 2560.
+Collision-ring projection 2343 of 2560.
+Collision-ring projection 2344 of 2560.
+Collision-ring projection 2345 of 2560.
+Collision-ring projection 2346 of 2560.
+Collision-ring projection 2347 of 2560.
+Collision-ring projection 2348 of 2560.
+Collision-ring projection 2349 of 2560.
+Collision-ring projection 2350 of 2560.
+Collision-ring projection 2351 of 2560.
+Collision-ring projection 2352 of 2560.
+Collision-ring projection 2353 of 2560.
+Collision-ring projection 2354 of 2560.
+Collision-ring projection 2355 of 2560.
+Collision-ring projection 2356 of 2560.
+Collision-ring projection 2357 of 2560.
+Collision-ring projection 2358 of 2560.
+Collision-ring projection 2359 of 2560.
+Collision-ring projection 2360 of 2560.
+Collision-ring projection 2361 of 2560.
+Collision-ring projection 2362 of 2560.
+Collision-ring projection 2363 of 2560.
+Collision-ring projection 2364 of 2560.
+Collision-ring projection 2365 of 2560.
+Collision-ring projection 2366 of 2560.
+Collision-ring projection 2367 of 2560.
+Collision-ring projection 2368 of 2560.
+Collision-ring projection 2369 of 2560.
+Collision-ring projection 2370 of 2560.
+Collision-ring projection 2371 of 2560.
+Collision-ring projection 2372 of 2560.
+Collision-ring projection 2373 of 2560.
+Collision-ring projection 2374 of 2560.
+Collision-ring projection 2375 of 2560.
+Collision-ring projection 2376 of 2560.
+Collision-ring projection 2377 of 2560.
+Collision-ring projection 2378 of 2560.
+Collision-ring projection 2379 of 2560.
+Collision-ring projection 2380 of 2560.
+Collision-ring projection 2381 of 2560.
+Collision-ring projection 2382 of 2560.
+Collision-ring projection 2383 of 2560.
+Collision-ring projection 2384 of 2560.
+Collision-ring projection 2385 of 2560.
+Collision-ring projection 2386 of 2560.
+Collision-ring projection 2387 of 2560.
+Collision-ring projection 2388 of 2560.
+Collision-ring projection 2389 of 2560.
+Collision-ring projection 2390 of 2560.
+Collision-ring projection 2391 of 2560.
+Collision-ring projection 2392 of 2560.
+Collision-ring projection 2393 of 2560.
+Collision-ring projection 2394 of 2560.
+Collision-ring projection 2395 of 2560.
+Collision-ring projection 2396 of 2560.
+Collision-ring projection 2397 of 2560.
+Collision-ring projection 2398 of 2560.
+Collision-ring projection 2399 of 2560.
+Collision-ring projection 2400 of 2560.
+Collision-ring projection 2401 of 2560.
+Collision-ring projection 2402 of 2560.
+Collision-ring projection 2403 of 2560.
+Collision-ring projection 2404 of 2560.
+Collision-ring projection 2405 of 2560.
+Collision-ring projection 2406 of 2560.
+Collision-ring projection 2407 of 2560.
+Collision-ring projection 2408 of 2560.
+Collision-ring projection 2409 of 2560.
+Collision-ring projection 2410 of 2560.
+Collision-ring projection 2411 of 2560.
+Collision-ring projection 2412 of 2560.
+Collision-ring projection 2413 of 2560.
+Collision-ring projection 2414 of 2560.
+Collision-ring projection 2415 of 2560.
+Collision-ring projection 2416 of 2560.
+Collision-ring projection 2417 of 2560.
+Collision-ring projection 2418 of 2560.
+Collision-ring projection 2419 of 2560.
+Collision-ring projection 2420 of 2560.
+Collision-ring projection 2421 of 2560.
+Collision-ring projection 2422 of 2560.
+Collision-ring projection 2423 of 2560.
+Collision-ring projection 2424 of 2560.
+Collision-ring projection 2425 of 2560.
+Collision-ring projection 2426 of 2560.
+Collision-ring projection 2427 of 2560.
+Collision-ring projection 2428 of 2560.
+Collision-ring projection 2429 of 2560.
+Collision-ring projection 2430 of 2560.
+Collision-ring projection 2431 of 2560.
+Collision-ring projection 2432 of 2560.
+Collision-ring projection 2433 of 2560.
+Collision-ring projection 2434 of 2560.
+Collision-ring projection 2435 of 2560.
+Collision-ring projection 2436 of 2560.
+Collision-ring projection 2437 of 2560.
+Collision-ring projection 2438 of 2560.
+Collision-ring projection 2439 of 2560.
+Collision-ring projection 2440 of 2560.
+Collision-ring projection 2441 of 2560.
+Collision-ring projection 2442 of 2560.
+Collision-ring projection 2443 of 2560.
+Collision-ring projection 2444 of 2560.
+Collision-ring projection 2445 of 2560.
+Collision-ring projection 2446 of 2560.
+Collision-ring projection 2447 of 2560.
+Collision-ring projection 2448 of 2560.
+Collision-ring projection 2449 of 2560.
+Collision-ring projection 2450 of 2560.
+Collision-ring projection 2451 of 2560.
+Collision-ring projection 2452 of 2560.
+Collision-ring projection 2453 of 2560.
+Collision-ring projection 2454 of 2560.
+Collision-ring projection 2455 of 2560.
+Collision-ring projection 2456 of 2560.
+Collision-ring projection 2457 of 2560.
+Collision-ring projection 2458 of 2560.
+Collision-ring projection 2459 of 2560.
+Collision-ring projection 2460 of 2560.
+Collision-ring projection 2461 of 2560.
+Collision-ring projection 2462 of 2560.
+Collision-ring projection 2463 of 2560.
+Collision-ring projection 2464 of 2560.
+Collision-ring projection 2465 of 2560.
+Collision-ring projection 2466 of 2560.
+Collision-ring projection 2467 of 2560.
+Collision-ring projection 2468 of 2560.
+Collision-ring projection 2469 of 2560.
+Collision-ring projection 2470 of 2560.
+Collision-ring projection 2471 of 2560.
+Collision-ring projection 2472 of 2560.
+Collision-ring projection 2473 of 2560.
+Collision-ring projection 2474 of 2560.
+Collision-ring projection 2475 of 2560.
+Collision-ring projection 2476 of 2560.
+Collision-ring projection 2477 of 2560.
+Collision-ring projection 2478 of 2560.
+Collision-ring projection 2479 of 2560.
+Collision-ring projection 2480 of 2560.
+Collision-ring projection 2481 of 2560.
+Collision-ring projection 2482 of 2560.
+Collision-ring projection 2483 of 2560.
+Collision-ring projection 2484 of 2560.
+Collision-ring projection 2485 of 2560.
+Collision-ring projection 2486 of 2560.
+Collision-ring projection 2487 of 2560.
+Collision-ring projection 2488 of 2560.
+Collision-ring projection 2489 of 2560.
+Collision-ring projection 2490 of 2560.
+Collision-ring projection 2491 of 2560.
+Collision-ring projection 2492 of 2560.
+Collision-ring projection 2493 of 2560.
+Collision-ring projection 2494 of 2560.
+Collision-ring projection 2495 of 2560.
+Collision-ring projection 2496 of 2560.
+Collision-ring projection 2497 of 2560.
+Collision-ring projection 2498 of 2560.
+Collision-ring projection 2499 of 2560.
+Collision-ring projection 2500 of 2560.
+Collision-ring projection 2501 of 2560.
+Collision-ring projection 2502 of 2560.
+Collision-ring projection 2503 of 2560.
+Collision-ring projection 2504 of 2560.
+Collision-ring projection 2505 of 2560.
+Collision-ring projection 2506 of 2560.
+Collision-ring projection 2507 of 2560.
+Collision-ring projection 2508 of 2560.
+Collision-ring projection 2509 of 2560.
+Collision-ring projection 2510 of 2560.
+Collision-ring projection 2511 of 2560.
+Collision-ring projection 2512 of 2560.
+Collision-ring projection 2513 of 2560.
+Collision-ring projection 2514 of 2560.
+Collision-ring projection 2515 of 2560.
+Collision-ring projection 2516 of 2560.
+Collision-ring projection 2517 of 2560.
+Collision-ring projection 2518 of 2560.
+Collision-ring projection 2519 of 2560.
+Collision-ring projection 2520 of 2560.
+Collision-ring projection 2521 of 2560.
+Collision-ring projection 2522 of 2560.
+Collision-ring projection 2523 of 2560.
+Collision-ring projection 2524 of 2560.
+Collision-ring projection 2525 of 2560.
+Collision-ring projection 2526 of 2560.
+Collision-ring projection 2527 of 2560.
+Collision-ring projection 2528 of 2560.
+Collision-ring projection 2529 of 2560.
+Collision-ring projection 2530 of 2560.
+Collision-ring projection 2531 of 2560.
+Collision-ring projection 2532 of 2560.
+Collision-ring projection 2533 of 2560.
+Collision-ring projection 2534 of 2560.
+Collision-ring projection 2535 of 2560.
+Collision-ring projection 2536 of 2560.
+Collision-ring projection 2537 of 2560.
+Collision-ring projection 2538 of 2560.
+Collision-ring projection 2539 of 2560.
+Collision-ring projection 2540 of 2560.
+Collision-ring projection 2541 of 2560.
+Collision-ring projection 2542 of 2560.
+Collision-ring projection 2543 of 2560.
+Collision-ring projection 2544 of 2560.
+Collision-ring projection 2545 of 2560.
+Collision-ring projection 2546 of 2560.
+Collision-ring projection 2547 of 2560.
+Collision-ring projection 2548 of 2560.
+Collision-ring projection 2549 of 2560.
+Collision-ring projection 2550 of 2560.
+Collision-ring projection 2551 of 2560.
+Collision-ring projection 2552 of 2560.
+Collision-ring projection 2553 of 2560.
+Collision-ring projection 2554 of 2560.
+Collision-ring projection 2555 of 2560.
+Collision-ring projection 2556 of 2560.
+Collision-ring projection 2557 of 2560.
+Collision-ring projection 2558 of 2560.
+Collision-ring projection 2559 of 2560.
+Collision-ring projection 2560 of 2560.
+Projection-fixed generators: 260
+Nonzero defects: 2300
+Saving collision state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 6
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: libsingular:std
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 4
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: libsingular:std
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: libsingular:std
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 20
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: libsingular:std
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: libsingular:std
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 80
+Nonzero projections: 4
+Already in I_(k-1): 0
+New orbit generators: 160
+
+START Groebner basis: I_3
+Algorithm: libsingular:std
+END Groebner basis: I_3
+Number of elements: 40
+Elapsed time: 0.01 seconds
+Testing all remaining defects in I_3.
+Defects removed: 270
+Saving degree state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+Degree k = 4
+======================================================
+
+START Groebner basis: I_3
+Algorithm: libsingular:std
+END Groebner basis: I_3
+Number of elements: 40
+Elapsed time: 0.00 seconds
+Monomial orbits: 305
+Processed 100 of 305 representatives.
+Processed 200 of 305 representatives.
+Processed 300 of 305 representatives.
+Nonzero projections: 73
+Already in I_(k-1): 13
+New orbit generators: 2400
+
+START Groebner basis: I_4
+Algorithm: libsingular:std
+END Groebner basis: I_4
+Number of elements: 2606
+Elapsed time: 2 minutes, 21.45 seconds
+Testing all remaining defects in I_4.
+Defects removed: 1230
+Saving degree state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_4.sobj
+
+======================================================
+Degree k = 5
+======================================================
+
+START Groebner basis: I_4
+Algorithm: libsingular:std
+END Groebner basis: I_4
+Number of elements: 2606
+Elapsed time: 0.00 seconds
+Monomial orbits: 1072
+Processed 100 of 1072 representatives.
+Processed 200 of 1072 representatives.
+Processed 300 of 1072 representatives.
+Processed 400 of 1072 representatives.
+Processed 500 of 1072 representatives.
+Processed 600 of 1072 representatives.
+Processed 700 of 1072 representatives.
+Processed 800 of 1072 representatives.
+Processed 900 of 1072 representatives.
+Processed 1000 of 1072 representatives.
+Nonzero projections: 488
+Already in I_(k-1): 188
+New orbit generators: 12000
+
+START Groebner basis: I_5
+Algorithm: libsingular:std
+END Groebner basis: I_5
+Number of elements: 2645
+Elapsed time: 50.89 seconds
+Testing all remaining defects in I_5.
+Defects removed: 800
+Saving degree state: saved_states_lambda_3_1_1_1_m_4_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_5.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_5.
+Total elapsed time: 23 hours, 2 minutes, 42.81 seconds
+
+Computation completed.

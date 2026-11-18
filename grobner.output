@@ -1,0 +1,18 @@
+======================================================
+Verification of Lemma 5.14
+======================================================
+
+Checking Lemma 5.14(1):
+  Verified for l = 1.
+  Verified for l = 2.
+  Verified for l = 3.
+
+Checking Lemma 5.14(2):
+  Verified for l = 1: 0 S-polynomials reduce to zero.
+  Verified for l = 2: 10 S-polynomials reduce to zero.
+  Verified for l = 3: 78 S-polynomials reduce to zero.
+  Verified for l = 4: 325 S-polynomials reduce to zero.
+  Verified for l = 5: 990 S-polynomials reduce to zero.
+  Verified for l = 6: 2485 S-polynomials reduce to zero.
+
+All checks in Lemma 5.14 passed.

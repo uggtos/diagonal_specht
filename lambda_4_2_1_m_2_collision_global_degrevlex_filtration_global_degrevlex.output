@@ -1,0 +1,463 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (4, 2, 1)
+Input m = 2
+n = 7
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = None
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (4, 2, 1)
+m = 2
+n = 7
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(5, 1, 1), (4, 3)]
+State directory: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (5, 1, 1): 21 collision primes
+shape (4, 3): 35 collision primes
+Launching 2 simultaneous shape workers.
+Worker finished for shape (5, 1, 1) with return code 0.
+Worker launcher log: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_5_1_1_collision_global_degrevlex.log
+Worker finished for shape (4, 3) with return code 0.
+Worker launcher log: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_4_3_collision_global_degrevlex.log
+Loaded shape (5, 1, 1) with 185 generators.
+Loaded shape (4, 3) with 144 generators.
+
+Final intersection of shape ideals.
+
+Final collision ideal: balanced intersection level 1.
+Number of ideals: 2
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 269
+Maximum generator degree: 6
+Pair elapsed: 0.43 seconds
+
+Final collision ideal: complete.
+Total intersection time: 0.45 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: None
+END Groebner basis: final collision ideal
+Number of elements: 269
+Elapsed time: 0.06 seconds
+Collision generators: 269
+D_full = 6
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 269
+Maximum degree: 6
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 269
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 269
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 87
+Elapsed time: 0.01 seconds
+Degree 3
+New generators: 70
+Generators removed: 78
+Generators remaining: 191
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 87
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 269
+Elapsed time: 0.06 seconds
+Degree 4
+New generators: 184
+Generators removed: 191
+Generators remaining: 0
+D_filtered = 4
+Dimension of S^lambda: 35
+Collision-ring projection 1 of 254.
+Collision-ring projection 2 of 254.
+Collision-ring projection 3 of 254.
+Collision-ring projection 4 of 254.
+Collision-ring projection 5 of 254.
+Collision-ring projection 6 of 254.
+Collision-ring projection 7 of 254.
+Collision-ring projection 8 of 254.
+Collision-ring projection 9 of 254.
+Collision-ring projection 10 of 254.
+Collision-ring projection 11 of 254.
+Collision-ring projection 12 of 254.
+Collision-ring projection 13 of 254.
+Collision-ring projection 14 of 254.
+Collision-ring projection 15 of 254.
+Collision-ring projection 16 of 254.
+Collision-ring projection 17 of 254.
+Collision-ring projection 18 of 254.
+Collision-ring projection 19 of 254.
+Collision-ring projection 20 of 254.
+Collision-ring projection 21 of 254.
+Collision-ring projection 22 of 254.
+Collision-ring projection 23 of 254.
+Collision-ring projection 24 of 254.
+Collision-ring projection 25 of 254.
+Collision-ring projection 26 of 254.
+Collision-ring projection 27 of 254.
+Collision-ring projection 28 of 254.
+Collision-ring projection 29 of 254.
+Collision-ring projection 30 of 254.
+Collision-ring projection 31 of 254.
+Collision-ring projection 32 of 254.
+Collision-ring projection 33 of 254.
+Collision-ring projection 34 of 254.
+Collision-ring projection 35 of 254.
+Collision-ring projection 36 of 254.
+Collision-ring projection 37 of 254.
+Collision-ring projection 38 of 254.
+Collision-ring projection 39 of 254.
+Collision-ring projection 40 of 254.
+Collision-ring projection 41 of 254.
+Collision-ring projection 42 of 254.
+Collision-ring projection 43 of 254.
+Collision-ring projection 44 of 254.
+Collision-ring projection 45 of 254.
+Collision-ring projection 46 of 254.
+Collision-ring projection 47 of 254.
+Collision-ring projection 48 of 254.
+Collision-ring projection 49 of 254.
+Collision-ring projection 50 of 254.
+Collision-ring projection 51 of 254.
+Collision-ring projection 52 of 254.
+Collision-ring projection 53 of 254.
+Collision-ring projection 54 of 254.
+Collision-ring projection 55 of 254.
+Collision-ring projection 56 of 254.
+Collision-ring projection 57 of 254.
+Collision-ring projection 58 of 254.
+Collision-ring projection 59 of 254.
+Collision-ring projection 60 of 254.
+Collision-ring projection 61 of 254.
+Collision-ring projection 62 of 254.
+Collision-ring projection 63 of 254.
+Collision-ring projection 64 of 254.
+Collision-ring projection 65 of 254.
+Collision-ring projection 66 of 254.
+Collision-ring projection 67 of 254.
+Collision-ring projection 68 of 254.
+Collision-ring projection 69 of 254.
+Collision-ring projection 70 of 254.
+Collision-ring projection 71 of 254.
+Collision-ring projection 72 of 254.
+Collision-ring projection 73 of 254.
+Collision-ring projection 74 of 254.
+Collision-ring projection 75 of 254.
+Collision-ring projection 76 of 254.
+Collision-ring projection 77 of 254.
+Collision-ring projection 78 of 254.
+Collision-ring projection 79 of 254.
+Collision-ring projection 80 of 254.
+Collision-ring projection 81 of 254.
+Collision-ring projection 82 of 254.
+Collision-ring projection 83 of 254.
+Collision-ring projection 84 of 254.
+Collision-ring projection 85 of 254.
+Collision-ring projection 86 of 254.
+Collision-ring projection 87 of 254.
+Collision-ring projection 88 of 254.
+Collision-ring projection 89 of 254.
+Collision-ring projection 90 of 254.
+Collision-ring projection 91 of 254.
+Collision-ring projection 92 of 254.
+Collision-ring projection 93 of 254.
+Collision-ring projection 94 of 254.
+Collision-ring projection 95 of 254.
+Collision-ring projection 96 of 254.
+Collision-ring projection 97 of 254.
+Collision-ring projection 98 of 254.
+Collision-ring projection 99 of 254.
+Collision-ring projection 100 of 254.
+Collision-ring projection 101 of 254.
+Collision-ring projection 102 of 254.
+Collision-ring projection 103 of 254.
+Collision-ring projection 104 of 254.
+Collision-ring projection 105 of 254.
+Collision-ring projection 106 of 254.
+Collision-ring projection 107 of 254.
+Collision-ring projection 108 of 254.
+Collision-ring projection 109 of 254.
+Collision-ring projection 110 of 254.
+Collision-ring projection 111 of 254.
+Collision-ring projection 112 of 254.
+Collision-ring projection 113 of 254.
+Collision-ring projection 114 of 254.
+Collision-ring projection 115 of 254.
+Collision-ring projection 116 of 254.
+Collision-ring projection 117 of 254.
+Collision-ring projection 118 of 254.
+Collision-ring projection 119 of 254.
+Collision-ring projection 120 of 254.
+Collision-ring projection 121 of 254.
+Collision-ring projection 122 of 254.
+Collision-ring projection 123 of 254.
+Collision-ring projection 124 of 254.
+Collision-ring projection 125 of 254.
+Collision-ring projection 126 of 254.
+Collision-ring projection 127 of 254.
+Collision-ring projection 128 of 254.
+Collision-ring projection 129 of 254.
+Collision-ring projection 130 of 254.
+Collision-ring projection 131 of 254.
+Collision-ring projection 132 of 254.
+Collision-ring projection 133 of 254.
+Collision-ring projection 134 of 254.
+Collision-ring projection 135 of 254.
+Collision-ring projection 136 of 254.
+Collision-ring projection 137 of 254.
+Collision-ring projection 138 of 254.
+Collision-ring projection 139 of 254.
+Collision-ring projection 140 of 254.
+Collision-ring projection 141 of 254.
+Collision-ring projection 142 of 254.
+Collision-ring projection 143 of 254.
+Collision-ring projection 144 of 254.
+Collision-ring projection 145 of 254.
+Collision-ring projection 146 of 254.
+Collision-ring projection 147 of 254.
+Collision-ring projection 148 of 254.
+Collision-ring projection 149 of 254.
+Collision-ring projection 150 of 254.
+Collision-ring projection 151 of 254.
+Collision-ring projection 152 of 254.
+Collision-ring projection 153 of 254.
+Collision-ring projection 154 of 254.
+Collision-ring projection 155 of 254.
+Collision-ring projection 156 of 254.
+Collision-ring projection 157 of 254.
+Collision-ring projection 158 of 254.
+Collision-ring projection 159 of 254.
+Collision-ring projection 160 of 254.
+Collision-ring projection 161 of 254.
+Collision-ring projection 162 of 254.
+Collision-ring projection 163 of 254.
+Collision-ring projection 164 of 254.
+Collision-ring projection 165 of 254.
+Collision-ring projection 166 of 254.
+Collision-ring projection 167 of 254.
+Collision-ring projection 168 of 254.
+Collision-ring projection 169 of 254.
+Collision-ring projection 170 of 254.
+Collision-ring projection 171 of 254.
+Collision-ring projection 172 of 254.
+Collision-ring projection 173 of 254.
+Collision-ring projection 174 of 254.
+Collision-ring projection 175 of 254.
+Collision-ring projection 176 of 254.
+Collision-ring projection 177 of 254.
+Collision-ring projection 178 of 254.
+Collision-ring projection 179 of 254.
+Collision-ring projection 180 of 254.
+Collision-ring projection 181 of 254.
+Collision-ring projection 182 of 254.
+Collision-ring projection 183 of 254.
+Collision-ring projection 184 of 254.
+Collision-ring projection 185 of 254.
+Collision-ring projection 186 of 254.
+Collision-ring projection 187 of 254.
+Collision-ring projection 188 of 254.
+Collision-ring projection 189 of 254.
+Collision-ring projection 190 of 254.
+Collision-ring projection 191 of 254.
+Collision-ring projection 192 of 254.
+Collision-ring projection 193 of 254.
+Collision-ring projection 194 of 254.
+Collision-ring projection 195 of 254.
+Collision-ring projection 196 of 254.
+Collision-ring projection 197 of 254.
+Collision-ring projection 198 of 254.
+Collision-ring projection 199 of 254.
+Collision-ring projection 200 of 254.
+Collision-ring projection 201 of 254.
+Collision-ring projection 202 of 254.
+Collision-ring projection 203 of 254.
+Collision-ring projection 204 of 254.
+Collision-ring projection 205 of 254.
+Collision-ring projection 206 of 254.
+Collision-ring projection 207 of 254.
+Collision-ring projection 208 of 254.
+Collision-ring projection 209 of 254.
+Collision-ring projection 210 of 254.
+Collision-ring projection 211 of 254.
+Collision-ring projection 212 of 254.
+Collision-ring projection 213 of 254.
+Collision-ring projection 214 of 254.
+Collision-ring projection 215 of 254.
+Collision-ring projection 216 of 254.
+Collision-ring projection 217 of 254.
+Collision-ring projection 218 of 254.
+Collision-ring projection 219 of 254.
+Collision-ring projection 220 of 254.
+Collision-ring projection 221 of 254.
+Collision-ring projection 222 of 254.
+Collision-ring projection 223 of 254.
+Collision-ring projection 224 of 254.
+Collision-ring projection 225 of 254.
+Collision-ring projection 226 of 254.
+Collision-ring projection 227 of 254.
+Collision-ring projection 228 of 254.
+Collision-ring projection 229 of 254.
+Collision-ring projection 230 of 254.
+Collision-ring projection 231 of 254.
+Collision-ring projection 232 of 254.
+Collision-ring projection 233 of 254.
+Collision-ring projection 234 of 254.
+Collision-ring projection 235 of 254.
+Collision-ring projection 236 of 254.
+Collision-ring projection 237 of 254.
+Collision-ring projection 238 of 254.
+Collision-ring projection 239 of 254.
+Collision-ring projection 240 of 254.
+Collision-ring projection 241 of 254.
+Collision-ring projection 242 of 254.
+Collision-ring projection 243 of 254.
+Collision-ring projection 244 of 254.
+Collision-ring projection 245 of 254.
+Collision-ring projection 246 of 254.
+Collision-ring projection 247 of 254.
+Collision-ring projection 248 of 254.
+Collision-ring projection 249 of 254.
+Collision-ring projection 250 of 254.
+Collision-ring projection 251 of 254.
+Collision-ring projection 252 of 254.
+Collision-ring projection 253 of 254.
+Collision-ring projection 254 of 254.
+Projection-fixed generators: 140
+Nonzero defects: 114
+Saving collision state: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 4
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: None
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 2
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 6
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 14
+Nonzero projections: 2
+Already in I_(k-1): 0
+New orbit generators: 210
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 87
+Elapsed time: 0.35 seconds
+Testing all remaining defects in I_3.
+Defects removed: 114
+Saving degree state: saved_states_lambda_4_2_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_3.
+Total elapsed time: 7 minutes, 59.99 seconds
+
+Computation completed.

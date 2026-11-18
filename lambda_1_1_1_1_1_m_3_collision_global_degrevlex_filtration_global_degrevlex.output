@@ -1,0 +1,1357 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (1, 1, 1, 1, 1)
+Input m = 3
+n = 5
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = None
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (1, 1, 1, 1, 1)
+m = 3
+n = 5
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(2, 1, 1, 1)]
+State directory: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (2, 1, 1, 1): 10 collision primes
+
+======================================================
+Computing shape ideal: (2, 1, 1, 1)
+Collision order: degrevlex
+======================================================
+Number of collision primes: 10
+
+Shape (2, 1, 1, 1): balanced intersection level 1.
+Number of ideals: 10
+Shape (2, 1, 1, 1): START pair 1.
+Shape (2, 1, 1, 1): END pair 1.
+Stored generators: 9
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1, 1): START pair 2.
+Shape (2, 1, 1, 1): END pair 2.
+Stored generators: 9
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1, 1): START pair 3.
+Shape (2, 1, 1, 1): END pair 3.
+Stored generators: 9
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1, 1): START pair 4.
+Shape (2, 1, 1, 1): END pair 4.
+Stored generators: 9
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1, 1): START pair 5.
+Shape (2, 1, 1, 1): END pair 5.
+Stored generators: 9
+Maximum generator degree: 2
+Pair elapsed: 0.00 seconds
+
+Shape (2, 1, 1, 1): balanced intersection level 2.
+Number of ideals: 5
+Shape (2, 1, 1, 1): START pair 1.
+Shape (2, 1, 1, 1): END pair 1.
+Stored generators: 39
+Maximum generator degree: 4
+Pair elapsed: 0.00 seconds
+Shape (2, 1, 1, 1): START pair 2.
+Shape (2, 1, 1, 1): END pair 2.
+Stored generators: 81
+Maximum generator degree: 4
+Pair elapsed: 0.01 seconds
+
+Shape (2, 1, 1, 1): balanced intersection level 3.
+Number of ideals: 3
+Shape (2, 1, 1, 1): START pair 1.
+Shape (2, 1, 1, 1): END pair 1.
+Stored generators: 564
+Maximum generator degree: 8
+Pair elapsed: 1.57 seconds
+
+Shape (2, 1, 1, 1): balanced intersection level 4.
+Number of ideals: 2
+Shape (2, 1, 1, 1): START pair 1.
+Shape (2, 1, 1, 1): END pair 1.
+Stored generators: 649
+Maximum generator degree: 10
+Pair elapsed: 2 minutes, 12.80 seconds
+
+Shape (2, 1, 1, 1): complete.
+Total intersection time: 2 minutes, 14.48 seconds
+
+START Groebner basis: shape ideal (2, 1, 1, 1)
+Algorithm: None
+END Groebner basis: shape ideal (2, 1, 1, 1)
+Number of elements: 649
+Elapsed time: 11.75 seconds
+Saving shape state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/collision_shape_2_1_1_1_order_global_degrevlex.sobj
+Shape state saved.
+Total shape time: 2 minutes, 26.31 seconds
+
+Final intersection of shape ideals.
+
+Final collision ideal: complete.
+Total intersection time: 0.00 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: None
+END Groebner basis: final collision ideal
+Number of elements: 649
+Elapsed time: 10.87 seconds
+Collision generators: 649
+D_full = 10
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 649
+Maximum degree: 10
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 649
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 649
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 3
+New generators: 0
+Generators removed: 0
+Generators remaining: 649
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 4
+New generators: 0
+Generators removed: 0
+Generators remaining: 649
+
+START Groebner basis: degree-filtered ideal before degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 5
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 5
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 5
+Number of elements: 57
+Elapsed time: 11.12 seconds
+Degree 5
+New generators: 6
+Generators removed: 6
+Generators remaining: 643
+
+START Groebner basis: degree-filtered ideal before degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 6
+Number of elements: 57
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 6
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 6
+Number of elements: 258
+Elapsed time: 57.99 seconds
+Degree 6
+New generators: 41
+Generators removed: 42
+Generators remaining: 601
+
+START Groebner basis: degree-filtered ideal before degree 7
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 7
+Number of elements: 258
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 7
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 7
+Number of elements: 408
+Elapsed time: 23.52 seconds
+Degree 7
+New generators: 132
+Generators removed: 132
+Generators remaining: 469
+
+START Groebner basis: degree-filtered ideal before degree 8
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 8
+Number of elements: 408
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 8
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 8
+Number of elements: 514
+Elapsed time: 7.56 seconds
+Degree 8
+New generators: 251
+Generators removed: 251
+Generators remaining: 218
+
+START Groebner basis: degree-filtered ideal before degree 9
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 9
+Number of elements: 514
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 9
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 9
+Number of elements: 583
+Elapsed time: 8.16 seconds
+Degree 9
+New generators: 152
+Generators removed: 152
+Generators remaining: 66
+
+START Groebner basis: degree-filtered ideal before degree 10
+Algorithm: None
+END Groebner basis: degree-filtered ideal before degree 10
+Number of elements: 583
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 10
+Algorithm: None
+END Groebner basis: degree-filtered ideal after degree 10
+Number of elements: 649
+Elapsed time: 10.98 seconds
+Degree 10
+New generators: 66
+Generators removed: 66
+Generators remaining: 0
+D_filtered = 10
+Dimension of S^lambda: 1
+Collision-ring projection 1 of 648.
+Collision-ring projection 2 of 648.
+Collision-ring projection 3 of 648.
+Collision-ring projection 4 of 648.
+Collision-ring projection 5 of 648.
+Collision-ring projection 6 of 648.
+Collision-ring projection 7 of 648.
+Collision-ring projection 8 of 648.
+Collision-ring projection 9 of 648.
+Collision-ring projection 10 of 648.
+Collision-ring projection 11 of 648.
+Collision-ring projection 12 of 648.
+Collision-ring projection 13 of 648.
+Collision-ring projection 14 of 648.
+Collision-ring projection 15 of 648.
+Collision-ring projection 16 of 648.
+Collision-ring projection 17 of 648.
+Collision-ring projection 18 of 648.
+Collision-ring projection 19 of 648.
+Collision-ring projection 20 of 648.
+Collision-ring projection 21 of 648.
+Collision-ring projection 22 of 648.
+Collision-ring projection 23 of 648.
+Collision-ring projection 24 of 648.
+Collision-ring projection 25 of 648.
+Collision-ring projection 26 of 648.
+Collision-ring projection 27 of 648.
+Collision-ring projection 28 of 648.
+Collision-ring projection 29 of 648.
+Collision-ring projection 30 of 648.
+Collision-ring projection 31 of 648.
+Collision-ring projection 32 of 648.
+Collision-ring projection 33 of 648.
+Collision-ring projection 34 of 648.
+Collision-ring projection 35 of 648.
+Collision-ring projection 36 of 648.
+Collision-ring projection 37 of 648.
+Collision-ring projection 38 of 648.
+Collision-ring projection 39 of 648.
+Collision-ring projection 40 of 648.
+Collision-ring projection 41 of 648.
+Collision-ring projection 42 of 648.
+Collision-ring projection 43 of 648.
+Collision-ring projection 44 of 648.
+Collision-ring projection 45 of 648.
+Collision-ring projection 46 of 648.
+Collision-ring projection 47 of 648.
+Collision-ring projection 48 of 648.
+Collision-ring projection 49 of 648.
+Collision-ring projection 50 of 648.
+Collision-ring projection 51 of 648.
+Collision-ring projection 52 of 648.
+Collision-ring projection 53 of 648.
+Collision-ring projection 54 of 648.
+Collision-ring projection 55 of 648.
+Collision-ring projection 56 of 648.
+Collision-ring projection 57 of 648.
+Collision-ring projection 58 of 648.
+Collision-ring projection 59 of 648.
+Collision-ring projection 60 of 648.
+Collision-ring projection 61 of 648.
+Collision-ring projection 62 of 648.
+Collision-ring projection 63 of 648.
+Collision-ring projection 64 of 648.
+Collision-ring projection 65 of 648.
+Collision-ring projection 66 of 648.
+Collision-ring projection 67 of 648.
+Collision-ring projection 68 of 648.
+Collision-ring projection 69 of 648.
+Collision-ring projection 70 of 648.
+Collision-ring projection 71 of 648.
+Collision-ring projection 72 of 648.
+Collision-ring projection 73 of 648.
+Collision-ring projection 74 of 648.
+Collision-ring projection 75 of 648.
+Collision-ring projection 76 of 648.
+Collision-ring projection 77 of 648.
+Collision-ring projection 78 of 648.
+Collision-ring projection 79 of 648.
+Collision-ring projection 80 of 648.
+Collision-ring projection 81 of 648.
+Collision-ring projection 82 of 648.
+Collision-ring projection 83 of 648.
+Collision-ring projection 84 of 648.
+Collision-ring projection 85 of 648.
+Collision-ring projection 86 of 648.
+Collision-ring projection 87 of 648.
+Collision-ring projection 88 of 648.
+Collision-ring projection 89 of 648.
+Collision-ring projection 90 of 648.
+Collision-ring projection 91 of 648.
+Collision-ring projection 92 of 648.
+Collision-ring projection 93 of 648.
+Collision-ring projection 94 of 648.
+Collision-ring projection 95 of 648.
+Collision-ring projection 96 of 648.
+Collision-ring projection 97 of 648.
+Collision-ring projection 98 of 648.
+Collision-ring projection 99 of 648.
+Collision-ring projection 100 of 648.
+Collision-ring projection 101 of 648.
+Collision-ring projection 102 of 648.
+Collision-ring projection 103 of 648.
+Collision-ring projection 104 of 648.
+Collision-ring projection 105 of 648.
+Collision-ring projection 106 of 648.
+Collision-ring projection 107 of 648.
+Collision-ring projection 108 of 648.
+Collision-ring projection 109 of 648.
+Collision-ring projection 110 of 648.
+Collision-ring projection 111 of 648.
+Collision-ring projection 112 of 648.
+Collision-ring projection 113 of 648.
+Collision-ring projection 114 of 648.
+Collision-ring projection 115 of 648.
+Collision-ring projection 116 of 648.
+Collision-ring projection 117 of 648.
+Collision-ring projection 118 of 648.
+Collision-ring projection 119 of 648.
+Collision-ring projection 120 of 648.
+Collision-ring projection 121 of 648.
+Collision-ring projection 122 of 648.
+Collision-ring projection 123 of 648.
+Collision-ring projection 124 of 648.
+Collision-ring projection 125 of 648.
+Collision-ring projection 126 of 648.
+Collision-ring projection 127 of 648.
+Collision-ring projection 128 of 648.
+Collision-ring projection 129 of 648.
+Collision-ring projection 130 of 648.
+Collision-ring projection 131 of 648.
+Collision-ring projection 132 of 648.
+Collision-ring projection 133 of 648.
+Collision-ring projection 134 of 648.
+Collision-ring projection 135 of 648.
+Collision-ring projection 136 of 648.
+Collision-ring projection 137 of 648.
+Collision-ring projection 138 of 648.
+Collision-ring projection 139 of 648.
+Collision-ring projection 140 of 648.
+Collision-ring projection 141 of 648.
+Collision-ring projection 142 of 648.
+Collision-ring projection 143 of 648.
+Collision-ring projection 144 of 648.
+Collision-ring projection 145 of 648.
+Collision-ring projection 146 of 648.
+Collision-ring projection 147 of 648.
+Collision-ring projection 148 of 648.
+Collision-ring projection 149 of 648.
+Collision-ring projection 150 of 648.
+Collision-ring projection 151 of 648.
+Collision-ring projection 152 of 648.
+Collision-ring projection 153 of 648.
+Collision-ring projection 154 of 648.
+Collision-ring projection 155 of 648.
+Collision-ring projection 156 of 648.
+Collision-ring projection 157 of 648.
+Collision-ring projection 158 of 648.
+Collision-ring projection 159 of 648.
+Collision-ring projection 160 of 648.
+Collision-ring projection 161 of 648.
+Collision-ring projection 162 of 648.
+Collision-ring projection 163 of 648.
+Collision-ring projection 164 of 648.
+Collision-ring projection 165 of 648.
+Collision-ring projection 166 of 648.
+Collision-ring projection 167 of 648.
+Collision-ring projection 168 of 648.
+Collision-ring projection 169 of 648.
+Collision-ring projection 170 of 648.
+Collision-ring projection 171 of 648.
+Collision-ring projection 172 of 648.
+Collision-ring projection 173 of 648.
+Collision-ring projection 174 of 648.
+Collision-ring projection 175 of 648.
+Collision-ring projection 176 of 648.
+Collision-ring projection 177 of 648.
+Collision-ring projection 178 of 648.
+Collision-ring projection 179 of 648.
+Collision-ring projection 180 of 648.
+Collision-ring projection 181 of 648.
+Collision-ring projection 182 of 648.
+Collision-ring projection 183 of 648.
+Collision-ring projection 184 of 648.
+Collision-ring projection 185 of 648.
+Collision-ring projection 186 of 648.
+Collision-ring projection 187 of 648.
+Collision-ring projection 188 of 648.
+Collision-ring projection 189 of 648.
+Collision-ring projection 190 of 648.
+Collision-ring projection 191 of 648.
+Collision-ring projection 192 of 648.
+Collision-ring projection 193 of 648.
+Collision-ring projection 194 of 648.
+Collision-ring projection 195 of 648.
+Collision-ring projection 196 of 648.
+Collision-ring projection 197 of 648.
+Collision-ring projection 198 of 648.
+Collision-ring projection 199 of 648.
+Collision-ring projection 200 of 648.
+Collision-ring projection 201 of 648.
+Collision-ring projection 202 of 648.
+Collision-ring projection 203 of 648.
+Collision-ring projection 204 of 648.
+Collision-ring projection 205 of 648.
+Collision-ring projection 206 of 648.
+Collision-ring projection 207 of 648.
+Collision-ring projection 208 of 648.
+Collision-ring projection 209 of 648.
+Collision-ring projection 210 of 648.
+Collision-ring projection 211 of 648.
+Collision-ring projection 212 of 648.
+Collision-ring projection 213 of 648.
+Collision-ring projection 214 of 648.
+Collision-ring projection 215 of 648.
+Collision-ring projection 216 of 648.
+Collision-ring projection 217 of 648.
+Collision-ring projection 218 of 648.
+Collision-ring projection 219 of 648.
+Collision-ring projection 220 of 648.
+Collision-ring projection 221 of 648.
+Collision-ring projection 222 of 648.
+Collision-ring projection 223 of 648.
+Collision-ring projection 224 of 648.
+Collision-ring projection 225 of 648.
+Collision-ring projection 226 of 648.
+Collision-ring projection 227 of 648.
+Collision-ring projection 228 of 648.
+Collision-ring projection 229 of 648.
+Collision-ring projection 230 of 648.
+Collision-ring projection 231 of 648.
+Collision-ring projection 232 of 648.
+Collision-ring projection 233 of 648.
+Collision-ring projection 234 of 648.
+Collision-ring projection 235 of 648.
+Collision-ring projection 236 of 648.
+Collision-ring projection 237 of 648.
+Collision-ring projection 238 of 648.
+Collision-ring projection 239 of 648.
+Collision-ring projection 240 of 648.
+Collision-ring projection 241 of 648.
+Collision-ring projection 242 of 648.
+Collision-ring projection 243 of 648.
+Collision-ring projection 244 of 648.
+Collision-ring projection 245 of 648.
+Collision-ring projection 246 of 648.
+Collision-ring projection 247 of 648.
+Collision-ring projection 248 of 648.
+Collision-ring projection 249 of 648.
+Collision-ring projection 250 of 648.
+Collision-ring projection 251 of 648.
+Collision-ring projection 252 of 648.
+Collision-ring projection 253 of 648.
+Collision-ring projection 254 of 648.
+Collision-ring projection 255 of 648.
+Collision-ring projection 256 of 648.
+Collision-ring projection 257 of 648.
+Collision-ring projection 258 of 648.
+Collision-ring projection 259 of 648.
+Collision-ring projection 260 of 648.
+Collision-ring projection 261 of 648.
+Collision-ring projection 262 of 648.
+Collision-ring projection 263 of 648.
+Collision-ring projection 264 of 648.
+Collision-ring projection 265 of 648.
+Collision-ring projection 266 of 648.
+Collision-ring projection 267 of 648.
+Collision-ring projection 268 of 648.
+Collision-ring projection 269 of 648.
+Collision-ring projection 270 of 648.
+Collision-ring projection 271 of 648.
+Collision-ring projection 272 of 648.
+Collision-ring projection 273 of 648.
+Collision-ring projection 274 of 648.
+Collision-ring projection 275 of 648.
+Collision-ring projection 276 of 648.
+Collision-ring projection 277 of 648.
+Collision-ring projection 278 of 648.
+Collision-ring projection 279 of 648.
+Collision-ring projection 280 of 648.
+Collision-ring projection 281 of 648.
+Collision-ring projection 282 of 648.
+Collision-ring projection 283 of 648.
+Collision-ring projection 284 of 648.
+Collision-ring projection 285 of 648.
+Collision-ring projection 286 of 648.
+Collision-ring projection 287 of 648.
+Collision-ring projection 288 of 648.
+Collision-ring projection 289 of 648.
+Collision-ring projection 290 of 648.
+Collision-ring projection 291 of 648.
+Collision-ring projection 292 of 648.
+Collision-ring projection 293 of 648.
+Collision-ring projection 294 of 648.
+Collision-ring projection 295 of 648.
+Collision-ring projection 296 of 648.
+Collision-ring projection 297 of 648.
+Collision-ring projection 298 of 648.
+Collision-ring projection 299 of 648.
+Collision-ring projection 300 of 648.
+Collision-ring projection 301 of 648.
+Collision-ring projection 302 of 648.
+Collision-ring projection 303 of 648.
+Collision-ring projection 304 of 648.
+Collision-ring projection 305 of 648.
+Collision-ring projection 306 of 648.
+Collision-ring projection 307 of 648.
+Collision-ring projection 308 of 648.
+Collision-ring projection 309 of 648.
+Collision-ring projection 310 of 648.
+Collision-ring projection 311 of 648.
+Collision-ring projection 312 of 648.
+Collision-ring projection 313 of 648.
+Collision-ring projection 314 of 648.
+Collision-ring projection 315 of 648.
+Collision-ring projection 316 of 648.
+Collision-ring projection 317 of 648.
+Collision-ring projection 318 of 648.
+Collision-ring projection 319 of 648.
+Collision-ring projection 320 of 648.
+Collision-ring projection 321 of 648.
+Collision-ring projection 322 of 648.
+Collision-ring projection 323 of 648.
+Collision-ring projection 324 of 648.
+Collision-ring projection 325 of 648.
+Collision-ring projection 326 of 648.
+Collision-ring projection 327 of 648.
+Collision-ring projection 328 of 648.
+Collision-ring projection 329 of 648.
+Collision-ring projection 330 of 648.
+Collision-ring projection 331 of 648.
+Collision-ring projection 332 of 648.
+Collision-ring projection 333 of 648.
+Collision-ring projection 334 of 648.
+Collision-ring projection 335 of 648.
+Collision-ring projection 336 of 648.
+Collision-ring projection 337 of 648.
+Collision-ring projection 338 of 648.
+Collision-ring projection 339 of 648.
+Collision-ring projection 340 of 648.
+Collision-ring projection 341 of 648.
+Collision-ring projection 342 of 648.
+Collision-ring projection 343 of 648.
+Collision-ring projection 344 of 648.
+Collision-ring projection 345 of 648.
+Collision-ring projection 346 of 648.
+Collision-ring projection 347 of 648.
+Collision-ring projection 348 of 648.
+Collision-ring projection 349 of 648.
+Collision-ring projection 350 of 648.
+Collision-ring projection 351 of 648.
+Collision-ring projection 352 of 648.
+Collision-ring projection 353 of 648.
+Collision-ring projection 354 of 648.
+Collision-ring projection 355 of 648.
+Collision-ring projection 356 of 648.
+Collision-ring projection 357 of 648.
+Collision-ring projection 358 of 648.
+Collision-ring projection 359 of 648.
+Collision-ring projection 360 of 648.
+Collision-ring projection 361 of 648.
+Collision-ring projection 362 of 648.
+Collision-ring projection 363 of 648.
+Collision-ring projection 364 of 648.
+Collision-ring projection 365 of 648.
+Collision-ring projection 366 of 648.
+Collision-ring projection 367 of 648.
+Collision-ring projection 368 of 648.
+Collision-ring projection 369 of 648.
+Collision-ring projection 370 of 648.
+Collision-ring projection 371 of 648.
+Collision-ring projection 372 of 648.
+Collision-ring projection 373 of 648.
+Collision-ring projection 374 of 648.
+Collision-ring projection 375 of 648.
+Collision-ring projection 376 of 648.
+Collision-ring projection 377 of 648.
+Collision-ring projection 378 of 648.
+Collision-ring projection 379 of 648.
+Collision-ring projection 380 of 648.
+Collision-ring projection 381 of 648.
+Collision-ring projection 382 of 648.
+Collision-ring projection 383 of 648.
+Collision-ring projection 384 of 648.
+Collision-ring projection 385 of 648.
+Collision-ring projection 386 of 648.
+Collision-ring projection 387 of 648.
+Collision-ring projection 388 of 648.
+Collision-ring projection 389 of 648.
+Collision-ring projection 390 of 648.
+Collision-ring projection 391 of 648.
+Collision-ring projection 392 of 648.
+Collision-ring projection 393 of 648.
+Collision-ring projection 394 of 648.
+Collision-ring projection 395 of 648.
+Collision-ring projection 396 of 648.
+Collision-ring projection 397 of 648.
+Collision-ring projection 398 of 648.
+Collision-ring projection 399 of 648.
+Collision-ring projection 400 of 648.
+Collision-ring projection 401 of 648.
+Collision-ring projection 402 of 648.
+Collision-ring projection 403 of 648.
+Collision-ring projection 404 of 648.
+Collision-ring projection 405 of 648.
+Collision-ring projection 406 of 648.
+Collision-ring projection 407 of 648.
+Collision-ring projection 408 of 648.
+Collision-ring projection 409 of 648.
+Collision-ring projection 410 of 648.
+Collision-ring projection 411 of 648.
+Collision-ring projection 412 of 648.
+Collision-ring projection 413 of 648.
+Collision-ring projection 414 of 648.
+Collision-ring projection 415 of 648.
+Collision-ring projection 416 of 648.
+Collision-ring projection 417 of 648.
+Collision-ring projection 418 of 648.
+Collision-ring projection 419 of 648.
+Collision-ring projection 420 of 648.
+Collision-ring projection 421 of 648.
+Collision-ring projection 422 of 648.
+Collision-ring projection 423 of 648.
+Collision-ring projection 424 of 648.
+Collision-ring projection 425 of 648.
+Collision-ring projection 426 of 648.
+Collision-ring projection 427 of 648.
+Collision-ring projection 428 of 648.
+Collision-ring projection 429 of 648.
+Collision-ring projection 430 of 648.
+Collision-ring projection 431 of 648.
+Collision-ring projection 432 of 648.
+Collision-ring projection 433 of 648.
+Collision-ring projection 434 of 648.
+Collision-ring projection 435 of 648.
+Collision-ring projection 436 of 648.
+Collision-ring projection 437 of 648.
+Collision-ring projection 438 of 648.
+Collision-ring projection 439 of 648.
+Collision-ring projection 440 of 648.
+Collision-ring projection 441 of 648.
+Collision-ring projection 442 of 648.
+Collision-ring projection 443 of 648.
+Collision-ring projection 444 of 648.
+Collision-ring projection 445 of 648.
+Collision-ring projection 446 of 648.
+Collision-ring projection 447 of 648.
+Collision-ring projection 448 of 648.
+Collision-ring projection 449 of 648.
+Collision-ring projection 450 of 648.
+Collision-ring projection 451 of 648.
+Collision-ring projection 452 of 648.
+Collision-ring projection 453 of 648.
+Collision-ring projection 454 of 648.
+Collision-ring projection 455 of 648.
+Collision-ring projection 456 of 648.
+Collision-ring projection 457 of 648.
+Collision-ring projection 458 of 648.
+Collision-ring projection 459 of 648.
+Collision-ring projection 460 of 648.
+Collision-ring projection 461 of 648.
+Collision-ring projection 462 of 648.
+Collision-ring projection 463 of 648.
+Collision-ring projection 464 of 648.
+Collision-ring projection 465 of 648.
+Collision-ring projection 466 of 648.
+Collision-ring projection 467 of 648.
+Collision-ring projection 468 of 648.
+Collision-ring projection 469 of 648.
+Collision-ring projection 470 of 648.
+Collision-ring projection 471 of 648.
+Collision-ring projection 472 of 648.
+Collision-ring projection 473 of 648.
+Collision-ring projection 474 of 648.
+Collision-ring projection 475 of 648.
+Collision-ring projection 476 of 648.
+Collision-ring projection 477 of 648.
+Collision-ring projection 478 of 648.
+Collision-ring projection 479 of 648.
+Collision-ring projection 480 of 648.
+Collision-ring projection 481 of 648.
+Collision-ring projection 482 of 648.
+Collision-ring projection 483 of 648.
+Collision-ring projection 484 of 648.
+Collision-ring projection 485 of 648.
+Collision-ring projection 486 of 648.
+Collision-ring projection 487 of 648.
+Collision-ring projection 488 of 648.
+Collision-ring projection 489 of 648.
+Collision-ring projection 490 of 648.
+Collision-ring projection 491 of 648.
+Collision-ring projection 492 of 648.
+Collision-ring projection 493 of 648.
+Collision-ring projection 494 of 648.
+Collision-ring projection 495 of 648.
+Collision-ring projection 496 of 648.
+Collision-ring projection 497 of 648.
+Collision-ring projection 498 of 648.
+Collision-ring projection 499 of 648.
+Collision-ring projection 500 of 648.
+Collision-ring projection 501 of 648.
+Collision-ring projection 502 of 648.
+Collision-ring projection 503 of 648.
+Collision-ring projection 504 of 648.
+Collision-ring projection 505 of 648.
+Collision-ring projection 506 of 648.
+Collision-ring projection 507 of 648.
+Collision-ring projection 508 of 648.
+Collision-ring projection 509 of 648.
+Collision-ring projection 510 of 648.
+Collision-ring projection 511 of 648.
+Collision-ring projection 512 of 648.
+Collision-ring projection 513 of 648.
+Collision-ring projection 514 of 648.
+Collision-ring projection 515 of 648.
+Collision-ring projection 516 of 648.
+Collision-ring projection 517 of 648.
+Collision-ring projection 518 of 648.
+Collision-ring projection 519 of 648.
+Collision-ring projection 520 of 648.
+Collision-ring projection 521 of 648.
+Collision-ring projection 522 of 648.
+Collision-ring projection 523 of 648.
+Collision-ring projection 524 of 648.
+Collision-ring projection 525 of 648.
+Collision-ring projection 526 of 648.
+Collision-ring projection 527 of 648.
+Collision-ring projection 528 of 648.
+Collision-ring projection 529 of 648.
+Collision-ring projection 530 of 648.
+Collision-ring projection 531 of 648.
+Collision-ring projection 532 of 648.
+Collision-ring projection 533 of 648.
+Collision-ring projection 534 of 648.
+Collision-ring projection 535 of 648.
+Collision-ring projection 536 of 648.
+Collision-ring projection 537 of 648.
+Collision-ring projection 538 of 648.
+Collision-ring projection 539 of 648.
+Collision-ring projection 540 of 648.
+Collision-ring projection 541 of 648.
+Collision-ring projection 542 of 648.
+Collision-ring projection 543 of 648.
+Collision-ring projection 544 of 648.
+Collision-ring projection 545 of 648.
+Collision-ring projection 546 of 648.
+Collision-ring projection 547 of 648.
+Collision-ring projection 548 of 648.
+Collision-ring projection 549 of 648.
+Collision-ring projection 550 of 648.
+Collision-ring projection 551 of 648.
+Collision-ring projection 552 of 648.
+Collision-ring projection 553 of 648.
+Collision-ring projection 554 of 648.
+Collision-ring projection 555 of 648.
+Collision-ring projection 556 of 648.
+Collision-ring projection 557 of 648.
+Collision-ring projection 558 of 648.
+Collision-ring projection 559 of 648.
+Collision-ring projection 560 of 648.
+Collision-ring projection 561 of 648.
+Collision-ring projection 562 of 648.
+Collision-ring projection 563 of 648.
+Collision-ring projection 564 of 648.
+Collision-ring projection 565 of 648.
+Collision-ring projection 566 of 648.
+Collision-ring projection 567 of 648.
+Collision-ring projection 568 of 648.
+Collision-ring projection 569 of 648.
+Collision-ring projection 570 of 648.
+Collision-ring projection 571 of 648.
+Collision-ring projection 572 of 648.
+Collision-ring projection 573 of 648.
+Collision-ring projection 574 of 648.
+Collision-ring projection 575 of 648.
+Collision-ring projection 576 of 648.
+Collision-ring projection 577 of 648.
+Collision-ring projection 578 of 648.
+Collision-ring projection 579 of 648.
+Collision-ring projection 580 of 648.
+Collision-ring projection 581 of 648.
+Collision-ring projection 582 of 648.
+Collision-ring projection 583 of 648.
+Collision-ring projection 584 of 648.
+Collision-ring projection 585 of 648.
+Collision-ring projection 586 of 648.
+Collision-ring projection 587 of 648.
+Collision-ring projection 588 of 648.
+Collision-ring projection 589 of 648.
+Collision-ring projection 590 of 648.
+Collision-ring projection 591 of 648.
+Collision-ring projection 592 of 648.
+Collision-ring projection 593 of 648.
+Collision-ring projection 594 of 648.
+Collision-ring projection 595 of 648.
+Collision-ring projection 596 of 648.
+Collision-ring projection 597 of 648.
+Collision-ring projection 598 of 648.
+Collision-ring projection 599 of 648.
+Collision-ring projection 600 of 648.
+Collision-ring projection 601 of 648.
+Collision-ring projection 602 of 648.
+Collision-ring projection 603 of 648.
+Collision-ring projection 604 of 648.
+Collision-ring projection 605 of 648.
+Collision-ring projection 606 of 648.
+Collision-ring projection 607 of 648.
+Collision-ring projection 608 of 648.
+Collision-ring projection 609 of 648.
+Collision-ring projection 610 of 648.
+Collision-ring projection 611 of 648.
+Collision-ring projection 612 of 648.
+Collision-ring projection 613 of 648.
+Collision-ring projection 614 of 648.
+Collision-ring projection 615 of 648.
+Collision-ring projection 616 of 648.
+Collision-ring projection 617 of 648.
+Collision-ring projection 618 of 648.
+Collision-ring projection 619 of 648.
+Collision-ring projection 620 of 648.
+Collision-ring projection 621 of 648.
+Collision-ring projection 622 of 648.
+Collision-ring projection 623 of 648.
+Collision-ring projection 624 of 648.
+Collision-ring projection 625 of 648.
+Collision-ring projection 626 of 648.
+Collision-ring projection 627 of 648.
+Collision-ring projection 628 of 648.
+Collision-ring projection 629 of 648.
+Collision-ring projection 630 of 648.
+Collision-ring projection 631 of 648.
+Collision-ring projection 632 of 648.
+Collision-ring projection 633 of 648.
+Collision-ring projection 634 of 648.
+Collision-ring projection 635 of 648.
+Collision-ring projection 636 of 648.
+Collision-ring projection 637 of 648.
+Collision-ring projection 638 of 648.
+Collision-ring projection 639 of 648.
+Collision-ring projection 640 of 648.
+Collision-ring projection 641 of 648.
+Collision-ring projection 642 of 648.
+Collision-ring projection 643 of 648.
+Collision-ring projection 644 of 648.
+Collision-ring projection 645 of 648.
+Collision-ring projection 646 of 648.
+Collision-ring projection 647 of 648.
+Collision-ring projection 648 of 648.
+Projection-fixed generators: 24
+Nonzero defects: 624
+Saving collision state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 10
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: None
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.05 seconds
+Monomial orbits: 3
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: None
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 12
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: None
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 38
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_3.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+Degree k = 4
+======================================================
+
+START Groebner basis: I_3
+Algorithm: None
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 117
+Processed 100 of 117 representatives.
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_4.
+Defects removed: 0
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_4.sobj
+
+======================================================
+Degree k = 5
+======================================================
+
+START Groebner basis: I_4
+Algorithm: None
+END Groebner basis: I_4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 330
+Processed 100 of 330 representatives.
+Processed 200 of 330 representatives.
+Processed 300 of 330 representatives.
+Nonzero projections: 6
+Already in I_(k-1): 0
+New orbit generators: 12
+
+START Groebner basis: I_5
+Algorithm: None
+END Groebner basis: I_5
+Number of elements: 57
+Elapsed time: 11.23 seconds
+Testing all remaining defects in I_5.
+Defects removed: 32
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_5.sobj
+
+======================================================
+Degree k = 6
+======================================================
+
+START Groebner basis: I_5
+Algorithm: None
+END Groebner basis: I_5
+Number of elements: 57
+Elapsed time: 0.00 seconds
+Monomial orbits: 878
+Processed 100 of 878 representatives.
+Processed 200 of 878 representatives.
+Processed 300 of 878 representatives.
+Processed 400 of 878 representatives.
+Processed 500 of 878 representatives.
+Processed 600 of 878 representatives.
+Processed 700 of 878 representatives.
+Processed 800 of 878 representatives.
+Nonzero projections: 55
+Already in I_(k-1): 0
+New orbit generators: 110
+
+START Groebner basis: I_6
+Algorithm: None
+END Groebner basis: I_6
+Number of elements: 258
+Elapsed time: 59.09 seconds
+Testing all remaining defects in I_6.
+Defects removed: 126
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_6.sobj
+
+======================================================
+Degree k = 7
+======================================================
+
+START Groebner basis: I_6
+Algorithm: None
+END Groebner basis: I_6
+Number of elements: 258
+Elapsed time: 0.00 seconds
+Monomial orbits: 2205
+Processed 100 of 2205 representatives.
+Processed 200 of 2205 representatives.
+Processed 300 of 2205 representatives.
+Processed 400 of 2205 representatives.
+Processed 500 of 2205 representatives.
+Processed 600 of 2205 representatives.
+Processed 700 of 2205 representatives.
+Processed 800 of 2205 representatives.
+Processed 900 of 2205 representatives.
+Processed 1000 of 2205 representatives.
+Processed 1100 of 2205 representatives.
+Processed 1200 of 2205 representatives.
+Processed 1300 of 2205 representatives.
+Processed 1400 of 2205 representatives.
+Processed 1500 of 2205 representatives.
+Processed 1600 of 2205 representatives.
+Processed 1700 of 2205 representatives.
+Processed 1800 of 2205 representatives.
+Processed 1900 of 2205 representatives.
+Processed 2000 of 2205 representatives.
+Processed 2100 of 2205 representatives.
+Processed 2200 of 2205 representatives.
+Nonzero projections: 270
+Already in I_(k-1): 15
+New orbit generators: 510
+
+START Groebner basis: I_7
+Algorithm: None
+END Groebner basis: I_7
+Number of elements: 408
+Elapsed time: 22.93 seconds
+Testing all remaining defects in I_7.
+Defects removed: 251
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_7.sobj
+
+======================================================
+Degree k = 8
+======================================================
+
+START Groebner basis: I_7
+Algorithm: None
+END Groebner basis: I_7
+Number of elements: 408
+Elapsed time: 0.00 seconds
+Monomial orbits: 5289
+Processed 100 of 5289 representatives.
+Processed 200 of 5289 representatives.
+Processed 300 of 5289 representatives.
+Processed 400 of 5289 representatives.
+Processed 500 of 5289 representatives.
+Processed 600 of 5289 representatives.
+Processed 700 of 5289 representatives.
+Processed 800 of 5289 representatives.
+Processed 900 of 5289 representatives.
+Processed 1000 of 5289 representatives.
+Processed 1100 of 5289 representatives.
+Processed 1200 of 5289 representatives.
+Processed 1300 of 5289 representatives.
+Processed 1400 of 5289 representatives.
+Processed 1500 of 5289 representatives.
+Processed 1600 of 5289 representatives.
+Processed 1700 of 5289 representatives.
+Processed 1800 of 5289 representatives.
+Processed 1900 of 5289 representatives.
+Processed 2000 of 5289 representatives.
+Processed 2100 of 5289 representatives.
+Processed 2200 of 5289 representatives.
+Processed 2300 of 5289 representatives.
+Processed 2400 of 5289 representatives.
+Processed 2500 of 5289 representatives.
+Processed 2600 of 5289 representatives.
+Processed 2700 of 5289 representatives.
+Processed 2800 of 5289 representatives.
+Processed 2900 of 5289 representatives.
+Processed 3000 of 5289 representatives.
+Processed 3100 of 5289 representatives.
+Processed 3200 of 5289 representatives.
+Processed 3300 of 5289 representatives.
+Processed 3400 of 5289 representatives.
+Processed 3500 of 5289 representatives.
+Processed 3600 of 5289 representatives.
+Processed 3700 of 5289 representatives.
+Processed 3800 of 5289 representatives.
+Processed 3900 of 5289 representatives.
+Processed 4000 of 5289 representatives.
+Processed 4100 of 5289 representatives.
+Processed 4200 of 5289 representatives.
+Processed 4300 of 5289 representatives.
+Processed 4400 of 5289 representatives.
+Processed 4500 of 5289 representatives.
+Processed 4600 of 5289 representatives.
+Processed 4700 of 5289 representatives.
+Processed 4800 of 5289 representatives.
+Processed 4900 of 5289 representatives.
+Processed 5000 of 5289 representatives.
+Processed 5100 of 5289 representatives.
+Processed 5200 of 5289 representatives.
+Nonzero projections: 1011
+Already in I_(k-1): 156
+New orbit generators: 1710
+
+START Groebner basis: I_8
+Algorithm: None
+END Groebner basis: I_8
+Number of elements: 514
+Elapsed time: 10.48 seconds
+Testing all remaining defects in I_8.
+Defects removed: 152
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_8.sobj
+
+======================================================
+Degree k = 9
+======================================================
+
+START Groebner basis: I_8
+Algorithm: None
+END Groebner basis: I_8
+Number of elements: 514
+Elapsed time: 0.00 seconds
+Monomial orbits: 12106
+Processed 100 of 12106 representatives.
+Processed 200 of 12106 representatives.
+Processed 300 of 12106 representatives.
+Processed 400 of 12106 representatives.
+Processed 500 of 12106 representatives.
+Processed 600 of 12106 representatives.
+Processed 700 of 12106 representatives.
+Processed 800 of 12106 representatives.
+Processed 900 of 12106 representatives.
+Processed 1000 of 12106 representatives.
+Processed 1100 of 12106 representatives.
+Processed 1200 of 12106 representatives.
+Processed 1300 of 12106 representatives.
+Processed 1400 of 12106 representatives.
+Processed 1500 of 12106 representatives.
+Processed 1600 of 12106 representatives.
+Processed 1700 of 12106 representatives.
+Processed 1800 of 12106 representatives.
+Processed 1900 of 12106 representatives.
+Processed 2000 of 12106 representatives.
+Processed 2100 of 12106 representatives.
+Processed 2200 of 12106 representatives.
+Processed 2300 of 12106 representatives.
+Processed 2400 of 12106 representatives.
+Processed 2500 of 12106 representatives.
+Processed 2600 of 12106 representatives.
+Processed 2700 of 12106 representatives.
+Processed 2800 of 12106 representatives.
+Processed 2900 of 12106 representatives.
+Processed 3000 of 12106 representatives.
+Processed 3100 of 12106 representatives.
+Processed 3200 of 12106 representatives.
+Processed 3300 of 12106 representatives.
+Processed 3400 of 12106 representatives.
+Processed 3500 of 12106 representatives.
+Processed 3600 of 12106 representatives.
+Processed 3700 of 12106 representatives.
+Processed 3800 of 12106 representatives.
+Processed 3900 of 12106 representatives.
+Processed 4000 of 12106 representatives.
+Processed 4100 of 12106 representatives.
+Processed 4200 of 12106 representatives.
+Processed 4300 of 12106 representatives.
+Processed 4400 of 12106 representatives.
+Processed 4500 of 12106 representatives.
+Processed 4600 of 12106 representatives.
+Processed 4700 of 12106 representatives.
+Processed 4800 of 12106 representatives.
+Processed 4900 of 12106 representatives.
+Processed 5000 of 12106 representatives.
+Processed 5100 of 12106 representatives.
+Processed 5200 of 12106 representatives.
+Processed 5300 of 12106 representatives.
+Processed 5400 of 12106 representatives.
+Processed 5500 of 12106 representatives.
+Processed 5600 of 12106 representatives.
+Processed 5700 of 12106 representatives.
+Processed 5800 of 12106 representatives.
+Processed 5900 of 12106 representatives.
+Processed 6000 of 12106 representatives.
+Processed 6100 of 12106 representatives.
+Processed 6200 of 12106 representatives.
+Processed 6300 of 12106 representatives.
+Processed 6400 of 12106 representatives.
+Processed 6500 of 12106 representatives.
+Processed 6600 of 12106 representatives.
+Processed 6700 of 12106 representatives.
+Processed 6800 of 12106 representatives.
+Processed 6900 of 12106 representatives.
+Processed 7000 of 12106 representatives.
+Processed 7100 of 12106 representatives.
+Processed 7200 of 12106 representatives.
+Processed 7300 of 12106 representatives.
+Processed 7400 of 12106 representatives.
+Processed 7500 of 12106 representatives.
+Processed 7600 of 12106 representatives.
+Processed 7700 of 12106 representatives.
+Processed 7800 of 12106 representatives.
+Processed 7900 of 12106 representatives.
+Processed 8000 of 12106 representatives.
+Processed 8100 of 12106 representatives.
+Processed 8200 of 12106 representatives.
+Processed 8300 of 12106 representatives.
+Processed 8400 of 12106 representatives.
+Processed 8500 of 12106 representatives.
+Processed 8600 of 12106 representatives.
+Processed 8700 of 12106 representatives.
+Processed 8800 of 12106 representatives.
+Processed 8900 of 12106 representatives.
+Processed 9000 of 12106 representatives.
+Processed 9100 of 12106 representatives.
+Processed 9200 of 12106 representatives.
+Processed 9300 of 12106 representatives.
+Processed 9400 of 12106 representatives.
+Processed 9500 of 12106 representatives.
+Processed 9600 of 12106 representatives.
+Processed 9700 of 12106 representatives.
+Processed 9800 of 12106 representatives.
+Processed 9900 of 12106 representatives.
+Processed 10000 of 12106 representatives.
+Processed 10100 of 12106 representatives.
+Processed 10200 of 12106 representatives.
+Processed 10300 of 12106 representatives.
+Processed 10400 of 12106 representatives.
+Processed 10500 of 12106 representatives.
+Processed 10600 of 12106 representatives.
+Processed 10700 of 12106 representatives.
+Processed 10800 of 12106 representatives.
+Processed 10900 of 12106 representatives.
+Processed 11000 of 12106 representatives.
+Processed 11100 of 12106 representatives.
+Processed 11200 of 12106 representatives.
+Processed 11300 of 12106 representatives.
+Processed 11400 of 12106 representatives.
+Processed 11500 of 12106 representatives.
+Processed 11600 of 12106 representatives.
+Processed 11700 of 12106 representatives.
+Processed 11800 of 12106 representatives.
+Processed 11900 of 12106 representatives.
+Processed 12000 of 12106 representatives.
+Processed 12100 of 12106 representatives.
+Nonzero projections: 3171
+Already in I_(k-1): 1236
+New orbit generators: 3870
+
+START Groebner basis: I_9
+Algorithm: None
+END Groebner basis: I_9
+Number of elements: 583
+Elapsed time: 41.64 seconds
+Testing all remaining defects in I_9.
+Defects removed: 63
+Saving degree state: saved_states_lambda_1_1_1_1_1_m_3_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_9.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_9.
+Total elapsed time: 1 hours, 44 minutes, 48.45 seconds
+
+Computation completed.

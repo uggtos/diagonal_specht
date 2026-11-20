@@ -1,0 +1,1173 @@
+======================================================
+Parallel radicality computation
+======================================================
+Input lambda = (3, 2, 1, 1)
+Input m = 2
+n = 7
+Collision monomial order = degrevlex
+Filtration monomial order = degrevlex
+GB algorithm = libsingular:std
+Maximum shape workers = 3
+
+======================================================
+Radicality computation
+lambda = (3, 2, 1, 1)
+m = 2
+n = 7
+collision order = degrevlex
+filtration order = degrevlex
+======================================================
+Minimal shapes: [(4, 1, 1, 1), (3, 3, 1), (3, 2, 2)]
+State directory: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex
+
+======================================================
+Collision ideal computation by shapes
+======================================================
+Collision order: degrevlex
+shape (4, 1, 1, 1): 35 collision primes
+shape (3, 3, 1): 70 collision primes
+shape (3, 2, 2): 105 collision primes
+Launching 3 simultaneous shape workers.
+Worker finished for shape (4, 1, 1, 1) with return code 0.
+Worker launcher log: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_4_1_1_1_collision_global_degrevlex.log
+Worker finished for shape (3, 3, 1) with return code 0.
+Worker launcher log: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_3_3_1_collision_global_degrevlex.log
+Worker finished for shape (3, 2, 2) with return code 0.
+Worker launcher log: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/worker_launcher_shape_3_2_2_collision_global_degrevlex.log
+Loaded shape (4, 1, 1, 1) with 506 generators.
+Loaded shape (3, 3, 1) with 703 generators.
+Loaded shape (3, 2, 2) with 954 generators.
+
+Final intersection of shape ideals.
+
+Final collision ideal: balanced intersection level 1.
+Number of ideals: 3
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 727
+Maximum generator degree: 10
+Pair elapsed: 10 minutes, 17.84 seconds
+
+Final collision ideal: balanced intersection level 2.
+Number of ideals: 2
+Final collision ideal: START pair 1.
+Final collision ideal: END pair 1.
+Stored generators: 907
+Maximum generator degree: 10
+Pair elapsed: 1 hours, 0 minutes, 59.84 seconds
+
+Final collision ideal: complete.
+Total intersection time: 1 hours, 11 minutes, 17.79 seconds
+
+START Groebner basis: final collision ideal
+Algorithm: libsingular:std
+END Groebner basis: final collision ideal
+Number of elements: 907
+Elapsed time: 12.11 seconds
+Collision generators: 907
+D_full = 10
+
+======================================================
+Degree-filtered generator reduction
+======================================================
+Initial generators: 907
+Maximum degree: 10
+
+START Groebner basis: degree-filtered ideal before degree 1
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 1
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 1
+New generators: 0
+Generators removed: 0
+Generators remaining: 907
+
+START Groebner basis: degree-filtered ideal before degree 2
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 2
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 2
+New generators: 0
+Generators removed: 0
+Generators remaining: 907
+
+START Groebner basis: degree-filtered ideal before degree 3
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 3
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 3
+New generators: 0
+Generators removed: 0
+Generators remaining: 907
+
+START Groebner basis: degree-filtered ideal before degree 4
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 4
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Degree 4
+New generators: 0
+Generators removed: 0
+Generators remaining: 907
+
+START Groebner basis: degree-filtered ideal before degree 5
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 5
+Number of elements: 1
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 5
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 5
+Number of elements: 503
+Elapsed time: 10.86 seconds
+Degree 5
+New generators: 210
+Generators removed: 243
+Generators remaining: 664
+
+START Groebner basis: degree-filtered ideal before degree 6
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 6
+Number of elements: 503
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 6
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 6
+Number of elements: 629
+Elapsed time: 6.78 seconds
+Degree 6
+New generators: 290
+Generators removed: 319
+Generators remaining: 345
+
+START Groebner basis: degree-filtered ideal before degree 7
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal before degree 7
+Number of elements: 629
+Elapsed time: 0.00 seconds
+
+START Groebner basis: degree-filtered ideal after degree 7
+Algorithm: libsingular:std
+END Groebner basis: degree-filtered ideal after degree 7
+Number of elements: 907
+Elapsed time: 12.17 seconds
+Degree 7
+New generators: 334
+Generators removed: 345
+Generators remaining: 0
+D_filtered = 7
+Dimension of S^lambda: 35
+Collision-ring projection 1 of 834.
+Collision-ring projection 2 of 834.
+Collision-ring projection 3 of 834.
+Collision-ring projection 4 of 834.
+Collision-ring projection 5 of 834.
+Collision-ring projection 6 of 834.
+Collision-ring projection 7 of 834.
+Collision-ring projection 8 of 834.
+Collision-ring projection 9 of 834.
+Collision-ring projection 10 of 834.
+Collision-ring projection 11 of 834.
+Collision-ring projection 12 of 834.
+Collision-ring projection 13 of 834.
+Collision-ring projection 14 of 834.
+Collision-ring projection 15 of 834.
+Collision-ring projection 16 of 834.
+Collision-ring projection 17 of 834.
+Collision-ring projection 18 of 834.
+Collision-ring projection 19 of 834.
+Collision-ring projection 20 of 834.
+Collision-ring projection 21 of 834.
+Collision-ring projection 22 of 834.
+Collision-ring projection 23 of 834.
+Collision-ring projection 24 of 834.
+Collision-ring projection 25 of 834.
+Collision-ring projection 26 of 834.
+Collision-ring projection 27 of 834.
+Collision-ring projection 28 of 834.
+Collision-ring projection 29 of 834.
+Collision-ring projection 30 of 834.
+Collision-ring projection 31 of 834.
+Collision-ring projection 32 of 834.
+Collision-ring projection 33 of 834.
+Collision-ring projection 34 of 834.
+Collision-ring projection 35 of 834.
+Collision-ring projection 36 of 834.
+Collision-ring projection 37 of 834.
+Collision-ring projection 38 of 834.
+Collision-ring projection 39 of 834.
+Collision-ring projection 40 of 834.
+Collision-ring projection 41 of 834.
+Collision-ring projection 42 of 834.
+Collision-ring projection 43 of 834.
+Collision-ring projection 44 of 834.
+Collision-ring projection 45 of 834.
+Collision-ring projection 46 of 834.
+Collision-ring projection 47 of 834.
+Collision-ring projection 48 of 834.
+Collision-ring projection 49 of 834.
+Collision-ring projection 50 of 834.
+Collision-ring projection 51 of 834.
+Collision-ring projection 52 of 834.
+Collision-ring projection 53 of 834.
+Collision-ring projection 54 of 834.
+Collision-ring projection 55 of 834.
+Collision-ring projection 56 of 834.
+Collision-ring projection 57 of 834.
+Collision-ring projection 58 of 834.
+Collision-ring projection 59 of 834.
+Collision-ring projection 60 of 834.
+Collision-ring projection 61 of 834.
+Collision-ring projection 62 of 834.
+Collision-ring projection 63 of 834.
+Collision-ring projection 64 of 834.
+Collision-ring projection 65 of 834.
+Collision-ring projection 66 of 834.
+Collision-ring projection 67 of 834.
+Collision-ring projection 68 of 834.
+Collision-ring projection 69 of 834.
+Collision-ring projection 70 of 834.
+Collision-ring projection 71 of 834.
+Collision-ring projection 72 of 834.
+Collision-ring projection 73 of 834.
+Collision-ring projection 74 of 834.
+Collision-ring projection 75 of 834.
+Collision-ring projection 76 of 834.
+Collision-ring projection 77 of 834.
+Collision-ring projection 78 of 834.
+Collision-ring projection 79 of 834.
+Collision-ring projection 80 of 834.
+Collision-ring projection 81 of 834.
+Collision-ring projection 82 of 834.
+Collision-ring projection 83 of 834.
+Collision-ring projection 84 of 834.
+Collision-ring projection 85 of 834.
+Collision-ring projection 86 of 834.
+Collision-ring projection 87 of 834.
+Collision-ring projection 88 of 834.
+Collision-ring projection 89 of 834.
+Collision-ring projection 90 of 834.
+Collision-ring projection 91 of 834.
+Collision-ring projection 92 of 834.
+Collision-ring projection 93 of 834.
+Collision-ring projection 94 of 834.
+Collision-ring projection 95 of 834.
+Collision-ring projection 96 of 834.
+Collision-ring projection 97 of 834.
+Collision-ring projection 98 of 834.
+Collision-ring projection 99 of 834.
+Collision-ring projection 100 of 834.
+Collision-ring projection 101 of 834.
+Collision-ring projection 102 of 834.
+Collision-ring projection 103 of 834.
+Collision-ring projection 104 of 834.
+Collision-ring projection 105 of 834.
+Collision-ring projection 106 of 834.
+Collision-ring projection 107 of 834.
+Collision-ring projection 108 of 834.
+Collision-ring projection 109 of 834.
+Collision-ring projection 110 of 834.
+Collision-ring projection 111 of 834.
+Collision-ring projection 112 of 834.
+Collision-ring projection 113 of 834.
+Collision-ring projection 114 of 834.
+Collision-ring projection 115 of 834.
+Collision-ring projection 116 of 834.
+Collision-ring projection 117 of 834.
+Collision-ring projection 118 of 834.
+Collision-ring projection 119 of 834.
+Collision-ring projection 120 of 834.
+Collision-ring projection 121 of 834.
+Collision-ring projection 122 of 834.
+Collision-ring projection 123 of 834.
+Collision-ring projection 124 of 834.
+Collision-ring projection 125 of 834.
+Collision-ring projection 126 of 834.
+Collision-ring projection 127 of 834.
+Collision-ring projection 128 of 834.
+Collision-ring projection 129 of 834.
+Collision-ring projection 130 of 834.
+Collision-ring projection 131 of 834.
+Collision-ring projection 132 of 834.
+Collision-ring projection 133 of 834.
+Collision-ring projection 134 of 834.
+Collision-ring projection 135 of 834.
+Collision-ring projection 136 of 834.
+Collision-ring projection 137 of 834.
+Collision-ring projection 138 of 834.
+Collision-ring projection 139 of 834.
+Collision-ring projection 140 of 834.
+Collision-ring projection 141 of 834.
+Collision-ring projection 142 of 834.
+Collision-ring projection 143 of 834.
+Collision-ring projection 144 of 834.
+Collision-ring projection 145 of 834.
+Collision-ring projection 146 of 834.
+Collision-ring projection 147 of 834.
+Collision-ring projection 148 of 834.
+Collision-ring projection 149 of 834.
+Collision-ring projection 150 of 834.
+Collision-ring projection 151 of 834.
+Collision-ring projection 152 of 834.
+Collision-ring projection 153 of 834.
+Collision-ring projection 154 of 834.
+Collision-ring projection 155 of 834.
+Collision-ring projection 156 of 834.
+Collision-ring projection 157 of 834.
+Collision-ring projection 158 of 834.
+Collision-ring projection 159 of 834.
+Collision-ring projection 160 of 834.
+Collision-ring projection 161 of 834.
+Collision-ring projection 162 of 834.
+Collision-ring projection 163 of 834.
+Collision-ring projection 164 of 834.
+Collision-ring projection 165 of 834.
+Collision-ring projection 166 of 834.
+Collision-ring projection 167 of 834.
+Collision-ring projection 168 of 834.
+Collision-ring projection 169 of 834.
+Collision-ring projection 170 of 834.
+Collision-ring projection 171 of 834.
+Collision-ring projection 172 of 834.
+Collision-ring projection 173 of 834.
+Collision-ring projection 174 of 834.
+Collision-ring projection 175 of 834.
+Collision-ring projection 176 of 834.
+Collision-ring projection 177 of 834.
+Collision-ring projection 178 of 834.
+Collision-ring projection 179 of 834.
+Collision-ring projection 180 of 834.
+Collision-ring projection 181 of 834.
+Collision-ring projection 182 of 834.
+Collision-ring projection 183 of 834.
+Collision-ring projection 184 of 834.
+Collision-ring projection 185 of 834.
+Collision-ring projection 186 of 834.
+Collision-ring projection 187 of 834.
+Collision-ring projection 188 of 834.
+Collision-ring projection 189 of 834.
+Collision-ring projection 190 of 834.
+Collision-ring projection 191 of 834.
+Collision-ring projection 192 of 834.
+Collision-ring projection 193 of 834.
+Collision-ring projection 194 of 834.
+Collision-ring projection 195 of 834.
+Collision-ring projection 196 of 834.
+Collision-ring projection 197 of 834.
+Collision-ring projection 198 of 834.
+Collision-ring projection 199 of 834.
+Collision-ring projection 200 of 834.
+Collision-ring projection 201 of 834.
+Collision-ring projection 202 of 834.
+Collision-ring projection 203 of 834.
+Collision-ring projection 204 of 834.
+Collision-ring projection 205 of 834.
+Collision-ring projection 206 of 834.
+Collision-ring projection 207 of 834.
+Collision-ring projection 208 of 834.
+Collision-ring projection 209 of 834.
+Collision-ring projection 210 of 834.
+Collision-ring projection 211 of 834.
+Collision-ring projection 212 of 834.
+Collision-ring projection 213 of 834.
+Collision-ring projection 214 of 834.
+Collision-ring projection 215 of 834.
+Collision-ring projection 216 of 834.
+Collision-ring projection 217 of 834.
+Collision-ring projection 218 of 834.
+Collision-ring projection 219 of 834.
+Collision-ring projection 220 of 834.
+Collision-ring projection 221 of 834.
+Collision-ring projection 222 of 834.
+Collision-ring projection 223 of 834.
+Collision-ring projection 224 of 834.
+Collision-ring projection 225 of 834.
+Collision-ring projection 226 of 834.
+Collision-ring projection 227 of 834.
+Collision-ring projection 228 of 834.
+Collision-ring projection 229 of 834.
+Collision-ring projection 230 of 834.
+Collision-ring projection 231 of 834.
+Collision-ring projection 232 of 834.
+Collision-ring projection 233 of 834.
+Collision-ring projection 234 of 834.
+Collision-ring projection 235 of 834.
+Collision-ring projection 236 of 834.
+Collision-ring projection 237 of 834.
+Collision-ring projection 238 of 834.
+Collision-ring projection 239 of 834.
+Collision-ring projection 240 of 834.
+Collision-ring projection 241 of 834.
+Collision-ring projection 242 of 834.
+Collision-ring projection 243 of 834.
+Collision-ring projection 244 of 834.
+Collision-ring projection 245 of 834.
+Collision-ring projection 246 of 834.
+Collision-ring projection 247 of 834.
+Collision-ring projection 248 of 834.
+Collision-ring projection 249 of 834.
+Collision-ring projection 250 of 834.
+Collision-ring projection 251 of 834.
+Collision-ring projection 252 of 834.
+Collision-ring projection 253 of 834.
+Collision-ring projection 254 of 834.
+Collision-ring projection 255 of 834.
+Collision-ring projection 256 of 834.
+Collision-ring projection 257 of 834.
+Collision-ring projection 258 of 834.
+Collision-ring projection 259 of 834.
+Collision-ring projection 260 of 834.
+Collision-ring projection 261 of 834.
+Collision-ring projection 262 of 834.
+Collision-ring projection 263 of 834.
+Collision-ring projection 264 of 834.
+Collision-ring projection 265 of 834.
+Collision-ring projection 266 of 834.
+Collision-ring projection 267 of 834.
+Collision-ring projection 268 of 834.
+Collision-ring projection 269 of 834.
+Collision-ring projection 270 of 834.
+Collision-ring projection 271 of 834.
+Collision-ring projection 272 of 834.
+Collision-ring projection 273 of 834.
+Collision-ring projection 274 of 834.
+Collision-ring projection 275 of 834.
+Collision-ring projection 276 of 834.
+Collision-ring projection 277 of 834.
+Collision-ring projection 278 of 834.
+Collision-ring projection 279 of 834.
+Collision-ring projection 280 of 834.
+Collision-ring projection 281 of 834.
+Collision-ring projection 282 of 834.
+Collision-ring projection 283 of 834.
+Collision-ring projection 284 of 834.
+Collision-ring projection 285 of 834.
+Collision-ring projection 286 of 834.
+Collision-ring projection 287 of 834.
+Collision-ring projection 288 of 834.
+Collision-ring projection 289 of 834.
+Collision-ring projection 290 of 834.
+Collision-ring projection 291 of 834.
+Collision-ring projection 292 of 834.
+Collision-ring projection 293 of 834.
+Collision-ring projection 294 of 834.
+Collision-ring projection 295 of 834.
+Collision-ring projection 296 of 834.
+Collision-ring projection 297 of 834.
+Collision-ring projection 298 of 834.
+Collision-ring projection 299 of 834.
+Collision-ring projection 300 of 834.
+Collision-ring projection 301 of 834.
+Collision-ring projection 302 of 834.
+Collision-ring projection 303 of 834.
+Collision-ring projection 304 of 834.
+Collision-ring projection 305 of 834.
+Collision-ring projection 306 of 834.
+Collision-ring projection 307 of 834.
+Collision-ring projection 308 of 834.
+Collision-ring projection 309 of 834.
+Collision-ring projection 310 of 834.
+Collision-ring projection 311 of 834.
+Collision-ring projection 312 of 834.
+Collision-ring projection 313 of 834.
+Collision-ring projection 314 of 834.
+Collision-ring projection 315 of 834.
+Collision-ring projection 316 of 834.
+Collision-ring projection 317 of 834.
+Collision-ring projection 318 of 834.
+Collision-ring projection 319 of 834.
+Collision-ring projection 320 of 834.
+Collision-ring projection 321 of 834.
+Collision-ring projection 322 of 834.
+Collision-ring projection 323 of 834.
+Collision-ring projection 324 of 834.
+Collision-ring projection 325 of 834.
+Collision-ring projection 326 of 834.
+Collision-ring projection 327 of 834.
+Collision-ring projection 328 of 834.
+Collision-ring projection 329 of 834.
+Collision-ring projection 330 of 834.
+Collision-ring projection 331 of 834.
+Collision-ring projection 332 of 834.
+Collision-ring projection 333 of 834.
+Collision-ring projection 334 of 834.
+Collision-ring projection 335 of 834.
+Collision-ring projection 336 of 834.
+Collision-ring projection 337 of 834.
+Collision-ring projection 338 of 834.
+Collision-ring projection 339 of 834.
+Collision-ring projection 340 of 834.
+Collision-ring projection 341 of 834.
+Collision-ring projection 342 of 834.
+Collision-ring projection 343 of 834.
+Collision-ring projection 344 of 834.
+Collision-ring projection 345 of 834.
+Collision-ring projection 346 of 834.
+Collision-ring projection 347 of 834.
+Collision-ring projection 348 of 834.
+Collision-ring projection 349 of 834.
+Collision-ring projection 350 of 834.
+Collision-ring projection 351 of 834.
+Collision-ring projection 352 of 834.
+Collision-ring projection 353 of 834.
+Collision-ring projection 354 of 834.
+Collision-ring projection 355 of 834.
+Collision-ring projection 356 of 834.
+Collision-ring projection 357 of 834.
+Collision-ring projection 358 of 834.
+Collision-ring projection 359 of 834.
+Collision-ring projection 360 of 834.
+Collision-ring projection 361 of 834.
+Collision-ring projection 362 of 834.
+Collision-ring projection 363 of 834.
+Collision-ring projection 364 of 834.
+Collision-ring projection 365 of 834.
+Collision-ring projection 366 of 834.
+Collision-ring projection 367 of 834.
+Collision-ring projection 368 of 834.
+Collision-ring projection 369 of 834.
+Collision-ring projection 370 of 834.
+Collision-ring projection 371 of 834.
+Collision-ring projection 372 of 834.
+Collision-ring projection 373 of 834.
+Collision-ring projection 374 of 834.
+Collision-ring projection 375 of 834.
+Collision-ring projection 376 of 834.
+Collision-ring projection 377 of 834.
+Collision-ring projection 378 of 834.
+Collision-ring projection 379 of 834.
+Collision-ring projection 380 of 834.
+Collision-ring projection 381 of 834.
+Collision-ring projection 382 of 834.
+Collision-ring projection 383 of 834.
+Collision-ring projection 384 of 834.
+Collision-ring projection 385 of 834.
+Collision-ring projection 386 of 834.
+Collision-ring projection 387 of 834.
+Collision-ring projection 388 of 834.
+Collision-ring projection 389 of 834.
+Collision-ring projection 390 of 834.
+Collision-ring projection 391 of 834.
+Collision-ring projection 392 of 834.
+Collision-ring projection 393 of 834.
+Collision-ring projection 394 of 834.
+Collision-ring projection 395 of 834.
+Collision-ring projection 396 of 834.
+Collision-ring projection 397 of 834.
+Collision-ring projection 398 of 834.
+Collision-ring projection 399 of 834.
+Collision-ring projection 400 of 834.
+Collision-ring projection 401 of 834.
+Collision-ring projection 402 of 834.
+Collision-ring projection 403 of 834.
+Collision-ring projection 404 of 834.
+Collision-ring projection 405 of 834.
+Collision-ring projection 406 of 834.
+Collision-ring projection 407 of 834.
+Collision-ring projection 408 of 834.
+Collision-ring projection 409 of 834.
+Collision-ring projection 410 of 834.
+Collision-ring projection 411 of 834.
+Collision-ring projection 412 of 834.
+Collision-ring projection 413 of 834.
+Collision-ring projection 414 of 834.
+Collision-ring projection 415 of 834.
+Collision-ring projection 416 of 834.
+Collision-ring projection 417 of 834.
+Collision-ring projection 418 of 834.
+Collision-ring projection 419 of 834.
+Collision-ring projection 420 of 834.
+Collision-ring projection 421 of 834.
+Collision-ring projection 422 of 834.
+Collision-ring projection 423 of 834.
+Collision-ring projection 424 of 834.
+Collision-ring projection 425 of 834.
+Collision-ring projection 426 of 834.
+Collision-ring projection 427 of 834.
+Collision-ring projection 428 of 834.
+Collision-ring projection 429 of 834.
+Collision-ring projection 430 of 834.
+Collision-ring projection 431 of 834.
+Collision-ring projection 432 of 834.
+Collision-ring projection 433 of 834.
+Collision-ring projection 434 of 834.
+Collision-ring projection 435 of 834.
+Collision-ring projection 436 of 834.
+Collision-ring projection 437 of 834.
+Collision-ring projection 438 of 834.
+Collision-ring projection 439 of 834.
+Collision-ring projection 440 of 834.
+Collision-ring projection 441 of 834.
+Collision-ring projection 442 of 834.
+Collision-ring projection 443 of 834.
+Collision-ring projection 444 of 834.
+Collision-ring projection 445 of 834.
+Collision-ring projection 446 of 834.
+Collision-ring projection 447 of 834.
+Collision-ring projection 448 of 834.
+Collision-ring projection 449 of 834.
+Collision-ring projection 450 of 834.
+Collision-ring projection 451 of 834.
+Collision-ring projection 452 of 834.
+Collision-ring projection 453 of 834.
+Collision-ring projection 454 of 834.
+Collision-ring projection 455 of 834.
+Collision-ring projection 456 of 834.
+Collision-ring projection 457 of 834.
+Collision-ring projection 458 of 834.
+Collision-ring projection 459 of 834.
+Collision-ring projection 460 of 834.
+Collision-ring projection 461 of 834.
+Collision-ring projection 462 of 834.
+Collision-ring projection 463 of 834.
+Collision-ring projection 464 of 834.
+Collision-ring projection 465 of 834.
+Collision-ring projection 466 of 834.
+Collision-ring projection 467 of 834.
+Collision-ring projection 468 of 834.
+Collision-ring projection 469 of 834.
+Collision-ring projection 470 of 834.
+Collision-ring projection 471 of 834.
+Collision-ring projection 472 of 834.
+Collision-ring projection 473 of 834.
+Collision-ring projection 474 of 834.
+Collision-ring projection 475 of 834.
+Collision-ring projection 476 of 834.
+Collision-ring projection 477 of 834.
+Collision-ring projection 478 of 834.
+Collision-ring projection 479 of 834.
+Collision-ring projection 480 of 834.
+Collision-ring projection 481 of 834.
+Collision-ring projection 482 of 834.
+Collision-ring projection 483 of 834.
+Collision-ring projection 484 of 834.
+Collision-ring projection 485 of 834.
+Collision-ring projection 486 of 834.
+Collision-ring projection 487 of 834.
+Collision-ring projection 488 of 834.
+Collision-ring projection 489 of 834.
+Collision-ring projection 490 of 834.
+Collision-ring projection 491 of 834.
+Collision-ring projection 492 of 834.
+Collision-ring projection 493 of 834.
+Collision-ring projection 494 of 834.
+Collision-ring projection 495 of 834.
+Collision-ring projection 496 of 834.
+Collision-ring projection 497 of 834.
+Collision-ring projection 498 of 834.
+Collision-ring projection 499 of 834.
+Collision-ring projection 500 of 834.
+Collision-ring projection 501 of 834.
+Collision-ring projection 502 of 834.
+Collision-ring projection 503 of 834.
+Collision-ring projection 504 of 834.
+Collision-ring projection 505 of 834.
+Collision-ring projection 506 of 834.
+Collision-ring projection 507 of 834.
+Collision-ring projection 508 of 834.
+Collision-ring projection 509 of 834.
+Collision-ring projection 510 of 834.
+Collision-ring projection 511 of 834.
+Collision-ring projection 512 of 834.
+Collision-ring projection 513 of 834.
+Collision-ring projection 514 of 834.
+Collision-ring projection 515 of 834.
+Collision-ring projection 516 of 834.
+Collision-ring projection 517 of 834.
+Collision-ring projection 518 of 834.
+Collision-ring projection 519 of 834.
+Collision-ring projection 520 of 834.
+Collision-ring projection 521 of 834.
+Collision-ring projection 522 of 834.
+Collision-ring projection 523 of 834.
+Collision-ring projection 524 of 834.
+Collision-ring projection 525 of 834.
+Collision-ring projection 526 of 834.
+Collision-ring projection 527 of 834.
+Collision-ring projection 528 of 834.
+Collision-ring projection 529 of 834.
+Collision-ring projection 530 of 834.
+Collision-ring projection 531 of 834.
+Collision-ring projection 532 of 834.
+Collision-ring projection 533 of 834.
+Collision-ring projection 534 of 834.
+Collision-ring projection 535 of 834.
+Collision-ring projection 536 of 834.
+Collision-ring projection 537 of 834.
+Collision-ring projection 538 of 834.
+Collision-ring projection 539 of 834.
+Collision-ring projection 540 of 834.
+Collision-ring projection 541 of 834.
+Collision-ring projection 542 of 834.
+Collision-ring projection 543 of 834.
+Collision-ring projection 544 of 834.
+Collision-ring projection 545 of 834.
+Collision-ring projection 546 of 834.
+Collision-ring projection 547 of 834.
+Collision-ring projection 548 of 834.
+Collision-ring projection 549 of 834.
+Collision-ring projection 550 of 834.
+Collision-ring projection 551 of 834.
+Collision-ring projection 552 of 834.
+Collision-ring projection 553 of 834.
+Collision-ring projection 554 of 834.
+Collision-ring projection 555 of 834.
+Collision-ring projection 556 of 834.
+Collision-ring projection 557 of 834.
+Collision-ring projection 558 of 834.
+Collision-ring projection 559 of 834.
+Collision-ring projection 560 of 834.
+Collision-ring projection 561 of 834.
+Collision-ring projection 562 of 834.
+Collision-ring projection 563 of 834.
+Collision-ring projection 564 of 834.
+Collision-ring projection 565 of 834.
+Collision-ring projection 566 of 834.
+Collision-ring projection 567 of 834.
+Collision-ring projection 568 of 834.
+Collision-ring projection 569 of 834.
+Collision-ring projection 570 of 834.
+Collision-ring projection 571 of 834.
+Collision-ring projection 572 of 834.
+Collision-ring projection 573 of 834.
+Collision-ring projection 574 of 834.
+Collision-ring projection 575 of 834.
+Collision-ring projection 576 of 834.
+Collision-ring projection 577 of 834.
+Collision-ring projection 578 of 834.
+Collision-ring projection 579 of 834.
+Collision-ring projection 580 of 834.
+Collision-ring projection 581 of 834.
+Collision-ring projection 582 of 834.
+Collision-ring projection 583 of 834.
+Collision-ring projection 584 of 834.
+Collision-ring projection 585 of 834.
+Collision-ring projection 586 of 834.
+Collision-ring projection 587 of 834.
+Collision-ring projection 588 of 834.
+Collision-ring projection 589 of 834.
+Collision-ring projection 590 of 834.
+Collision-ring projection 591 of 834.
+Collision-ring projection 592 of 834.
+Collision-ring projection 593 of 834.
+Collision-ring projection 594 of 834.
+Collision-ring projection 595 of 834.
+Collision-ring projection 596 of 834.
+Collision-ring projection 597 of 834.
+Collision-ring projection 598 of 834.
+Collision-ring projection 599 of 834.
+Collision-ring projection 600 of 834.
+Collision-ring projection 601 of 834.
+Collision-ring projection 602 of 834.
+Collision-ring projection 603 of 834.
+Collision-ring projection 604 of 834.
+Collision-ring projection 605 of 834.
+Collision-ring projection 606 of 834.
+Collision-ring projection 607 of 834.
+Collision-ring projection 608 of 834.
+Collision-ring projection 609 of 834.
+Collision-ring projection 610 of 834.
+Collision-ring projection 611 of 834.
+Collision-ring projection 612 of 834.
+Collision-ring projection 613 of 834.
+Collision-ring projection 614 of 834.
+Collision-ring projection 615 of 834.
+Collision-ring projection 616 of 834.
+Collision-ring projection 617 of 834.
+Collision-ring projection 618 of 834.
+Collision-ring projection 619 of 834.
+Collision-ring projection 620 of 834.
+Collision-ring projection 621 of 834.
+Collision-ring projection 622 of 834.
+Collision-ring projection 623 of 834.
+Collision-ring projection 624 of 834.
+Collision-ring projection 625 of 834.
+Collision-ring projection 626 of 834.
+Collision-ring projection 627 of 834.
+Collision-ring projection 628 of 834.
+Collision-ring projection 629 of 834.
+Collision-ring projection 630 of 834.
+Collision-ring projection 631 of 834.
+Collision-ring projection 632 of 834.
+Collision-ring projection 633 of 834.
+Collision-ring projection 634 of 834.
+Collision-ring projection 635 of 834.
+Collision-ring projection 636 of 834.
+Collision-ring projection 637 of 834.
+Collision-ring projection 638 of 834.
+Collision-ring projection 639 of 834.
+Collision-ring projection 640 of 834.
+Collision-ring projection 641 of 834.
+Collision-ring projection 642 of 834.
+Collision-ring projection 643 of 834.
+Collision-ring projection 644 of 834.
+Collision-ring projection 645 of 834.
+Collision-ring projection 646 of 834.
+Collision-ring projection 647 of 834.
+Collision-ring projection 648 of 834.
+Collision-ring projection 649 of 834.
+Collision-ring projection 650 of 834.
+Collision-ring projection 651 of 834.
+Collision-ring projection 652 of 834.
+Collision-ring projection 653 of 834.
+Collision-ring projection 654 of 834.
+Collision-ring projection 655 of 834.
+Collision-ring projection 656 of 834.
+Collision-ring projection 657 of 834.
+Collision-ring projection 658 of 834.
+Collision-ring projection 659 of 834.
+Collision-ring projection 660 of 834.
+Collision-ring projection 661 of 834.
+Collision-ring projection 662 of 834.
+Collision-ring projection 663 of 834.
+Collision-ring projection 664 of 834.
+Collision-ring projection 665 of 834.
+Collision-ring projection 666 of 834.
+Collision-ring projection 667 of 834.
+Collision-ring projection 668 of 834.
+Collision-ring projection 669 of 834.
+Collision-ring projection 670 of 834.
+Collision-ring projection 671 of 834.
+Collision-ring projection 672 of 834.
+Collision-ring projection 673 of 834.
+Collision-ring projection 674 of 834.
+Collision-ring projection 675 of 834.
+Collision-ring projection 676 of 834.
+Collision-ring projection 677 of 834.
+Collision-ring projection 678 of 834.
+Collision-ring projection 679 of 834.
+Collision-ring projection 680 of 834.
+Collision-ring projection 681 of 834.
+Collision-ring projection 682 of 834.
+Collision-ring projection 683 of 834.
+Collision-ring projection 684 of 834.
+Collision-ring projection 685 of 834.
+Collision-ring projection 686 of 834.
+Collision-ring projection 687 of 834.
+Collision-ring projection 688 of 834.
+Collision-ring projection 689 of 834.
+Collision-ring projection 690 of 834.
+Collision-ring projection 691 of 834.
+Collision-ring projection 692 of 834.
+Collision-ring projection 693 of 834.
+Collision-ring projection 694 of 834.
+Collision-ring projection 695 of 834.
+Collision-ring projection 696 of 834.
+Collision-ring projection 697 of 834.
+Collision-ring projection 698 of 834.
+Collision-ring projection 699 of 834.
+Collision-ring projection 700 of 834.
+Collision-ring projection 701 of 834.
+Collision-ring projection 702 of 834.
+Collision-ring projection 703 of 834.
+Collision-ring projection 704 of 834.
+Collision-ring projection 705 of 834.
+Collision-ring projection 706 of 834.
+Collision-ring projection 707 of 834.
+Collision-ring projection 708 of 834.
+Collision-ring projection 709 of 834.
+Collision-ring projection 710 of 834.
+Collision-ring projection 711 of 834.
+Collision-ring projection 712 of 834.
+Collision-ring projection 713 of 834.
+Collision-ring projection 714 of 834.
+Collision-ring projection 715 of 834.
+Collision-ring projection 716 of 834.
+Collision-ring projection 717 of 834.
+Collision-ring projection 718 of 834.
+Collision-ring projection 719 of 834.
+Collision-ring projection 720 of 834.
+Collision-ring projection 721 of 834.
+Collision-ring projection 722 of 834.
+Collision-ring projection 723 of 834.
+Collision-ring projection 724 of 834.
+Collision-ring projection 725 of 834.
+Collision-ring projection 726 of 834.
+Collision-ring projection 727 of 834.
+Collision-ring projection 728 of 834.
+Collision-ring projection 729 of 834.
+Collision-ring projection 730 of 834.
+Collision-ring projection 731 of 834.
+Collision-ring projection 732 of 834.
+Collision-ring projection 733 of 834.
+Collision-ring projection 734 of 834.
+Collision-ring projection 735 of 834.
+Collision-ring projection 736 of 834.
+Collision-ring projection 737 of 834.
+Collision-ring projection 738 of 834.
+Collision-ring projection 739 of 834.
+Collision-ring projection 740 of 834.
+Collision-ring projection 741 of 834.
+Collision-ring projection 742 of 834.
+Collision-ring projection 743 of 834.
+Collision-ring projection 744 of 834.
+Collision-ring projection 745 of 834.
+Collision-ring projection 746 of 834.
+Collision-ring projection 747 of 834.
+Collision-ring projection 748 of 834.
+Collision-ring projection 749 of 834.
+Collision-ring projection 750 of 834.
+Collision-ring projection 751 of 834.
+Collision-ring projection 752 of 834.
+Collision-ring projection 753 of 834.
+Collision-ring projection 754 of 834.
+Collision-ring projection 755 of 834.
+Collision-ring projection 756 of 834.
+Collision-ring projection 757 of 834.
+Collision-ring projection 758 of 834.
+Collision-ring projection 759 of 834.
+Collision-ring projection 760 of 834.
+Collision-ring projection 761 of 834.
+Collision-ring projection 762 of 834.
+Collision-ring projection 763 of 834.
+Collision-ring projection 764 of 834.
+Collision-ring projection 765 of 834.
+Collision-ring projection 766 of 834.
+Collision-ring projection 767 of 834.
+Collision-ring projection 768 of 834.
+Collision-ring projection 769 of 834.
+Collision-ring projection 770 of 834.
+Collision-ring projection 771 of 834.
+Collision-ring projection 772 of 834.
+Collision-ring projection 773 of 834.
+Collision-ring projection 774 of 834.
+Collision-ring projection 775 of 834.
+Collision-ring projection 776 of 834.
+Collision-ring projection 777 of 834.
+Collision-ring projection 778 of 834.
+Collision-ring projection 779 of 834.
+Collision-ring projection 780 of 834.
+Collision-ring projection 781 of 834.
+Collision-ring projection 782 of 834.
+Collision-ring projection 783 of 834.
+Collision-ring projection 784 of 834.
+Collision-ring projection 785 of 834.
+Collision-ring projection 786 of 834.
+Collision-ring projection 787 of 834.
+Collision-ring projection 788 of 834.
+Collision-ring projection 789 of 834.
+Collision-ring projection 790 of 834.
+Collision-ring projection 791 of 834.
+Collision-ring projection 792 of 834.
+Collision-ring projection 793 of 834.
+Collision-ring projection 794 of 834.
+Collision-ring projection 795 of 834.
+Collision-ring projection 796 of 834.
+Collision-ring projection 797 of 834.
+Collision-ring projection 798 of 834.
+Collision-ring projection 799 of 834.
+Collision-ring projection 800 of 834.
+Collision-ring projection 801 of 834.
+Collision-ring projection 802 of 834.
+Collision-ring projection 803 of 834.
+Collision-ring projection 804 of 834.
+Collision-ring projection 805 of 834.
+Collision-ring projection 806 of 834.
+Collision-ring projection 807 of 834.
+Collision-ring projection 808 of 834.
+Collision-ring projection 809 of 834.
+Collision-ring projection 810 of 834.
+Collision-ring projection 811 of 834.
+Collision-ring projection 812 of 834.
+Collision-ring projection 813 of 834.
+Collision-ring projection 814 of 834.
+Collision-ring projection 815 of 834.
+Collision-ring projection 816 of 834.
+Collision-ring projection 817 of 834.
+Collision-ring projection 818 of 834.
+Collision-ring projection 819 of 834.
+Collision-ring projection 820 of 834.
+Collision-ring projection 821 of 834.
+Collision-ring projection 822 of 834.
+Collision-ring projection 823 of 834.
+Collision-ring projection 824 of 834.
+Collision-ring projection 825 of 834.
+Collision-ring projection 826 of 834.
+Collision-ring projection 827 of 834.
+Collision-ring projection 828 of 834.
+Collision-ring projection 829 of 834.
+Collision-ring projection 830 of 834.
+Collision-ring projection 831 of 834.
+Collision-ring projection 832 of 834.
+Collision-ring projection 833 of 834.
+Collision-ring projection 834 of 834.
+Projection-fixed generators: 280
+Nonzero defects: 554
+Saving collision state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/collision_final_order_global_degrevlex.sobj
+D_defects = 7
+
+======================================================
+Degree k = 1
+======================================================
+
+START Groebner basis: I_0
+Algorithm: libsingular:std
+END Groebner basis: I_0
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 2
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_1
+Algorithm: libsingular:std
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_1.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_1.sobj
+
+======================================================
+Degree k = 2
+======================================================
+
+START Groebner basis: I_1
+Algorithm: libsingular:std
+END Groebner basis: I_1
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 6
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_2
+Algorithm: libsingular:std
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_2.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_2.sobj
+
+======================================================
+Degree k = 3
+======================================================
+
+START Groebner basis: I_2
+Algorithm: libsingular:std
+END Groebner basis: I_2
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 14
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_3
+Algorithm: libsingular:std
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_3.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_3.sobj
+
+======================================================
+Degree k = 4
+======================================================
+
+START Groebner basis: I_3
+Algorithm: libsingular:std
+END Groebner basis: I_3
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 33
+Nonzero projections: 0
+Already in I_(k-1): 0
+New orbit generators: 0
+
+START Groebner basis: I_4
+Algorithm: libsingular:std
+END Groebner basis: I_4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Testing all remaining defects in I_4.
+Defects removed: 0
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_4.sobj
+
+======================================================
+Degree k = 5
+======================================================
+
+START Groebner basis: I_4
+Algorithm: libsingular:std
+END Groebner basis: I_4
+Number of elements: 1
+Elapsed time: 0.00 seconds
+Monomial orbits: 70
+Nonzero projections: 6
+Already in I_(k-1): 0
+New orbit generators: 2520
+
+START Groebner basis: I_5
+Algorithm: libsingular:std
+END Groebner basis: I_5
+Number of elements: 503
+Elapsed time: 8 minutes, 32.88 seconds
+Testing all remaining defects in I_5.
+Defects removed: 306
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_5.sobj
+
+======================================================
+Degree k = 6
+======================================================
+
+START Groebner basis: I_5
+Algorithm: libsingular:std
+END Groebner basis: I_5
+Number of elements: 503
+Elapsed time: 0.00 seconds
+Monomial orbits: 149
+Processed 100 of 149 representatives.
+Nonzero projections: 29
+Already in I_(k-1): 12
+New orbit generators: 8400
+
+START Groebner basis: I_6
+Algorithm: libsingular:std
+END Groebner basis: I_6
+Number of elements: 629
+Elapsed time: 1 minutes, 8.48 seconds
+Testing all remaining defects in I_6.
+Defects removed: 248
+Saving degree state: saved_states_lambda_3_2_1_1_m_2_collision_global_degrevlex_filtration_global_degrevlex/filtration_order_global_degrevlex_degree_6.sobj
+
+======================================================
+RESULT: I_lambda IS RADICAL
+======================================================
+Every nonzero defect belongs to I_6.
+Total elapsed time: 11 hours, 32 minutes, 2.46 seconds
+
+Computation completed.

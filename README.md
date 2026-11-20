@@ -12,3 +12,4 @@ In the directory output, we have placed the results of the computations:
     - lambda=(4,1,1,1), m=2
     - lambda=(2,2,1,1), m=3
     - lambda=(4,2,1), m=2
+    - lambda=(3,2,1,1), m=2

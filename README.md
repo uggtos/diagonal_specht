@@ -2,6 +2,8 @@
 
 See the documentation file for description of the programs and how they can be used.
 
+The file Diagonal_Specht_ideals_and_their_varieties.pdf is the original paper, and the references to results in the program are from this preprint.
+
 In the directory output, we have placed the results of the computations:
   - grobner.output shows the vailidity of Lemma 5.14
   - files of the form (lambda)mx.output show the radicality of the ideals I_lambda in R_{|lambda|,m} for the following parameters:
